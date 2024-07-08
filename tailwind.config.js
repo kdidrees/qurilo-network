@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Nunito Sans', 'ui-sans-serif', 'system-ui'],
+      },
       colors:{
         'purple':'#350428'
       }

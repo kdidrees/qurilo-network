@@ -27,10 +27,10 @@ const NetworkHero = () => {
             <div className="flex items-center">
               <div className="">
                 <div className="md:mx-20">
-                  <h1 className="md:text-5xl text-3xl font-medium mb-6">
+                  <h1 className="md:text-5xl font-sans text-3xl font-medium mb-6">
                     Network Management
                   </h1>
-                  <p className="text-xl mb-12 md:w-1/2 w-full">
+                  <p className="text-xl font-sans mb-12 md:w-1/2 w-full">
                     Our ERP implementation process begins with a thorough
                     assessment of your business processes and requirements. We
                     analyze existing workflows, identify pain points, and map
@@ -44,19 +44,19 @@ const NetworkHero = () => {
               </div>
               <div className=" md:block hidden pl-16">
                 <div>
-                  <button className="group relative h-12 w-48 overflow-hidden rounded-2xl bg-white text-lg font-bold text-purple">
+                  <button className="group font-sans relative h-16 w-56 overflow-hidden  rounded-l-2xl bg-white text-lg font-bold text-purple">
                     Implementation
                     <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
                   </button>
                 </div>
                 <div>
-                  <button className="group mt-4 relative h-12 w-48 overflow-hidden rounded-2xl bg-white text-lg font-bold text-purple">
+                  <button className="group font-sans mt-4 relative h-16 w-56 overflow-hidden rounded-l-2xl bg-white text-lg font-bold text-purple">
                     Implementation
                     <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
                   </button>
                 </div>
                 <div>
-                  <button className="group relative mt-4 h-12 w-48 overflow-hidden rounded-2xl bg-white text-lg font-bold text-purple">
+                  <button className="group font-sans relative mt-4 h-16 w-56 overflow-hidden rounded-l-2xl bg-white text-lg font-bold text-purple">
                     Implementation
                     <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
                   </button>
