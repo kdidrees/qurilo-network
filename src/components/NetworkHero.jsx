@@ -23,14 +23,14 @@ const NetworkHero = () => {
             ></div>
           </div>
 
-          <div className="container mx-auto text-left text-white relative z-10">
+          <div className="container mx-auto text-left text-white relative z-10 ">
             <div className="flex items-center">
               <div className="">
-                <div className=" ">
+                <div className="md:mx-20">
                   <h1 className="md:text-5xl text-3xl font-medium mb-6">
                     Network Management
                   </h1>
-                  <p className="text-xl mb-12">
+                  <p className="text-xl mb-12 md:w-1/2 w-full">
                     Our ERP implementation process begins with a thorough
                     assessment of your business processes and requirements. We
                     analyze existing workflows, identify pain points, and map
