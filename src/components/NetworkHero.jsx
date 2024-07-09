@@ -45,7 +45,7 @@ const NetworkHero = () => {
                   </button>
                 </div>
               </div>
-              <div className="md:block hidden absolute right-0 top-0">
+              <div className="md:block hidden fixed right-0  ">
                 <div>
                   <button className="cursor-auto group font-sans relative h-16 w-56 overflow-hidden  rounded-l-2xl bg-white text-lg font-bold text-purple">
                     Implementation
