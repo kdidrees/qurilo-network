@@ -10,7 +10,7 @@ const NetworkHero = () => {
   const [isScrolledPast, setIsScrolledPast] = useState(false);
 
   const handleScroll = () => {
-    setIsScrolledPast(window.scrollY > window.innerHeight);
+    setIsScrolledPast(window.scrollY > window.innerHeight/2);
   };
 
   useEffect(() => {
