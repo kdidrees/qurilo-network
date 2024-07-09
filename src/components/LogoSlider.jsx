@@ -68,7 +68,7 @@ export default function LogoSlider() {
           {sliderData.map((slider) => {
             return (
               <>
-                <SwiperSlide key={slider.id}>
+                <SwiperSlide style={{display:'flex', justifyContent:'center'}} key={slider.id}>
                   <img src={slider.img} />
                 </SwiperSlide>
               </>
