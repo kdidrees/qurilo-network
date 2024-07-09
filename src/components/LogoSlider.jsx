@@ -19,10 +19,32 @@ import oraclelogo from "../assets/Images/logoslider/oraclelogo.png";
 export default function LogoSlider() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
+  const sliderData = [
+    {
+      id: 1,
+      img: azurelogo,
+    },
+    {
+      id: 1,
+      img: awslogo,
+    },
+    {
+      id: 3,
+      img: ibmlogo,
+    },
+    {
+      id: 4,
+      img: oraclelogo,
+    },
+    {
+      id: 5,
+      img: awslogo,
+    },
+  ];
+
   return (
     <>
       <div className="py-12">
-        l
         <Swiper
           slidesPerView={isMobile ? 1 : 4}
           spaceBetween={30}
@@ -43,23 +65,15 @@ export default function LogoSlider() {
           // modules={[Pagination]}
           className="mySwiper"
         >
-          
-          <SwiperSlide>
-            <img src={azurelogo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={oraclelogo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={awslogo} />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img src={ibmlogo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={oraclelogo} />
-          </SwiperSlide>
+          {sliderData.map((slider) => {
+            return (
+              <>
+                <SwiperSlide key={slider.id}>
+                  <img src={slider.img} />
+                </SwiperSlide>
+              </>
+            );
+          })}
         </Swiper>
       </div>
     </>
