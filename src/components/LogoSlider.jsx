@@ -54,7 +54,7 @@ export default function LogoSlider() {
             display: "flex",
             justifyContent: "",
           }}
-          speed={3000}
+          speed={2000}
           autoplay={{
             disableOnInteraction: false,
           }}
