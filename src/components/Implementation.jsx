@@ -35,8 +35,8 @@ export default function Implementation() {
       heading: "Implementation",
       desc: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Proin turpis orci, maximus sed purus a, cursus scelerisque
-                    purus. Morbi molestie, odio at sagittis rhoncus, felis massa
-                    iaculis mi, quis molestie erat ipsum vel risus.`,
+                    purus. Morbi molestie, odio at sagittis rhoncus,
+                  `,
     },
   ];
 
@@ -48,7 +48,8 @@ export default function Implementation() {
             <>
               <div
                 key={card.id}
-                className="relative w-full group max-w-md min-w-0 mx-4 mt-6 mb-6 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-xs rounded-xl"
+                className="relative w-full  group max-w-md min-w-0 mx-4 mt-20 mb-6 break-words bg-white border shadow-2xl dark:bg-gray-800 dark:border-gray-700 md:max-w-xs rounded-xl"
+                style={{ height: "25rem" }}
               >
                 <div className="pb-6">
                   <div className="flex flex-wrap justify-center">
@@ -69,7 +70,14 @@ export default function Implementation() {
                   <div className="pt-6 mx-6 mt-6 text-center border-t border-gray-200 dark:border-gray-700/50">
                     <div className="flex flex-wrap justify-center">
                       <div className="w-full px-6">
-                        <p className="mb-4 font-light leading-relaxed text-gray-600 dark:text-gray-400">
+                        <p
+                          style={{
+                            overflow: "hidden",
+                            textOverflow: "ellipsis",
+                            // whiteSpace: "nowrap",
+                          }}
+                          className="mb-4 font-light leading-relaxed text-gray-600 dark:text-gray-400"
+                        >
                           {card.desc}
                         </p>
                       </div>
