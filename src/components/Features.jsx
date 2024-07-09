@@ -57,7 +57,7 @@ export default function Features() {
                       alt=""
                     />
                     <div className="flex flex-col justify-end lg:mx-6 px-2 md:pt-0 pt-12">
-                      <h2 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                      <h2 className="text-xl font-semibold text-gray-800  dark:text-white ">
                         {service.heading}
                       </h2>
                       <p className="text-sm md:mt-6 mt-4 mb-4 text-gray-500 dark:text-gray-300">
