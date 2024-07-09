@@ -47,13 +47,13 @@ export default function Features() {
             {servicesData.map((service) => {
               return (
                 <>
-                  <div key={service.id} className="lg:flex bg-white">
+                  <div key={service.id} className="lg:flex bg-white p-5 rounded-2xl">
                     <img
                       className="object-cover w-full h-56 rounded-lg lg:w-64"
                       src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                       alt=""
                     />
-                    <div className="flex flex-col justify-center lg:mx-6 px-2 md:pt-0 pt-12">
+                    <div className="flex flex-col justify-end lg:mx-6 px-2 md:pt-0 pt-12">
                       <h2 className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                         {service.heading}
                       </h2>
