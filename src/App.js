@@ -2,6 +2,7 @@ import "./App.css";
 import Features from "./components/Features";
 import Implementation from "./components/Implementation";
 import NetworkHero from "./components/NetworkHero";
+import LogoSlider from "./components/LogoSlider";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NetworkHero />
       <Implementation />
       <Features />
+      <LogoSlider />
     </>
   );
 }
