@@ -26,8 +26,8 @@ const NetworkHero = () => {
             ></div>
           </div>
 
-          <div className="container mx-auto text-left text-white relative z-10 ">
-            <div className="flex items-center ">
+          <div className="container right-0 text-left text-white relative z-10 ">
+            <div className="flex items-center relative">
               <div className="md:text-left text-center">
                 <div className="md:mx-20">
                   <h1 className="md:text-5xl font-sans text-3xl font-medium mb-6">
@@ -45,7 +45,7 @@ const NetworkHero = () => {
                   </button>
                 </div>
               </div>
-              <div className=" md:block hidden pl-16">
+              <div className="md:block hidden absolute right-0 top-0">
                 <div>
                   <button className="cursor-auto group font-sans relative h-16 w-56 overflow-hidden  rounded-l-2xl bg-white text-lg font-bold text-purple">
                     Implementation
