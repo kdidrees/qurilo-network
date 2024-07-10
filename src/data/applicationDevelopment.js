@@ -6,52 +6,57 @@ export const cardData = [
   },
   {
     id: 2,
-    heading: "Web App Development",
+    heading: "Mobile App Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 3,
-    heading: "Web App Development",
+    heading: "Frontend Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 4,
-    heading: "Web App Development",
+    heading: "Backend Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 5,
-    heading: "Web App Development",
+    heading: "Cross-platform Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 6,
-    heading: "Web App Development",
+    heading: "App Maintenance & Support",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 7,
-    heading: "Web App Development",
+    heading: "Website & Portal Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 8,
-    heading: "Web App Development",
+    heading: "Application Modernization",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 9,
-    heading: "Web App Development",
+    heading: "API Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 10,
-    heading: "Web App Development",
+    heading: "Full Stack Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 11,
-    heading: "Web App Development",
+    heading: "Cloud Application Development",
+    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+  },
+  {
+    id: 12,
+    heading: "OTT App Development",
     description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
 ];

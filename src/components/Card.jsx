@@ -10,14 +10,14 @@ const Appdevcard = (cardData) => {
               <div class="p-7 rounded-xl bg-white hover:border-purple border-[0.1px]  shadow-md">
                 <h3 class="text-xl font-semibold font-sans mb-7">
                   {card.heading}
+
+                  <p className="border-[1px] mt-5 border-purple"></p>
                 </h3>
+
                 <p class="font-medium leading-7 font-sans text-gray-500 mb-6 dark:text-gray-400">
-                 {card.description}
+                  {card.description}
                 </p>
-                <div
-                
-                  class="py-3 flex items-center text-gray-600  justify-end w-full font-normal rounded-md bg-white hover:bg-purple-500 hover:text-white transition-all duration-500  "
-                >
+                <div class="py-3 flex items-center text-gray-600  justify-end w-full font-normal rounded-md bg-white hover:bg-purple-500 hover:text-white transition-all duration-500  ">
                   Know More
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
