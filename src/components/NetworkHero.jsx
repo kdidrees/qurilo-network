@@ -6,19 +6,10 @@ import { useState, useEffect } from "react";
 
 const NetworkHero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
-
+  const test = 'https://img.freepik.com/premium-photo/silhouette-person-working-late-night-neonlit-room-cybersecurity-expert-modern-office-setting-focus-digital-screens-ai_372197-15733.jpg?size=626&ext=jpg'
   const [isScrolledPast, setIsScrolledPast] = useState(false);
 
-  const handleScroll = () => {
-    setIsScrolledPast(window.scrollY > window.innerHeight / 2);
-  };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <>
