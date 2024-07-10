@@ -17,7 +17,7 @@ const Appdevcard = (cardData) => {
                 <p class="font-medium leading-7 font-sans text-gray-500 mb-6 dark:text-gray-400">
                   {card.description}
                 </p>
-                <div class="py-3 flex items-center text-gray-600  justify-end w-full font-normal rounded-md bg-white hover:bg-purple-500 hover:text-white transition-all duration-500  ">
+                <div class="py-3 pt-6 cursor-pointer flex items-center text-gray-600 underline justify-end w-full font-normal rounded-md bg-white  transition-all duration-500  ">
                   Know More
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
