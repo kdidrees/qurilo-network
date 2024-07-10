@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay } from "swiper/modules";
+import { Autoplay,Pagination } from "swiper/modules";
 
 import azurelogo from "../assets/Images/logoslider/azurelogo.png";
 import awslogo from "../assets/Images/logoslider/awslogo.png";
@@ -59,10 +59,10 @@ export default function LogoSlider() {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
-          // pagination={{
-          //   clickable: true,
-          // }}
-          // modules={[Pagination]}
+        //   pagination={{
+        //     clickable: true,
+        //   }}
+        //   modules={[Pagination]}
           className="mySwiper"
         >
           {sliderData.map((slider) => {
