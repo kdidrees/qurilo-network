@@ -14,7 +14,7 @@ export default function DevelopmentServices() {
                   text-2xl
                   font-sans
                   md:text-3xl
-                  text-purple
+                  text-black
                   mb-4
                   "
             >
