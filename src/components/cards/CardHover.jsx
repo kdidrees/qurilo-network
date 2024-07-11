@@ -14,10 +14,10 @@ export default function CardHover({ data }) {
               <div className="card shadow-sm  relative w-full h-full overflow-hidden rounded-lg">
                 <div
                   style={{
-                    backgroundImage: `url(${"https://www.valuecoders.com/wp-content/uploads/2024/07/Startups.png"})`,
+                    backgroundImage: `url(${card.img})`,
                     backgroundRepeat: "no-repeat",
                   }}
-                  className={` img-content hover:bg-second flex items-start hi   w-full h-full bg-gradient-to-br  transition-transform duration-600`}
+                  className={` img-content hover:bg-white flex items-start hi   w-full h-full bg-gradient-to-br  transition-transform duration-600`}
                 >
                   <img
                     src={startupicon}

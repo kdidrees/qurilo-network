@@ -1,5 +1,13 @@
-// businesstypedata images here
+// businesstypedata icons here
 import startupicon from "../assets/Images/appdevelopment/icons/startupicon.png";
+
+// businesstypedata images here
+import startupimg from "../assets/Images/appdevelopment/images/startups.jpg";
+import digitalagencies from "../assets/Images/appdevelopment/images/digitalagencies.jpg";
+import enterprisesimg from "../assets/Images/appdevelopment/images/enterprises.png";
+import productcompaniesimg from "../assets/Images/appdevelopment/images/productcompanies.png";
+import cmoimg from "../assets/Images/appdevelopment/images/cmos.png";
+import ctoimg from "../assets/Images/appdevelopment/images/ctos.png";
 
 export const cardData = [
   {
@@ -64,53 +72,24 @@ export const cardData = [
   },
 ];
 
-export const businesstypeData = [
+export const technologiesData = [
   {
-    id: 1,
-    heading: "Startups",
-    desc: `  Accelerate your startup’s growth with tailor-made eCommerce solutions designed to streamline operations and scale your business effectively.`,
-    img: `https://www.valuecoders.com/wp-content/uploads/2024/07/Startups.png`,
-    bgcolor: "#D6DFF9",
-    icon: startupicon,
+    heading: "Web & Full Stack",
+    tech: ["PHP", "ASP.Net", "Angular", "React", "Java", "Vue"],
   },
   {
-    id: 2,
-    heading: "Startups",
-    desc: `  Accelerate your startup’s growth with tailor-made eCommerce solutions designed to streamline operations and scale your business effectively.`,
-    img: `https://www.valuecoders.com/wp-content/uploads/2024/07/Startups.png`,
-    bgcolor: "#D6DFF9",
-    icon: startupicon,
+    heading: "Ecommerce & CMS",
+    tech: [
+      "Sharepoint",
+      "Sitecore",
+      "Drupal",
+      "Sitefinity",
+      "Umbraco",
+      "Kentico",
+    ],
   },
   {
-    id: 3,
-    heading: "Startups",
-    desc: `  Accelerate your startup’s growth with tailor-made eCommerce solutions designed to streamline operations and scale your business effectively.`,
-    img: `https://www.valuecoders.com/wp-content/uploads/2024/07/Startups.png`,
-    bgcolor: "#D6DFF9",
-    icon: startupicon,
-  },
-  {
-    id: 4,
-    heading: "Startups",
-    desc: `  Accelerate your startup’s growth with tailor-made eCommerce solutions designed to streamline operations and scale your business effectively.`,
-    img: `https://www.valuecoders.com/wp-content/uploads/2024/07/Startups.png`,
-    bgcolor: "#D6DFF9",
-    icon: startupicon,
-  },
-  {
-    id: 5,
-    heading: "Startups",
-    desc: `  Accelerate your startup’s growth with tailor-made eCommerce solutions designed to streamline operations and scale your business effectively.`,
-    img: `https://www.valuecoders.com/wp-content/uploads/2024/07/Startups.png`,
-    bgcolor: "#D6DFF9",
-    icon: startupicon,
-  },
-  {
-    id: 6,
-    heading: "Startups",
-    desc: `  Accelerate your startup’s growth with tailor-made eCommerce solutions designed to streamline operations and scale your business effectively.`,
-    img: `https://www.valuecoders.com/wp-content/uploads/2024/07/Startups.png`,
-    bgcolor: "#D6DFF9",
-    icon: startupicon,
+    heading: "Blockchain",
+    tech: ["ChatBot", "Ethereum", "Solidity", "Smart Contract", "ML & AI"],
   },
 ];
