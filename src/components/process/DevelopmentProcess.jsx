@@ -22,7 +22,7 @@ const DevelomentProcess = () => {
                 <>
                   <div key={devdata.id} className=" mx-2 bg-white w-full my-8 relative text-center z-10   py-6 px-12 shadow-md rounded-xl">
                     <div className="absolute flex justify-center items-center -top-4 left-[45%] bg-white rounded-full w-8 h-8">
-                      <div className="border-4 rounded-full p-1 w-2 h-2  border-[rgba(110,8,84,1)]"></div>
+                      <div className="border-4 rounded-full p-1 w-2 h-2  border-black"></div>
                     </div>
                     <h1 className="text-xl font-medium my-4">Planning</h1>
                     <p className="md:text-base text-center">

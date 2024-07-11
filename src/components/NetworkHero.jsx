@@ -3,6 +3,7 @@ import headerimg from "../assets/Images/headerimg.png";
 import bannermobile from "../assets/Images/bannermobile.jpg";
 import { useMediaQuery } from "react-responsive";
 import { useState, useEffect } from "react";
+import heromobile from "../assets/Images/appdevelopment/images/heromobile.jpg"
 
 const NetworkHero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
@@ -16,7 +17,7 @@ const NetworkHero = () => {
       <section
         className="relative bg-cover md:h-screen  bg-center py-32 w-full"
         style={{
-          backgroundImage: `url(${isMobile ? bannermobile : headerimg})`,
+          backgroundImage: `url(${isMobile ? heromobile : headerimg})`,
         }}
       >
         <div className="container right-0 md:mt-12 text-left text-white relative z-10 ">
