@@ -3,6 +3,7 @@ import NetworkHero from "./components/NetworkHero";
 import DevelopmentServices from "./container/DevelopmentServices";
 import ContactSection from "./components/ContactSection";
 import CardHover from "./components/cards/CardHover";
+import BusinessTypes from "./container/BusinessTypes";
 
 function App() {
   return (
@@ -10,10 +11,7 @@ function App() {
       <NetworkHero />
       <DevelopmentServices/>
       <ContactSection/> 
-     <div className="py-24">
-
-     <CardHover/>
-     </div>
+      <BusinessTypes/>
     </>
   );
 }
