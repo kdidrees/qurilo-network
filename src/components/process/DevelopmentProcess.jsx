@@ -4,10 +4,15 @@ import { DevelopmentProcessData } from "../../data/applicationDevelopment";
 const DevelomentProcess = () => {
   return (
     <>
-      <div className="w-full pt-5 pb-9 bg-[#f5f5f5]">
-      <div className=" text-black md:text-3xl text-xl md:mt-4 font-sans font-semibold text-center">
-              Process We Follow
-            </div>
+      <div className="w-full pt-5 pb-9 bg-second">
+        <div className=" text-black md:text-3xl text-xl md:mt-4 font-sans font-semibold text-center">
+          Process We Follow
+        </div>
+
+        <p className="text-center mt-2">
+          Here is a streamlined overview of our custom web app development
+          process:
+        </p>
 
         <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-6 gap-3 mx-16 md:mt-4 mt-8">
           {DevelopmentProcessData.map((devdata) => {
@@ -22,7 +27,6 @@ const DevelomentProcess = () => {
                   </div>
                   <h1 className="text-xl font-medium my-4">Planning</h1>
                   <p className="md:text-base text-center">{devdata.desc}</p>
-                
                 </div>
               </>
             );

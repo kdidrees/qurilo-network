@@ -1,10 +1,10 @@
 import React from "react";
 import ContactButton from "./buttons/ContactButton";
-import contactImage from "../assets/Images/appdevelopment/contactimg.webp"
+import contactImage from "../assets/Images/appdevelopment/images/contactimg.png"
 const ContactSection = (  ) => {
   return (
     <section>
-      <div className="w-full py-20 my-8 px-6  bg-secondary-100 bg-[#232c47] text-white grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-0">
+      <div className="w-full py-20 my-8 px-6  bg-secondary-100 bg-black text-white grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-0">
         <div className="flex items-center gap-5 flex-col lg:items-start lg:px-20">
           <h1 className="text-4xl text-center lg:text-start">
           Build an App that Drives User Engagement
