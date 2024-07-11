@@ -1,4 +1,5 @@
 import { MdPlayArrow } from "react-icons/md";
+import { DevelopmentProcessData } from "../../data/applicationDevelopment";
 
 const DevelomentProcess = () => {
   return (
@@ -14,42 +15,34 @@ const DevelomentProcess = () => {
           </div>
         </div>
       </div>
-      <div className="w-full   flex px-20 justify-start  items-center   bg-[#f5f5f5]">
-        <div className="">
-          <div className="flex flex-wrap  my-20 gap-y-8  relative gap-x-4">
-            <div>
-              <div className="bg-white w-[285px] relative text-center z-20  py-6 px-12 shadow-md rounded-xl">
-                <div className="absolute flex justify-center items-center -top-4 left-[45%] bg-white rounded-full w-8 h-8">
-                  <div className="border-4 rounded-full p-1 w-2 h-2 border-[rgba(110,8,84,1)]"></div>
-                </div>
-                <h1 className="text-xl font-medium my-4">Planning</h1>
-                <p className="text-lg">
-                  Define the website’s purpose, target audience, and desired UX.
-                </p>
-              </div>
-            </div>
-            <div className="absolute left-[12%] xl:flex  hidden justify-center  z-10 -top-9 border-l-[1px] border-r-[1px] w-[19rem] border-t-[1px] border-dashed border-[rgba(110,8,84,1)] h-40 rounded-3xl">
-              <MdPlayArrow
-                className="text-[rgba(110,8,84,1)] -mt-[0.8rem]"
-                size={25}
-              />
-            </div>
-           
-            <div>
-              <div className="bg-white relative w-[285px] text-center z-20 py-6 px-12 shadow-md rounded-xl">
-                <div className="absolute flex justify-center items-center -top-4 left-[45%] bg-white rounded-full w-8 h-8">
-                  <div className="border-4 rounded-full p-1 w-2 h-2 border-[rgba(110,8,84,1)]"></div>
-                </div>
-                <h1 className="text-xl font-medium my-4">Testing</h1>
-                <p className="text-lg">
-                  Our testing team ensures the website functions flawlessly
-                  across all devices.
-                </p>
-              </div>
-            </div>
+  
+          <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-6 gap-3 mx-16">
+            {DevelopmentProcessData.map((devdata) => {
+              return (
+                <>
+                  <div key={devdata.id} className=" mx-2 bg-white w-full my-8 relative text-center z-10   py-6 px-12 shadow-md rounded-xl">
+                    <div className="absolute flex justify-center items-center -top-4 left-[45%] bg-white rounded-full w-8 h-8">
+                      <div className="border-4 rounded-full p-1 w-2 h-2  border-[rgba(110,8,84,1)]"></div>
+                    </div>
+                    <h1 className="text-xl font-medium my-4">Planning</h1>
+                    <p className="md:text-base text-center">
+                     {devdata.desc}
+                    </p>
+                    {/* <div className="absolute left-[-9px] xl:flex    hidden justify-center  z-0 -top-9 border-l-[1px] border-r-[1px] w-[19rem] border-t-[1px] border-dashed border-[rgba(110,8,84,1)] h-10 rounded-3xl">
+                    <MdPlayArrow
+                      className="text-[rgba(110,8,84,1)]  -mt-[0.8rem]"
+                      size={25}
+                    />
+                  </div> */}
+                  </div>
+
+              
+                </>
+              );
+            })}
           </div>
-        </div>
-      </div>
+     
+  
     </>
   );
 };

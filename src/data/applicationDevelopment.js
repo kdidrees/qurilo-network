@@ -97,7 +97,6 @@ export const technologiesData = [
 
 
 
-
 export const faqData = [
   {
     question:
@@ -250,6 +249,31 @@ export const DevelopmentProcessData = [
   {
     id:1,
     heading:'Planning',
-    desc:``
-  }
+    desc:`Our team creates a visual structure and interactive prototype for user feedback.`
+  },
+  {
+    id:2,
+    heading:'Planning',
+    desc:`Our team creates a visual structure and interactive prototype for user feedback.`
+  },
+  {
+    id:3,
+    heading:'Planning',
+    desc:`Our team creates a visual structure and interactive prototype for user feedback.`
+  },
+  {
+    id:4,
+    heading:'Planning',
+    desc:`Our team creates a visual structure and interactive prototype for user feedback.`
+  },
+  {
+    id:5,
+    heading:'Planning',
+    desc:`Our team creates a visual structure and interactive prototype for user feedback.`
+  },
+  {
+    id:6,
+    heading:'Planning',
+    desc:`Our team creates a visual structure and interactive prototype for user feedback.`
+  },
 ]
