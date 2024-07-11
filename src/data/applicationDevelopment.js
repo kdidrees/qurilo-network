@@ -243,3 +243,13 @@ export const faqData = [
     ],
   },
 ];
+
+
+
+export const DevelopmentProcessData = [
+  {
+    id:1,
+    heading:'Planning',
+    desc:``
+  }
+]

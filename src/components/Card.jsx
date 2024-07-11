@@ -7,17 +7,17 @@ const Appdevcard = (cardData) => {
         return (
           <>
             <div key={card.id}>
-              <div class="p-7 rounded-xl bg-white  hover:border-purple  border-[0.1px]  shadow-sm">
+              <div class="p-7 rounded-xl bg-white hover:bg-second  hover:border-second  border-[1px] border-second shadow-sm">
                 <h3 class="md:text-xl text-black  font-bold font-sans mb-7">
                   {card.heading}
 
-                  <p className="border-[1px] mt-5 border-purple"></p>
+                  <p className="border-[1px] mt-5 border-blue-900 hover:border-white"></p>
                 </h3>
 
                 <p class="font-medium leading-7 font-sans text-gray-500 mb-6 dark:text-gray-400">
                   {card.description}
                 </p>
-                <div class="py-3 pt-6 cursor-pointer flex items-center text-gray-600 underline justify-end w-full font-normal rounded-md bg-white  transition-all duration-500  ">
+                <div class="py-3 pt-6 cursor-pointer flex items-center text-gray-600 underline justify-end w-full font-normal rounded-md bg-transparent  transition-all duration-500  ">
                   Know More
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

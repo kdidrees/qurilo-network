@@ -24,8 +24,8 @@ const NetworkHero = () => {
             <div className="md:text-left text-center">
               <div className="md:mx-20">
                 <h1 className="md:text-6xl font-sans text-3xl font-bold mb-6">
-                  Custom Application <br />
-                  <span className="mt-2 block">Development Services</span>
+                  Custom Application Development Services
+                 
                 </h1>
 
                 <p className="text-xl font-sans mb-12 md:w-1/2 w-full ">

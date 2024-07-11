@@ -5,7 +5,7 @@ import { cardData } from "../data/applicationDevelopment";
 export default function DevelopmentServices() {
   return (
     <>
-      <div className="flex flex-wrap  -mx-4 md:mt-16 ">
+      <div className="flex flex-wrap  -mx-4 md:mt-16">
         <div className="w-full px-4">
           <div className="text-center  mx-24 mb-12 lg:mb-20 ">
             <h2
@@ -30,7 +30,7 @@ export default function DevelopmentServices() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-8 mt-8 md:mt-4 md:grid-cols-3 mx-16">
+      <div className="grid grid-cols-1 gap-8 mt-8 md:mt-4 md:grid-cols-3 mx-16 ">
         <Appdevcard cardData={cardData} />
       </div>
     </>
