@@ -1,10 +1,14 @@
+
 .card:hover .img-content {
     transform: scale(2.5) rotate(30deg) blur(7px);
-    background-color: white !important;
+    /* background-color: #D6DFF9 !important; */
     background-image: none !important;
   }
-  .card:hover .img-content svg {
-    /* fill: transparent; */
+  .card:hover  .heading {
+    display: none;
+  }
+  .card:hover .img-content img {
+    display: block;
   }
   .card:hover .content {
     opacity: 1;
