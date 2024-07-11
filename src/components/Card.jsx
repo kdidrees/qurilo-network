@@ -7,7 +7,7 @@ const Appdevcard = (cardData) => {
         return (
           <>
             <div key={card.id}>
-              <div class="p-7 rounded-xl bg-white hover:border-purple border-[0.1px]  shadow-sm">
+              <div class="p-7 rounded-xl bg-white  hover:border-purple  border-[0.1px]  shadow-sm">
                 <h3 class="md:text-xl text-black  font-bold font-sans mb-7">
                   {card.heading}
 

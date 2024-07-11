@@ -7,13 +7,18 @@ import Whychoose from "./components/Whychoose";
 import Appdevcard from "./components/Card";
 import DevelopmentServices from "./container/DevelopmentServices";
 import ContactSection from "./components/ContactSection";
+import CardHover from "./components/cards/CardHover";
 
 function App() {
   return (
     <>
       <NetworkHero />
       <DevelopmentServices/>
-      <ContactSection/>
+      <ContactSection/> 
+     <div className="py-24">
+
+     <CardHover/>
+     </div>
       {/* <Implementation />
       <Features />
       <LogoSlider />
