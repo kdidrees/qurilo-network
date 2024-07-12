@@ -1,7 +1,6 @@
 import React from "react";
-import ContactButton from "./buttons/ContactButton";
-import contactImage from "../assets/Images/appdevelopment/images/contactimg.png";
-import Button from "./buttons/Button";
+import contactImage from "../../assets/Images/appdevelopment/images/contactimg.png";
+import Button from "../buttons/Button";
 const ContactSection = () => {
   return (
     <section className="bg-gradient-to-r from-black to-gray-800">
