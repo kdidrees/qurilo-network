@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { IoMdAdd } from "react-icons/io";
 import { HiMinus } from "react-icons/hi";
-import Title from "../components/faq/Title";
 import { faqData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
 
