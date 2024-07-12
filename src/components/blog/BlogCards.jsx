@@ -1,5 +1,5 @@
 // import BlogButton from "../buttons/BlogButton";
-// import Datebanner from "../Datebanner";
+import Datebanner from "../datebanner/Datebanner";
 
 const BlogCards = ({ data, type }) => {
   const getCard = (type) => {
@@ -15,7 +15,7 @@ const BlogCards = ({ data, type }) => {
               />
             </div>
 
-            {/* <Datebanner date={data.date}/> */}
+            <Datebanner date={data.date}/>
             <h2 className="mt-12 cursor-pointer px-4 text-2xl hover:text-darkBlue leading-6">{data.title}</h2>
             <p className="text-[18px] px-4 font-normal text-gray-500 my-6">{data.subtitle}</p>
              {/* <BlogButton/> */}
@@ -34,7 +34,7 @@ const BlogCards = ({ data, type }) => {
               />
             </div>
 
-              {/* <Datebanner  date={data.date}/> */}
+              <Datebanner  date={data.date}/>
               <div>
                 {" "}
                 <h2 className="mt-12 cursor-pointer px-4 text-2xl hover:text-darkBlue leading-6">{data.title}</h2>
