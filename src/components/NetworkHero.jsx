@@ -22,7 +22,7 @@ const NetworkHero = () => {
       >
         <div className="container right-0 md:mt-12 text-left text-white relative z-10 ">
           <div className="flex items-center relative">
-            <div className="md:text-left text-center">
+            <div className="text-left md:mx-0 mx-6">
               <div className="md:mx-20">
                 <h1 className="md:text-6xl font-sans text-3xl font-bold mb-6">
                   Custom Application Development Services
