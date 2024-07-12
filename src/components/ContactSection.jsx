@@ -20,7 +20,7 @@ const ContactSection = () => {
           <img
             src={contactImage}
             alt="contactImage"
-            className="h-[10rem] md:h-[12rem]"
+            className=""
           />
         </div>
       </div>

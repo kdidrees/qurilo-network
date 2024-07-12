@@ -90,7 +90,7 @@ const Industries = () => {
         }}
       >
         {/* <div className="absolute inset-0 bg-gradient-to-b from-gray-100 to-blue-900 opacity-90"> */}
-        <h2 className="absolute text-[76px]  md:text-[98px] text-white opacity-50 font-bold top-11 left-6  ">
+        <h2 className="absolute text-[76px]  md:text-[98px] text-blue opacity-50 font-bold top-11 left-6  ">
           Industries
         </h2>
         <Swiper
@@ -121,9 +121,9 @@ const Industries = () => {
                 <div
                   className={`flex h-full items-end ${styles.cardContentContainer}`}
                 >
-                  <div className="flex flex-col px-4  card-content">
+                  <div className="flex flex-col px-4  card-content">  
                     <div
-                      className={`text-2xl hover:text-yellow-400   font-semibold text-white  ${
+                      className={`text-2xl hover:text-blue   font-semibold text-white  ${
                         activeIndex === card.id
                           ? `${styles.activeCardTitle}`
                           : `${styles.cardTitle}`
@@ -136,7 +136,7 @@ const Industries = () => {
                         activeIndex === card.id
                           ? `border-b-4 ${styles.activeTitleBorder}`
                           : `${styles.titleBorder}`
-                      }  border-yellow-500 my-2 w-[20%]`}
+                      }  border-blue my-2 w-[20%]`}
                     ></div>
 
                     <div
@@ -149,9 +149,9 @@ const Industries = () => {
                       <div className="text-[18px] text-white font-medium ">
                         {card.content}
                       </div>
-                      <div className="text-yellow-400 flex items-center gap-x-2 text-lg font-medium underline-offset-2 underline card-button">
+                      <div className="text-blue flex items-center gap-x-2 text-lg font-medium underline-offset-2 underline card-button">
                         Learn More{" "}
-                        <IoMdArrowRoundForward className="text-yellow-400" />
+                        <IoMdArrowRoundForward className="text-blue" />
                       </div>
                     </div>
                   </div>

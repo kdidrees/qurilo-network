@@ -17,7 +17,7 @@ export default function Heading({ title,desc }) {
               >
                 {title}
               </h2>
-              <p className="text-base text-[#666666] text-body-color font-sans">
+              <p className="text-base text-[#3e3e3e] text-body-color font-sans">
                {desc}
               </p>
             </div>
