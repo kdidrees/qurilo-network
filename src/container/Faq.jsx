@@ -3,15 +3,16 @@ import { IoMdAdd } from "react-icons/io";
 import { HiMinus } from "react-icons/hi";
 import Title from "../components/faq/Title";
 import { faqData } from "../data/applicationDevelopment";
+import Heading from "../components/heading/Heading";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   return (
-    <div className="my-10">
-      <Title
-        heading="Frequently Asked Questions"
-        subheading="Here are some questions related to software outsourcing that our clients
-        frequently ask:"
+    <div className="my-10 md:mt-24">
+      <Heading
+        title={`Frequently Asked Questions`}
+        desc={`Here are some questions related to software outsourcing that our clients
+        frequently ask:`}
       />
 
       <div className="mt-10 lg:w-[72%] md:w-[90%] w-[93%] mx-auto">
@@ -24,7 +25,9 @@ const Faq = () => {
                 }
                 className="flex justify-between items-center md:py-7 py-3  cursor-pointer"
               >
-                <h2 className="md:text-xl text-[16px] w-[96%] font-normal">{item.question}</h2>
+                <h2 className="md:text-xl text-[16px] w-[96%] font-normal">
+                  {item.question}
+                </h2>
                 {activeIndex === index ? (
                   <HiMinus size={25} className="text-darkBlue font-bold" />
                 ) : (
