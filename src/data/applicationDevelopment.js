@@ -22,7 +22,7 @@ export const cardData = [
   {
     id: 1,
     heading: "Web App Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    description: `Our   company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
   },
   {
     id: 2,
