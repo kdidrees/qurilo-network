@@ -1,7 +1,7 @@
 // import Title from './Title'
-import { blogData } from "../../data/applicationDevelopment";
-import BlogCards from "./BlogCards";
-import Heading from "../heading/Heading";
+import { blogData } from "../data/applicationDevelopment";
+import BlogCards from "../components/blog/BlogCards";
+import Heading from "../components/heading/Heading";
 
 const Blogs = () => {
   return (
