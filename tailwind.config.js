@@ -16,8 +16,10 @@ module.exports = {
         'third':"#E1DCF3",
         'fourth':"#F9EBDD",
         "blue":"#558BDC",
-        "creme":"#f9ebdd"
+        "creme":"#f9ebdd",
+        "carasoul":"#0D184B"
       }
+      
       ,
       boxShadow:{
         "custom": '0 4px 6px -1px rgba(53, 4, 40, 0.5), 0 2px 4px -1px rgba(53, 4, 40, 0.3)',

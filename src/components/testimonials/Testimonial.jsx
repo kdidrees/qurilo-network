@@ -37,7 +37,7 @@ const Testimaonial = () => {
   const [rating, setRating] = useState(0);
   return (
     <div>
-      <div className="SimilarHomes w-full md:pl-10 pt-10 lg:pt-0  xl:pl-[5rem] 2xl:pl-[10rem]  lg:flex justify-between  bg-banner-100">
+      <div className="SimilarHomes w-full md:pl-10 pt-10 lg:pt-0  xl:pl-[5rem] 2xl:pl-[10rem]  lg:flex justify-between  bg-carasoul">
         <div className="flex flex-col justify-center items-center md:items-start gap-2  md:w-[600px] p-4 md:p-auto text-white">
           <div className="flex justify-start items-center ml-4  ">
             <div className="flex justify-start text-[#EC9E3A] mr-4 -ml-4 md:text-2xl ">
@@ -52,8 +52,8 @@ const Testimaonial = () => {
             <span className="text-base text-[#0B6FB9]">(3000+ Reviews)</span>
           </div>
           {/* <Heading heading={"What Our Customers Are Saying"} /> */}
-          <h1 className='text-4xl capitalize font-[400] text-black'>What our customers are saying</h1>
-          <div className="font-[500] text-base my-4 text-black">
+          <h1 className='text-4xl capitalize font-[400] text-white'>What our customers are saying</h1>
+          <div className="font-[500] text-base my-4 text-white">
             We keep our clients at the top of our priority list. And that’s how
             we’ve managed to build a happy customer base.
           </div>
