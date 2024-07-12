@@ -29,9 +29,9 @@ const Faq = () => {
                   {item.question}
                 </h2>
                 {activeIndex === index ? (
-                  <HiMinus size={25} className="text-darkBlue font-bold" />
+                  <HiMinus size={25} className="text-blue font-bold" />
                 ) : (
-                  <IoMdAdd size={25} className="text-darkBlue font-bold" />
+                  <IoMdAdd size={25} className="text-blue font-bold" />
                 )}
               </div>
 
