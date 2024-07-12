@@ -42,7 +42,7 @@ const Faq = () => {
                     {item.list?.map((listItem, index) => {
                       return (
                         <div key={index} className="flex gap-x-4 items-center">
-                          <div className="w-2 h-2 bg-purple rounded-full"></div>
+                          <div className="w-2 h-2 bg-blue rounded-full"></div>
                           <li>{listItem}</li>
                         </div>
                       );
