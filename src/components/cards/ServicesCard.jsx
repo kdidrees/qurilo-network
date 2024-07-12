@@ -7,7 +7,7 @@ const ServicesCard = (cardData) => {
         return (
           <>
             <div key={card.id}>
-              <div class="p-7 rounded-xl bg-white hover:bg-second h-96   hover:border-none  border-[1px]  shadow-sm">
+              <div class="p-7 rounded-xl bg-white hover:bg-second   hover:border-none  border-[1px]  shadow-sm">
                 <h3 class="md:text-xl text-black  font-bold font-sans mb-7">
                   {card.heading}
 
