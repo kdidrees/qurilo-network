@@ -2,20 +2,19 @@ import React from "react";
 // import Heading from "../buttons/Heading";
 import TechnologyCard from "../components/cards/TechnologyCard";
 import { technologiesData } from "../data/applicationDevelopment";
+import Heading from "../components/heading/Heading";
 
 const TechnologiesSection = () => {
   return (
     <section className="bg-white">
-      <div className=" text-black  md:text-3xl text-xl md:mt-6 mt-4 md:pt-16 pt-4 font-sans font-semibold text-center">
-        Technologies We Rely On
-      </div>
-
-      <p className="text-center md:mt-4 mt-2 md:mx-44 mx-6 font-sans text-black">
-        We are proud to have a team of web application developers who are
+      <Heading
+        title={`Technologies We Rely On`}
+        desc={`We are proud to have a team of web application developers who are
         experts in diverse web technologies like MERN, Blockchain, Kentico, etc.
         Our web app development specialists hold relevant knowledge about the
-        following core technologies:
-      </p>
+        following core technologies:`}
+      />
+   
 
       <div className="flex flex-col items-center px-6 lg:px-20 py-16 gap-10 lg:gap-20">
         {/* <Heading heading="CRM Technologies We Use" /> */}

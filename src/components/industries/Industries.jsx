@@ -17,7 +17,7 @@ import industriesthree from "../../assets/Images/appdevelopment/Industries/Image
 import industriesfour from "../../assets/Images/appdevelopment/Industries/Images/industries4.jpg";
 import industriesfive from "../../assets/Images/appdevelopment/Industries/Images/industries5.png";
 import industriessix from "../../assets/Images/appdevelopment/Industries/Images/industries6.png";
-import { useMediaQuery } from "react-responsive";
+import { useMediaQuery } from "react-responsive"; 
 
 const Industries = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });

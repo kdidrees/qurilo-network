@@ -12,4 +12,4 @@ const Datebanner = ({date}) => {
   )
 }
 
-export default Datebanner
+export default Datebanner;
