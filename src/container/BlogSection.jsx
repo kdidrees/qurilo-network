@@ -1,6 +1,6 @@
 // import Title from './Title'
 import { blogData } from "../data/applicationDevelopment";
-import BlogCards from "../components/blog/BlogCards";
+import BlogCards from "../components/cards/BlogCards";
 import Heading from "../components/heading/Heading";
 
 const Blogs = () => {
