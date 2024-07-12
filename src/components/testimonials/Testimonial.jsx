@@ -6,6 +6,8 @@ import "react-multi-carousel/lib/styles.css";
 import { useState } from "react";
 import Button from "../buttons/Button";
 // import { Link } from "react-router-dom";
+
+
 const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   const {
     carouselState: { currentSlide },
@@ -13,13 +15,13 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   return (
     <div className="carousel-button-group absolute right-6 top-6">
       <button
-        className="bg-blue-500 text-white px-4 py-2 font-semibold mx-2"
+        className="bg-blue text-white px-4 py-2 font-semibold mx-2"
         onClick={() => previous()}
       >
         <FaArrowLeft />
       </button>
       <button
-        className="bg-blue-500 text-white px-4 py-2 font-semibold mx-2"
+        className="bg-blue text-white px-4 py-2 font-semibold mx-2"
         onClick={() => next()}
       >
         <FaArrowRight />
