@@ -1,5 +1,5 @@
 import React from "react";
-import Appdevcard from "../components/Card";
+import Appdevcard from "../components/cards/ServicesCard";
 import { cardData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
 
