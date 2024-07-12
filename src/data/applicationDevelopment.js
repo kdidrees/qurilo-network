@@ -9,6 +9,11 @@ import productcompaniesimg from "../assets/Images/appdevelopment/images/productc
 import cmoimg from "../assets/Images/appdevelopment/images/cmos.png";
 import ctoimg from "../assets/Images/appdevelopment/images/ctos.png";
 
+
+// blog images here
+import blogimg1 from "../assets/Images/appdevelopment/blogs/images/first.png"
+import blogimg2 from "../assets/Images/appdevelopment/blogs/images/second.jpg"
+
 export const cardData = [
   {
     id: 1,
@@ -276,4 +281,26 @@ export const DevelopmentProcessData = [
     heading:'Planning',
     desc:`Our team creates a visual structure and interactive prototype for user feedback.`
   },
+]
+
+
+export const blogData = [
+  {
+    date: "Jun,26,24",
+    image: `${blogimg1}`,
+    title: "Case Study: Start of Ola – Safe and Secure Transport Revolution in India",
+    subtitle: "Introduction OLA, India’s leading taxi app company, has redefined transportation in the country,..."
+  },
+  {
+    date: "jun,26,23",
+    image: `${blogimg2}`,
+    title: "The Impact of AI on Industries: The Future of Automation and Human Collaboration",
+    subtitle: "The Potential of Artificial Intelligence in Coimbatore Coimbatore, a melting pot of technology and..."
+  },
+  {
+    date: "Mar,26,22",
+    image: `${blogimg2}`,
+    title: "Lights, Camera, Reel: the Power of Short-Form Video Content",
+    subtitle: "Lights, Camera, Reel: the Power of Short-Form Video Content What is Short-form Video Short-form..."
+  }
 ]

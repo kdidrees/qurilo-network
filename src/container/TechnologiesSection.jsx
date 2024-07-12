@@ -5,12 +5,12 @@ import { technologiesData } from "../data/applicationDevelopment";
 
 const TechnologiesSection = () => {
   return (
-    <section className="bg-black">
-      <div className=" text-white  md:text-3xl text-xl md:mt-6 mt-4 md:pt-16 pt-4 font-sans font-semibold text-center">
+    <section className="bg-white">
+      <div className=" text-black  md:text-3xl text-xl md:mt-6 mt-4 md:pt-16 pt-4 font-sans font-semibold text-center">
         Technologies We Rely On
       </div>
 
-      <p className="text-center md:mt-4 mt-2 md:mx-44 mx-6 font-sans text-white">
+      <p className="text-center md:mt-4 mt-2 md:mx-44 mx-6 font-sans text-black">
         We are proud to have a team of web application developers who are
         experts in diverse web technologies like MERN, Blockchain, Kentico, etc.
         Our web app development specialists hold relevant knowledge about the

@@ -6,7 +6,7 @@ import DevelomentProcess from "./components/process/DevelopmentProcess";
 import TechnologiesSection from "./container/TechnologiesSection";
 import Faq from "./container/Faq";
 import Industries from "./components/industries/Industries";
-
+import Blogs from "./components/blog/Blogs";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <DevelomentProcess/>
       <TechnologiesSection/>
       <Industries/>
+      <Blogs/>
       <Faq/>
     </>
   );
