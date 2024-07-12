@@ -3,14 +3,14 @@ import headerimg from "../assets/Images/headerimg.png";
 import bannermobile from "../assets/Images/bannermobile.jpg";
 import { useMediaQuery } from "react-responsive";
 import { useState, useEffect } from "react";
-import heromobile from "../assets/Images/appdevelopment/images/heromobile.jpg"
+import heromobile from "../assets/Images/appdevelopment/images/heromobile.jpg";
+import Button from "./buttons/Button";
 
 const NetworkHero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
-  const test = 'https://img.freepik.com/premium-photo/silhouette-person-working-late-night-neonlit-room-cybersecurity-expert-modern-office-setting-focus-digital-screens-ai_372197-15733.jpg?size=626&ext=jpg'
+  const test =
+    "https://img.freepik.com/premium-photo/silhouette-person-working-late-night-neonlit-room-cybersecurity-expert-modern-office-setting-focus-digital-screens-ai_372197-15733.jpg?size=626&ext=jpg";
   const [isScrolledPast, setIsScrolledPast] = useState(false);
-
-
 
   return (
     <>
@@ -26,7 +26,6 @@ const NetworkHero = () => {
               <div className="md:mx-20">
                 <h1 className="md:text-6xl font-sans text-3xl font-bold mb-6">
                   Custom Application Development Services
-                 
                 </h1>
 
                 <p className="text-xl font-sans mb-12 md:w-1/2 w-full ">
@@ -36,9 +35,7 @@ const NetworkHero = () => {
                   a tailored ERP solution to streamline operations and enhance
                   efficiency across departments.
                 </p>
-                <button className="bg-transparent  text-white md:text-xl text-base font-semibold border-white border-[1px] py-4 px-12 rounded-full ">
-                  Get Free Consultation
-                </button>
+                <Button data={"Get Free Consultation"} />
               </div>
             </div>
 
