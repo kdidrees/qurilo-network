@@ -1,6 +1,6 @@
 import React from "react";
 
-const Appdevcard = (cardData) => {
+const ServicesCard = (cardData) => {
   return (
     <>
       {cardData.cardData.map((card) => {
@@ -39,4 +39,4 @@ const Appdevcard = (cardData) => {
   );
 };
 
-export default Appdevcard;
+export default ServicesCard;
