@@ -5,7 +5,7 @@ import Heading from "../heading/Heading";
 const DevelomentProcess = () => {
   return (
     <>
-      <div className="w-full pt-5 pb-9 bg-white">
+      <div className="w-full pt-5 pb-9 bg-[#f8f8f8]">
        <div className="pt-6">
        <Heading
           title={`Process We Follow`}
@@ -16,7 +16,7 @@ const DevelomentProcess = () => {
        </div>
         <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-6 gap-3 mx-16  md:mt-8 mt-4">
           {DevelopmentProcessData.map((devdata, index) => {
-            const bgColor = index % 2 === 0 ? "bg-blue" : "bg-red";
+            const bgColor = index % 2 === 0 ? "bg-blue" : "bg-white";
             const txtColor = index % 2 === 0 ? "text-white" : "text-black";
             return (
               <>

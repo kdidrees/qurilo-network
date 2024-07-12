@@ -9,7 +9,7 @@ module.exports = {
         'sans': ['Nunito Sans', 'ui-sans-serif', 'system-ui'],
       },
       colors:{
-        'purple':'#cc3d5c',
+        // 'purple':'#cc3d5c',
         'networkbg':'#F2F2F2',
         'first':'#0A142A',
         'second':"#D6DFF9",

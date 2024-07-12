@@ -14,6 +14,10 @@ import ctoimg from "../assets/Images/appdevelopment/images/ctos.png";
 import blogimg1 from "../assets/Images/appdevelopment/blogs/images/first.png"
 import blogimg2 from "../assets/Images/appdevelopment/blogs/images/second.jpg"
 
+// testimonial images here
+import testimonialImg1 from "../assets/Images/appdevelopment/testimonials/imagefirst.png"
+import testimonialImg2 from "../assets/Images/appdevelopment/testimonials/user2.png"
+
 export const cardData = [
   {
     id: 1,
@@ -304,3 +308,47 @@ export const blogData = [
     subtitle: "Lights, Camera, Reel: the Power of Short-Form Video Content What is Short-form Video Short-form..."
   }
 ]
+
+
+export const Testimaonials = [
+  {
+    message: "Best services",
+    description:
+      "This is the best service I have ever used.This is the best service I have ever used.This is the best service I have ever used.This is the best service I have ever used.",
+    name: "John Doe",
+    position: "CEO, Example Co.",
+    image: testimonialImg1,
+  },
+  {
+    message: "Best services",
+    description:
+      "Absolutely fantastic! Highly recommend.This is the best service I have ever used.",
+    name: "Jane Smith",
+    position: "CTO, Example Inc.",
+    image: testimonialImg2,
+  },
+  {
+    message: "Best services",
+    description:
+      "Outstanding service and great support! This is the best service I have ever used.",
+    name: "Michael Brown",
+    position: "COO, Sample Corp.",
+    image: testimonialImg1,
+  },
+  {
+    message: "Best services",
+    description:
+      "Excellent experience. Will definitely use again! This is the best service I have ever used.",
+    name: "Emily Johnson",
+    position: "CTO, Test Company",
+    image: testimonialImg2,
+  },
+  {
+    message: "Best services",
+    description:
+      "Very professional team. Delivered on time! This is the best service I have ever used.",
+    name: "David Lee",
+    position: "CEO, Another Example",
+    image: testimonialImg1,
+  },
+];
