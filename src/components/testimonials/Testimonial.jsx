@@ -122,10 +122,10 @@ const Testimaonial = () => {
             >
               <div>
                 <ImQuotesLeft className="text-5xl text-[#DFEDF3]" />
-                <div className="text-3xl font-bold mb-2">
+                <div className="text-3xl font-bold mb-2 font-sans">
                   {testimaonial.message}
                 </div>
-                <div className="text-lg font-medium text-zinc-700">
+                <div className="text-lg font-medium text-zinc-700 font-sans">
                   {testimaonial.description}
                 </div>
               </div>
@@ -146,7 +146,7 @@ const Testimaonial = () => {
                       <FaStar />
                       <FaStar />
                     </div>
-                    <div>{testimaonial.name}</div>
+                    <div className="font-sans">{testimaonial.name}</div>
                   </div>
                 </div>
               </div>
