@@ -7,7 +7,7 @@ import TechnologiesSection from "./container/TechnologiesSection";
 import Faq from "./container/Faq";
 import Industries from "./components/industries/Industries";
 import Blogs from "./components/blog/Blogs";
-
+import Testimaonial from "./components/testimonials/Testimonial";
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
       <Industries/>
       <Blogs/>
       <Faq/>
+      <Testimaonial/>
     </>
   );
 }

@@ -1,8 +1,10 @@
 import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
-import { Testimaonials } from "../data/crm";
+import { Testimaonials } from "../../data/applicationDevelopment";
 import { ImQuotesLeft } from "react-icons/im";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { useState } from "react";
+import Button from "../buttons/Button";
 // import { Link } from "react-router-dom";
 const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
   const {
@@ -25,9 +27,8 @@ const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
     </div>
   );
 };
-import { useState } from "react";
-import ContactButton from "../buttons/ContactButton";
-import Heading from "../buttons/Heading";
+
+// import Heading from "../buttons/Heading";
 const Testimaonial = () => {
   function onChange(newValue) {
     console.log(newValue);
@@ -51,12 +52,12 @@ const Testimaonial = () => {
             <span className="text-base text-[#0B6FB9]">(3000+ Reviews)</span>
           </div>
           {/* <Heading heading={"What Our Customers Are Saying"} /> */}
-          <h1 className='text-4xl capitalize font-[400]'>What our customers are saying</h1>
-          <div className="font-[500] text-base my-4">
+          <h1 className='text-4xl capitalize font-[400] text-black'>What our customers are saying</h1>
+          <div className="font-[500] text-base my-4 text-black">
             We keep our clients at the top of our priority list. And that’s how
             we’ve managed to build a happy customer base.
           </div>
-          <ContactButton text="See All Reviews" />
+          <Button data="See All Reviews" />
         </div>
         <Carousel
           additionalTransfrom={0}
