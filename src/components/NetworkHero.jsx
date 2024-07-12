@@ -21,7 +21,7 @@ const NetworkHero = () => {
           <div className="flex items-center relative">
             <div className="text-left md:mx-0 mx-6">
               <div className="md:mx-20">
-                <h1 className="md:text-6xl font-sans xl:w-1/2 w-full md:leading-10 leading-9 text-3xl font-bold mb-6">
+                <h1 className="md:text-6xl font-sans xl:w-1/2 w-full leading-10 text-3xl font-bold mb-6">
                   Custom Application Development Services
                 </h1>
 
