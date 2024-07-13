@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <NetworkHero />
-      <IndustryToggle />
+      {/* <IndustryToggle /> */}
 
-      {/* <DevelopmentServices />
+      <DevelopmentServices />
       <ContactSection />
       <DevelomentProcess />
       <TechnologiesSection />
@@ -26,7 +26,7 @@ function App() {
       <Faq />
       <Testimaonial />
       <WebdevSection />
-      <DomainExpertise/> */}
+      <DomainExpertise />
     </>
   );
 }
