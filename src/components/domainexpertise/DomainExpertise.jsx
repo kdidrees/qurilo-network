@@ -23,7 +23,7 @@ export default function DomainExpertise() {
             >
               Our Domain Expertise
             </h2>
-            <p className="text-base text-[#3e3e3e] text-body-color font-sans">
+            <p className="text-base text-desc text-body-color font-sans">
               Being custom web development India company, Codeflies has a
               massive expertise of working in varied business environments. We
               efficiently use .NET & PHP/OpenSource platform with MVC framework
