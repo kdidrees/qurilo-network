@@ -8,7 +8,7 @@ export default function WebdevSection() {
   return (
     <>
       <section className="">
-        <div className="lg:flex hidden justify-center  ">
+        <div className="lg:flex hidden justify-center  bg-white">
           <img src={strategyimg} className="" alt="" />
         </div>
 
