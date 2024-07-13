@@ -5,7 +5,7 @@ export default function Subdev() {
   return (
     <>
       <>
-        <div className="bg-white ">
+        <div className="bg-white md:ml-0 ml-8">
           <div className="container px-6 py-10 mx-auto">
             <div className="grid lg:grid-cols-2 gap-12">
               {subdevData.map((data) => {
