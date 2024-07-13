@@ -1,9 +1,9 @@
 import React from "react";
 
-const ServicesCard = (cardData) => {
+const ServicesCard = ({cardData}) => {
   return (
     <>
-      {cardData.cardData.map((card) => {
+      {cardData.map((card) => {
         return (
           <>
             <div key={card.id}>

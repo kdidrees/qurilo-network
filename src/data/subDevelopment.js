@@ -1,4 +1,9 @@
+
+
+// domain expertise images here 
 import firsticon from "../assets/Images/subappdev/subdev/icons/first.webp";
+import secondicon from "../assets/Images/subappdev/subdev/icons/second.png";
+
 
 export const subdevData = [
   {
