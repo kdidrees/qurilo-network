@@ -38,3 +38,30 @@ export const subdevData = [
     desc: `Provides advanced web development and programming services based on the latest technologies and industry trends.`,
   },
 ];
+
+export const domainExpertiseData = [
+  {
+    id: 1,
+    heading: [
+      "Content management system",
+      "E-commerce",
+      "Online marketplace",
+      "Dating/Auction portals",
+      "Rating and review applications",
+      "Reservation application",
+      "eLearning applications",
+    ],
+  },
+  {
+    id: 2,
+    heading: [
+      "Content management system",
+      "E-commerce",
+      "Online marketplace",
+      "Dating/Auction portals",
+      "Rating and review applications",
+      "Reservation application",
+      "eLearning applications",
+    ],
+  },
+];
