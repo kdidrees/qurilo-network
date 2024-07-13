@@ -36,28 +36,7 @@ const NetworkHero = () => {
               </div>
             </div>
 
-            {/* <>
-              <div className="md:block hidden  ">
-                <div>
-                  <button className="cursor-auto group font-sans relative h-16 w-56 overflow-hidden  rounded-l-2xl bg-white text-lg font-bold text-purple">
-                    Implementation
-                    <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
-                  </button>
-                </div>
-                <div>
-                  <button className="group cursor-auto font-sans mt-4 relative h-16 w-56 overflow-hidden rounded-l-2xl bg-white text-lg font-bold text-purple">
-                    Implementation
-                    <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
-                  </button>
-                </div>
-                <div>
-                  <button className="group cursor-auto font-sans relative mt-4 h-16 w-56 overflow-hidden rounded-l-2xl bg-white text-lg font-bold text-purple">
-                    Implementation
-                    <div className="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
-                  </button>
-                </div>
-              </div>
-            </> */}
+           
           </div>
         </div>
       </section>
