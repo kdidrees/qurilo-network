@@ -9,6 +9,7 @@ import Blogs from "./container/BlogSection";
 import DevelomentProcess from "./container/DevelopmentProcesSection";
 import ContactSection from "./components/contact/Contact"
 import Subdev from "./components/subdev/Subdev";
+import WebdevSection from "./container/WebdevSection";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       <Testimaonial/> */}
 
 
-      <Subdev/>
+      <WebdevSection/>
     </>
   );
 }
