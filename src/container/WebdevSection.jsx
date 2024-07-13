@@ -8,8 +8,8 @@ export default function WebdevSection() {
   return (
     <>
       <section className="">
-        <div className="lg:flex hidden justify-center bg-black ">
-          <img src={strategyimg} className="bg-black" alt="" />
+        <div className="lg:flex hidden justify-center  ">
+          <img src={strategyimg} className="" alt="" />
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:mt-20  md:grid-cols-3 mx-16 ">
