@@ -6,6 +6,15 @@ import fourthicon from "../assets/Images/subappdev/subdev/icons/fourth.png";
 import fifthicon from "../assets/Images/subappdev/subdev/icons/fifth.png";
 import sixthicon from "../assets/Images/subappdev/subdev/icons/sixth.png";
 
+
+// domain exper images here 
+
+import ecommerceimg from "../assets/Images/subappdev/solutions/images/ecommerce.png";
+import elearningimg from "../assets/Images/subappdev/solutions/images/elearning.png";
+import reservationimg from "../assets/Images/subappdev/solutions/images/reservation.png";
+import contentmanagementimg from "../assets/Images/subappdev/solutions/images/contentmanagement.png";
+
+
 export const subdevData = [
   {
     id: 1,
@@ -48,7 +57,7 @@ export const subdevData = [
 export const domainExpertData = [
   {
     id: 1,
-    heading: "",
+    heading: "Our Domain Expertise",
     desc: `We are a prominent cloud computing services provider, serving various technological needs, from startups and large enterprises to product firms, digital agencies, SMEs, and government bodies.
 Our unwavering dedication places us at the forefront of the industry. Our experts provide competitive, high-quality cloud solutions.`,
 
@@ -60,5 +69,6 @@ Our unwavering dedication places us at the forefront of the industry. Our expert
       "Reservation application",
       "eLearning applications",
     ],
+    images:[ecommerceimg,elearningimg,reservationimg,contentmanagementimg]
   },
 ];
