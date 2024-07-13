@@ -1,5 +1,4 @@
 import React from "react";
-import Subdev from "../components/subdev/Subdev";
 import strategyimg from "../assets/Images/subappdev/subdev/images/strategy.png";
 import DevelopmentSubcategoryCard from "../components/cards/DevelopmentSubcategoryCard";
 import { subdevData } from "../data/subDevelopment";
