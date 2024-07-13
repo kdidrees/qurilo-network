@@ -1,12 +1,12 @@
-import React from "react";
-import SolPara from "./SolPara";
-import Award from "./Award";
-import { domainExpertData } from "../../data/subDevelopment";
+import React from 'react';
+import SolPara from '../components/solutions/SolPara';
+import Award from '../components/solutions/Award';
+import { domainExpertData } from '../data/subDevelopment';
 
-export default function Solution() {
+export default function DomainExpertise() {
   return (
-    <>
-      <div className="w-full bg-white lg:flex mb-10 lg:mt-10 ">
+   <>
+     <section className="w-full bg-white lg:flex mb-10 lg:mt-10 ">
         <div className="m-5 ml-8 lg:w-1/2">
           <div className="mt-10 lg:ml-10">
             <h2
@@ -26,7 +26,12 @@ export default function Solution() {
         <div className="ml-8 lg:w-1/2 lg:mt-8 lg:mb-20 ">
           <Award data={domainExpertData} />
         </div>
-      </div>
-    </>
-  );
+      </section>
+   </>
+  )
 }
+
+
+
+
+

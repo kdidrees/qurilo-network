@@ -7,24 +7,23 @@ import Industries from "./components/industries/Industries";
 import Testimaonial from "./components/testimonials/Testimonial";
 import Blogs from "./container/BlogSection";
 import DevelomentProcess from "./container/DevelopmentProcesSection";
-import ContactSection from "./components/contact/Contact"
+import ContactSection from "./components/contact/Contact";
 import WebdevSection from "./container/WebdevSection";
-import Solution from "./components/solutions/Solution";
-
+import DomainExpertise from "./container/DomainExpertise";
 function App() {
   return (
     <>
-      <NetworkHero /> 
+      <NetworkHero />
       <DevelopmentServices />
       <ContactSection />
-      <DevelomentProcess/>
-      <TechnologiesSection/>
-      <Industries/>
-      <Blogs/>
-      <Faq/>
-      <Testimaonial/>
-      <WebdevSection/>
-     <Solution/>
+      <DevelomentProcess />
+      <TechnologiesSection />
+      <Industries />
+      <Blogs />
+      <Faq />
+      <Testimaonial />
+      <WebdevSection />
+      <DomainExpertise/>
     </>
   );
 }
