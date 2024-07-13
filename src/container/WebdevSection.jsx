@@ -3,11 +3,35 @@ import Subdev from "../components/subdev/Subdev";
 import strategyimg from "../assets/Images/subappdev/subdev/images/strategy.png";
 import DevelopmentSubcategoryCard from "../components/cards/DevelopmentSubcategoryCard";
 import { subdevData } from "../data/subDevelopment";
+import Heading from "../components/heading/Heading";
 
 export default function WebdevSection() {
   return (
     <>
       <section className="">
+        <div className="mt-10 lg:ml-10">
+          <h2
+            className=" font-semibold
+                  text-2xl
+                  font-sans
+                  md:text-3xl
+                  text-black
+                  mb-4 
+                  md:mt-0 mt-8"
+          >
+            Our Domain Expertise
+          </h2>
+          <div className="mt-5 ">
+            <p className="text-base text-desc text-body-color font-sans md:w-3/4">
+              We are a prominent cloud computing services provider, serving
+              various technological needs, from startups and large enterprises
+              to product firms, digital agencies, SMEs, and government bodies.
+              Our unwavering dedication places us at the forefront of the
+              industry. Our experts provide competitive, high-quality cloud
+              solutions.
+            </p>
+          </div>
+        </div>
         <div className="lg:flex hidden justify-center  bg-white">
           <img src={strategyimg} className="" alt="" />
         </div>
