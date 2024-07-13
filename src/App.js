@@ -10,7 +10,6 @@ import DevelomentProcess from "./container/DevelopmentProcesSection";
 import ContactSection from "./components/contact/Contact"
 import Subdev from "./components/subdev/Subdev";
 import WebdevSection from "./container/WebdevSection";
-import DomainExpertise from "./components/domainexpertise/DomainExpertise";
 import Solution from "./components/solutions/Solution";
 
 function App() {

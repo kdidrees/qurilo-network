@@ -2,6 +2,7 @@ import React from "react";
 // import { icon } from "../../assets/pages/itService/icons/doneicons.png";
 import doneicon from "../../assets/Images/subappdev/solutions/images/check.png";
 import { FaCheckCircle } from "react-icons/fa";
+
 const SolPara = () => {
   const listItems = [
     "Content management system",
