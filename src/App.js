@@ -25,8 +25,6 @@ function App() {
       <Blogs/>
       <Faq/>
       <Testimaonial/> */}
-
-
       <WebdevSection/>
      <Solution/>
     </>

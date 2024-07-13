@@ -1,4 +1,8 @@
 import React from "react";
+import ecommerceimg from "../../assets/Images/subappdev/solutions/images/ecommerce.png"
+import elearningimg from "../../assets/Images/subappdev/solutions/images/elearning.png"
+import reservationimg from "../../assets/Images/subappdev/solutions/images/reservation.png"
+import contentmanagementimg from "../../assets/Images/subappdev/solutions/images/contentmanagement.png"
 
 export default function Award() {
   return (
@@ -9,28 +13,28 @@ export default function Award() {
   <div>
     <img
       className="h-auto max-w-full rounded-lg"
-      src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+      src={ecommerceimg}
       alt=""
     />
   </div>
   <div>
     <img
       className="h-auto max-w-full rounded-lg"
-      src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+      src={elearningimg}
       alt=""
     />
   </div>
   <div>
     <img
       className="h-auto max-w-full rounded-lg"
-      src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+      src={reservationimg}
       alt=""
     />
   </div>
   <div>
     <img
       className="h-auto max-w-full rounded-lg"
-      src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+      src={contentmanagementimg}
       alt=""
     />
   </div>
