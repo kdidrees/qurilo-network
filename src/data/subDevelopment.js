@@ -1,8 +1,12 @@
 
 
 // domain expertise images here 
-import firsticon from "../assets/Images/subappdev/subdev/icons/first.webp";
+import firsticon from "../assets/Images/subappdev/subdev/icons/first.png";
 import secondicon from "../assets/Images/subappdev/subdev/icons/second.png";
+import thirdicon from "../assets/Images/subappdev/subdev/icons/third.png";
+import fourthicon from "../assets/Images/subappdev/subdev/icons/fourth.png";
+import fifthicon from "../assets/Images/subappdev/subdev/icons/fifth.png";
+import sixthicon from "../assets/Images/subappdev/subdev/icons/sixth.png";
 
 
 export const subdevData = [
@@ -14,31 +18,31 @@ export const subdevData = [
   },
   {
     id: 2,
-    icon: firsticon,
+    icon: secondicon,
     heading: "Web Application Development",
     desc: `Provides advanced web development and programming services based on the latest technologies and industry trends.`,
   },
   {
     id: 3,
-    icon: firsticon,
+    icon: thirdicon,
     heading: "Content And Document Management System",
     desc: `Provides advanced web development and programming services based on the latest technologies and industry trends.`,
   },
   {
     id: 4,
-    icon: firsticon,
+    icon: fourthicon,
     heading: "Web Portal Development",
     desc: `Provides advanced web development and programming services based on the latest technologies and industry trends.`,
   },
   {
     id: 5,
-    icon: firsticon,
+    icon: fifthicon,
     heading: "E-Commerce Solutions",
     desc: `Provides advanced web development and programming services based on the latest technologies and industry trends.`,
   },
   {
     id: 6,
-    icon: firsticon,
+    icon: sixthicon,
     heading: "Social Networking",
     desc: `Provides advanced web development and programming services based on the latest technologies and industry trends.`,
   },
