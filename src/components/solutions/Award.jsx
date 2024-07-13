@@ -1,5 +1,5 @@
 import React from "react";
-import google from "../../assets/Images/subappdev/solutions/images/check.png"
+
 export default function Award() {
   return (
     <div className="mt-5">

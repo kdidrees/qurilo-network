@@ -4,12 +4,12 @@ import doneicon from "../../assets/Images/subappdev/solutions/images/check.png";
 import { FaCheckCircle } from "react-icons/fa";
 const SolPara = () => {
   const listItems = [
-    "India's Top 1% Software Talent",
-    "Trusted by Startups to Fortune 500",
-    "Idea to Deployment, We Handle All",
-    "Time-Zone Friendly: Global Presence",
-    "Top-tier Data Security Protocols",
-    "On-time Delivery, No Surprises",
+    "Content management system",
+    "E-commerce",
+    "Online marketplace",
+    "Dating/Auction portals ",
+    "Reservation application",
+    "eLearning applications",
   ];
   return (
     <div className="mt-5 lg:ml-10">
@@ -24,7 +24,10 @@ const SolPara = () => {
       </p>
       <ul className="text-base mt-5 flex flex-col gap-4 text-gray-500">
         {listItems.map((item, index) => (
-          <li key={index} className="flex items-center gap-2 text-base text-desc text-body-color font-sans">
+          <li
+            key={index}
+            className="flex items-center gap-2 text-base text-desc text-body-color font-sans"
+          >
             <FaCheckCircle className="h-4 w-4 text-blue" />
             {item}
           </li>

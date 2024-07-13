@@ -19,7 +19,7 @@ export default function DevelopmentServices() {
             />
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-8 mt-8 md:mt-20  md:grid-cols-3 mx-16 ">
+        <div className="grid grid-cols-1 gap-8 mt-8 md:mt-20  md:grid-cols-2 lg:grid-cols-3 mx-16 ">
           <ServicesCard cardData={cardData} />
         </div>
       </section>

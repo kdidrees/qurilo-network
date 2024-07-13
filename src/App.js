@@ -17,16 +17,16 @@ function App() {
   return (
     <>
       <NetworkHero /> 
-      {/* <DevelopmentServices />
+      <DevelopmentServices />
       <ContactSection />
       <DevelomentProcess/>
       <TechnologiesSection/>
       <Industries/>
       <Blogs/>
       <Faq/>
-      <Testimaonial/> */}
+      <Testimaonial/>
 
-
+      
       <WebdevSection/>
      <Solution/>
     </>
