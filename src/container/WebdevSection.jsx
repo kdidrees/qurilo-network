@@ -19,7 +19,7 @@ export default function WebdevSection() {
                   mb-4 
                   md:mt-0 mt-8"
           >
-            Our Domain Expertise
+            Web Development
           </h2>
           <div className="mt-5 ">
             <p className="text-base text-desc text-body-color font-sans md:w-3/4">
@@ -36,7 +36,7 @@ export default function WebdevSection() {
           <img src={strategyimg} className="" alt="" />
         </div>
 
-        <div className="grid grid-cols-1 gap-8 mt-8 md:mt-20  md:grid-cols-2 lg:grid-cols-3 mx-16 ">
+        <div className="grid grid-cols-1 gap-8 mt-8 md:mt-6  md:grid-cols-2 lg:grid-cols-3 mx-16 ">
           {subdevData.map((data, index) => {
             return (
               <>
