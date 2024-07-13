@@ -3,7 +3,7 @@ import React from "react";
 export default function Heading({ title,desc }) {
   return (
     <>
-       <div className="text-center  md:mx-44 mx-8 md:mt-8 mt-4 ">
+       <div className="text-center  lg:mx-44 mx-8 md:mt-8 mt-4 ">
               <h2
                 className="
                   font-semibold

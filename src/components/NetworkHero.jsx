@@ -25,7 +25,7 @@ const NetworkHero = () => {
                   Custom Application Development Services
                 </h1>
 
-                <p className="text-xl font-sans mb-12 md:w-1/2 w-full ">
+                <p className="text-xl font-sans mb-12 lg:w-1/2 w-full ">
                   Our ERP implementation process begins with a thorough
                   assessment of your business processes and requirements. We
                   analyze existing workflows, identify pain points, and map out
