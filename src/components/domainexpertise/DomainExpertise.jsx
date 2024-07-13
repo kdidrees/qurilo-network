@@ -6,16 +6,15 @@ export default function DomainExpertise() {
   return (
     <>
       <>
-        <section className="bg-gray-400 py-16">
+        <section className="bg-[#f6f6f6] py-16">
           <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
             <div className="relative block flex   flex-col md:flex-row items-center">
               {domainExpertiseData.map((data) => {
                 return (
                   <>
-                    <div key={data.id} className="">
-                      <div className="bg-white mx-8  text-black rounded-lg shadow-inner shadow-lg overflow-hidden">
-                        <div className="flex flex-wrap mt-3 px-6">
-                          <ul>
+                  
+                        <div key={data.id} className="flex flex-wrap mt-3 px-6">
+                          <ul className="bg-white p-8 shadow-xl">
                             {data.heading.map((options) => {
                               return (
                                 <>
@@ -26,7 +25,7 @@ export default function DomainExpertise() {
                                     <div className=" rounded-full p-2 fill-current text-blue">
                                       <FaRegHandPointRight />
                                     </div>
-                                    <span className="text-black font-sans text-lg ml-3">
+                                    <span className="text-black font-bold font-sans text-lg  ml-3">
                                       {options}
                                     </span>
                                   </li>
@@ -35,8 +34,7 @@ export default function DomainExpertise() {
                             })}
                           </ul>
                         </div>
-                      </div>
-                    </div>
+                  
                   </>
                 );
               })}
