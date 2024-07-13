@@ -9,7 +9,7 @@ export default function WebdevSection() {
   return (
     <>
       <section className="">
-        <div className="mt-10 lg:ml-10">
+        <div className="md:mt-10 mt-6 lg:ml-10 mx-8 md:mx-16">
           <h2
             className=" font-semibold
                   text-2xl
@@ -36,7 +36,7 @@ export default function WebdevSection() {
           <img src={strategyimg} className="" alt="" />
         </div>
 
-        <div className="grid grid-cols-1 gap-8 mt-8 md:mt-6  md:grid-cols-2 lg:grid-cols-3 mx-16 ">
+        <div className="grid grid-cols-1 gap-8 mt-8 md:mt-6  md:grid-cols-2 lg:grid-cols-3 md:mx-16 mx-8">
           {subdevData.map((data, index) => {
             return (
               <>
