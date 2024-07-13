@@ -1,13 +1,10 @@
-
-
-// domain expertise images here 
+// domain expertise images here
 import firsticon from "../assets/Images/subappdev/subdev/icons/first.png";
 import secondicon from "../assets/Images/subappdev/subdev/icons/second.png";
 import thirdicon from "../assets/Images/subappdev/subdev/icons/third.png";
 import fourthicon from "../assets/Images/subappdev/subdev/icons/fourth.png";
 import fifthicon from "../assets/Images/subappdev/subdev/icons/fifth.png";
 import sixthicon from "../assets/Images/subappdev/subdev/icons/sixth.png";
-
 
 export const subdevData = [
   {
@@ -48,3 +45,20 @@ export const subdevData = [
   },
 ];
 
+export const domainExpertData = [
+  {
+    id: 1,
+    heading: "",
+    desc: `We are a prominent cloud computing services provider, serving various technological needs, from startups and large enterprises to product firms, digital agencies, SMEs, and government bodies.
+Our unwavering dedication places us at the forefront of the industry. Our experts provide competitive, high-quality cloud solutions.`,
+
+    data: [
+      "Content management system",
+      "E-commerce",
+      "Online marketplace",
+      "Dating/Auction portals ",
+      "Reservation application",
+      "eLearning applications",
+    ],
+  },
+];

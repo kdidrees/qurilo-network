@@ -3,15 +3,8 @@ import React from "react";
 import doneicon from "../../assets/Images/subappdev/solutions/images/check.png";
 import { FaCheckCircle } from "react-icons/fa";
 
-const SolPara = () => {
-  const listItems = [
-    "Content management system",
-    "E-commerce",
-    "Online marketplace",
-    "Dating/Auction portals ",
-    "Reservation application",
-    "eLearning applications",
-  ];
+const SolPara = ({ data }) => {
+
   return (
     <div className="mt-5 lg:ml-10">
       <p className="text-base text-desc text-body-color font-sans">
@@ -24,7 +17,7 @@ const SolPara = () => {
         Our experts provide competitive, high-quality cloud solutions.
       </p>
       <ul className="text-base mt-5 flex flex-col gap-4 text-gray-500">
-        {listItems.map((item, index) => (
+        {data[0]?.data?.map((item, index) => (
           <li
             key={index}
             className="flex items-center gap-2 text-base text-desc text-body-color font-sans"

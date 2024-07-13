@@ -1,6 +1,7 @@
 import React from "react";
 import SolPara from "./SolPara";
 import Award from "./Award";
+import { domainExpertData } from "../../data/subDevelopment";
 
 export default function Solution() {
   return (
@@ -20,10 +21,10 @@ export default function Solution() {
               Our Domain Expertise
             </h2>
           </div>
-          <SolPara />
+          <SolPara data={domainExpertData} />
         </div>
         <div className="ml-8 lg:w-1/2 lg:mt-8 lg:mb-20 ">
-          <Award />
+          <Award data={domainExpertData} />
         </div>
       </div>
     </>
