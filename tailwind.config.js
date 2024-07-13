@@ -17,13 +17,15 @@ module.exports = {
         'fourth':"#F9EBDD", 
         "blue":"#558BDC",
         "creme":"#f9ebdd",
-        "carasoul":"#0D184B"
+        "carasoul":"#0D184B",
+        "desc":"#3e3e3e"
       }
       
       ,
       boxShadow:{
         "custom": '0 4px 6px -1px rgba(53, 4, 40, 0.5), 0 2px 4px -1px rgba(53, 4, 40, 0.3)',
       }
+    
     },
   },
   plugins: [],
