@@ -3,6 +3,7 @@ import { IoMdAdd } from "react-icons/io";
 import { HiMinus } from "react-icons/hi";
 import { faqData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
+import { mobilefaqData } from "../data/mobileDevelopment";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -15,7 +16,7 @@ const Faq = () => {
       />
 
       <div className="mt-10 lg:w-[72%] md:w-[90%] w-[93%] mx-auto">
-        {faqData.map((item, index) => {
+        {mobilefaqData.faqdata.map((item, index) => {
           return (
             <div key={index}>
               <div
@@ -43,6 +44,17 @@ const Faq = () => {
                         <div key={index} className="flex gap-x-4 items-center">
                           <div className="w-2 h-2 bg-blue rounded-full"></div>
                           <li>{listItem}</li>
+                        </div>
+                      );
+                    })}
+
+                    {item.ansList?.map((listItem, index) => {
+                      return (
+                        <div key={index} className="flex flex-col gap-x-4 items-start">
+                          <div className=" py-4 rounded-full font-bold">
+                            {listItem.heading}
+                          </div>
+                          <li>{listItem.desc}</li>
                         </div>
                       );
                     })}
