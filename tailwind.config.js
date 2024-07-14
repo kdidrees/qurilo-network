@@ -10,8 +10,9 @@ module.exports = {
       },
       colors:{
         // 'purple':'#cc3d5c',
-        'networkbg':'#F2F2F2',
-        'first':'#0A142A',
+        // 'networkbg':'#F2F2F2',
+        // 'first':'#0A142A',
+
         'second':"#D6DFF9",
         'third':"#E1DCF3",
         'fourth':"#F9EBDD", 

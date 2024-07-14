@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <NetworkHero />
-      {/* <IndustryToggle /> */}
+      <IndustryToggle />
 
       <DevelopmentServices />
       <ContactSection />
