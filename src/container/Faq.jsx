@@ -3,7 +3,6 @@ import { IoMdAdd } from "react-icons/io";
 import { HiMinus } from "react-icons/hi";
 import { faqData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
-// import { mobilefaqData } from "../data/mobileDevelopment";
 import parse from "html-react-parser";
 
 const Faq = () => {
