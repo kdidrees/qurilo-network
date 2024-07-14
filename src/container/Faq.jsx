@@ -4,15 +4,15 @@ import { HiMinus } from "react-icons/hi";
 import { faqData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
 import { mobilefaqData } from "../data/mobileDevelopment";
+import parse from "html-react-parser";
 
 const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   return (
     <div className="my-10 md:mt-24">
       <Heading
-        title={`Frequently Asked Questions`}
-        desc={`Here are some questions related to software outsourcing that our clients
-        frequently ask:`}
+        title={mobilefaqData.heading}
+        desc={mobilefaqData.desc}
       />
 
       <div className="mt-10 lg:w-[72%] md:w-[90%] w-[93%] mx-auto">
@@ -37,13 +37,13 @@ const Faq = () => {
 
               {activeIndex === index && (
                 <div className="pb-4 text-lg font-normal text-gray-600">
-                  <p>{item.answer}</p>
+                  <p >{parse(item.answer)}</p>
                   <ul className="mt-2">
                     {item.list?.map((listItem, index) => {
                       return (
                         <div key={index} className="flex gap-x-4 items-center">
                           <div className="w-2 h-2 bg-blue rounded-full"></div>
-                          <li>{listItem}</li>
+                          <li>{parse(listItem)}</li>
                         </div>
                       );
                     })}
@@ -52,9 +52,9 @@ const Faq = () => {
                       return (
                         <div key={index} className="flex flex-col font-sans gap-x-4 items-start">
                           <div className=" py-4 rounded-full font-bold">
-                            {listItem.heading}
+                            {parse(listItem.heading)}
                           </div>
-                          <li>{listItem.desc}</li>
+                          <li>{parse(listItem.desc)}</li>
                         </div>
                       );
                     })}
