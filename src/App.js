@@ -11,13 +11,14 @@ import ContactSection from "./components/contact/Contact";
 import WebdevSection from "./container/WebdevSection";
 import DomainExpertise from "./container/DomainExpertise";
 import IndustryToggle from "./components/industrypagecomp/IndustryToggle";
+import IndustriesSection from "./container/industry/IndustriesSection";
 function App() {
   return (
     <>
       <NetworkHero />
-      <IndustryToggle />
+      <IndustriesSection/>
 
-      <DevelopmentServices />
+      {/* <DevelopmentServices />
       <ContactSection />
       <DevelomentProcess />
       <TechnologiesSection />
@@ -25,8 +26,8 @@ function App() {
       <Blogs />
       <Faq />
       <Testimaonial />
-      <WebdevSection />
-      <DomainExpertise />
+      <WebdevSection /> */}
+      {/* <DomainExpertise /> */}
     </>
   );
 }

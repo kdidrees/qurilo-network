@@ -5,14 +5,14 @@ export default function IndustryToggle() {
   return (
     <>
       <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
-        <div className="flex flex-col items-center">
-          <p className="text-neutral-500 text-xl md:mt-6 mt-3">
-            Frequenty asked questions
-          </p>
+        <div className="flex flex-col items-left lg:ml-12 md:mt-16 mt-4">
+          <h2 className="text-black text-xl md:mt-6 mt-3">
+            Fintech, Banking, Financial Services
+          </h2>
         </div>
         <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
          {industryToggleData.map((data)=>{
-            return (
+            return (  
                 <>
                  <div className="py-5">
             <details className="group">
