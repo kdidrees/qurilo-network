@@ -127,7 +127,7 @@ export const faqDataOld = [
         in our products and services and want to allow everyone to experience
         firsthand the value we can bring. <br />
         <br /> Just fill out a form and{" "}
-        <strong className="text-gray-900">connect with our team </strong>
+        <strong className="">connect with our team </strong>
         immediately. We hope you’ll take advantage of this and give us a chance
         to show you what we can do.
       </span>
@@ -138,7 +138,7 @@ export const faqDataOld = [
     answer: (
       <span>
         The cost of{" "}
-        <strong className="text-gray-900">
+        <strong className="">
           outsource software development{" "}
         </strong>{" "}
         depends on several factors such as the size and build of the
@@ -155,7 +155,7 @@ export const faqDataOld = [
     answer: (
       <span>
         Yes, we provide all types of
-        <strong className="text-gray-900">
+        <strong className="">
           {" "}
           white-label software development services{" "}
         </strong>{" "}
@@ -191,7 +191,7 @@ export const faqDataOld = [
       "Is outsourcing software development risky? How do you ensure IP (Intellectual Property) and data protection?",
     answer: (
       <span>
-        <strong className="text-gray-900">
+        <strong className="">
           Software product development outsourcing
         </strong>{" "}
         is not risky at all if you outsource your project to a reputed company.
@@ -270,7 +270,7 @@ export const faqDataOld = [
     answer: (
       <span>
         Many reasons make India an ideal destination for{" "}
-        <strong className="text-gray-900">software outsourcing services</strong>
+        <strong className="">software outsourcing services</strong>
         . Here are a few reasons that give a competitive edge to India over
         Latin America, the Philippines, or Eastern Europe:
       </span>
@@ -310,7 +310,7 @@ export const faqData = {
         in our products and services and want to allow everyone to experience
         firsthand the value we can bring. <br />
         <br /> Just fill out a form and
-        <strong className="text-gray-900">connect with our team </strong>
+        <strong className="">connect with our team </strong>
         immediately. We hope you’ll take advantage of this and give us a chance
         to show you what we can do.`,
     },
@@ -318,7 +318,7 @@ export const faqData = {
       id: 3,
       question: "How much does outsourcing software development to India cost?",
       answer: ` The cost of
-        <strong className="text-gray-900">
+        <strong className="">
           outsource software development
         </strong>
         depends on several factors such as the size and build of the
@@ -333,7 +333,7 @@ export const faqData = {
       question:
         "I own a digital agency. Do you offer white-label software development services?",
       answer: ` Yes, we provide all types of
-        <strong className="text-gray-900">
+        <strong className="">
           
           white-label software development services
         </strong>
@@ -367,7 +367,7 @@ export const faqData = {
       id: 6,
       question:
         "Is outsourcing software development risky? How do you ensure IP (Intellectual Property) and data protection?",
-      answer: `  <strong className="text-gray-900">
+      answer: `  <strong className="">
           Software product development outsourcing
         </strong>
         is not risky at all if you outsource your project to a reputed company.
@@ -392,16 +392,16 @@ export const faqData = {
         task, we have an engagement model that will fit your needs.
         <br />
         <br />
-        <strong className="text-gray-900">Dedicated Team:</strong>Dedicated team
+        <strong className="">Dedicated Team:</strong>Dedicated team
         model comprises a PM, SW Engineer, QA Engineer, and other roles defined
         for each specific project.
         <br />
-        <strong className="text-gray-900">Staff Augmentation: </strong>We
+        <strong className="">Staff Augmentation: </strong>We
         provide extra talent to boost your specific projects. This extended team
         works as a part of your local team, attending your daily meetings and
         reporting directly to your manager.
         <br />
-        <strong className="text-gray-900">
+        <strong className="">
           Offshore Development Center:
         </strong>
         We also provide a dedicated software development office with all
@@ -430,7 +430,7 @@ export const faqData = {
       question:
         "What are the advantages of outsourcing software development to India over Latin America, the Philippines or Eastern Europe?",
       answer: `Many reasons make India an ideal destination for
-        <strong className="text-gray-900">software outsourcing services</strong>
+        <strong className="">software outsourcing services</strong>
         . Here are a few reasons that give a competitive edge to India over
         Latin America, the Philippines, or Eastern Europe:
 `,

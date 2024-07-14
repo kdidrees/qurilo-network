@@ -10,10 +10,7 @@ const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
   return (
     <div className="my-10 md:mt-24">
-      <Heading
-        title={faqData.heading}
-        desc={faqData.desc}
-      />
+      <Heading title={faqData.heading} desc={faqData.desc} />
 
       <div className="mt-10 lg:w-[72%] md:w-[90%] w-[93%] mx-auto">
         {faqData.faqdata.map((item, index) => {
@@ -37,7 +34,7 @@ const Faq = () => {
 
               {activeIndex === index && (
                 <div className="pb-4 text-lg font-normal text-gray-600">
-                  <p >{parse(item.answer)}</p>
+                  <p>{parse(item.answer)}</p>
                   <ul className="mt-2">
                     {item.list?.map((listItem, index) => {
                       return (
@@ -50,7 +47,10 @@ const Faq = () => {
 
                     {item.ansList?.map((listItem, index) => {
                       return (
-                        <div key={index} className="flex flex-col font-sans gap-x-4 items-start">
+                        <div
+                          key={index}
+                          className="flex flex-col font-sans gap-x-4 items-start"
+                        >
                           <div className=" py-4 rounded-full font-bold">
                             {parse(listItem.heading)}
                           </div>
