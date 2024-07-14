@@ -210,32 +210,40 @@ export const faqDataOld = [
   {
     question:
       "I want to outsource software development. What engagement options do you offer?",
-    answer: (
-      <span>
-        At ValueCoders, we offer a variety of engagement models to suit your
+    answer: `  At ValueCoders, we offer a variety of engagement models to suit your
         specific project requirements. Whether you need a dedicated team of
         coders for an ongoing project or just a few extra hands for a one-off
-        task, we have an engagement model that will fit your needs.
-        <br />
-        <br />
-        <strong className="text-gray-900">Dedicated Team:</strong>Dedicated team
+        task, we have an engagement model that will fit your needs.`,
+
+    ansList: [
+      {
+        id: 1,
+        heading: `Dedicated Team`,
+        desc: `Dedicated team
         model comprises a PM, SW Engineer, QA Engineer, and other roles defined
         for each specific project.
-        <br />
-        <strong className="text-gray-900">Staff Augmentation: </strong>We
+`,
+      },
+      {
+        id: 2,
+        heading: `Staff Augmentation`,
+        desc: `We
         provide extra talent to boost your specific projects. This extended team
         works as a part of your local team, attending your daily meetings and
         reporting directly to your manager.
-        <br />
-        <strong className="text-gray-900">
-          Offshore Development Center:
-        </strong>{" "}
-        We also provide a dedicated software development office with all
+`,
+      },
+      {
+        id: 3,
+        heading: ` Offshore Development Center:
+`,
+        desc: `  We also provide a dedicated software development office with all
         required infrastructure and employees in India. Our ODC model helps you
         save budget and speed up development, recruiting, and optimizing
         accounting and HR.
-      </span>
-    ),
+`,
+      },
+    ],
   },
   {
     question: "How does the software development outsourcing process work?",
@@ -433,7 +441,6 @@ export const faqData = {
         "IT companies in India keep themselves abreast with the latest technological advancements.",
       ],
     },
-   
 
     // put all of them there
 
