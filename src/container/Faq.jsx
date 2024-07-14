@@ -50,7 +50,7 @@ const Faq = () => {
 
                     {item.ansList?.map((listItem, index) => {
                       return (
-                        <div key={index} className="flex flex-col gap-x-4 items-start">
+                        <div key={index} className="flex flex-col font-sans gap-x-4 items-start">
                           <div className=" py-4 rounded-full font-bold">
                             {listItem.heading}
                           </div>
