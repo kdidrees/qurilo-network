@@ -1,7 +1,7 @@
 export const heroSectionData = {
   id: 1,
   img: "",
-  mobileImg:'',
+  mobileImg: "",
   heading: "Mobile App Development Services",
   desc: `Planning to upscale your business with mobile application development services? ValueCoders excels in native, cross-platform, and progressive web apps, delivering 500+ robust solutions tailored to meet your long-term goals.`,
   btn: "",
@@ -10,7 +10,7 @@ export const heroSectionData = {
 export const mobileServicesData = {
   heading: "Our Mobile App Development Services",
   desc: `We are a leading mobile application development company that offers secure and scalable solutions tailored to the specific business needs of clients from different industries.`,
-  img:'',  // strategy image here
+  img: "", // strategy image here
   cardData: [
     {
       id: 1,
