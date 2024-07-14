@@ -16,5 +16,5 @@ export default function DevelopmentSubcategoryCard({ image, title, des }) {
         </p>
       </div>
     </>
-  );
-}1
+  )
+}
