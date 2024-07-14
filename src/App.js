@@ -16,9 +16,9 @@ function App() {
   return (
     <>
       <NetworkHero />
-      <IndustriesSection/>
+      {/* <IndustriesSection/> */}
 
-      {/* <DevelopmentServices />
+      <DevelopmentServices />
       <ContactSection />
       <DevelomentProcess />
       <TechnologiesSection />
@@ -26,8 +26,8 @@ function App() {
       <Blogs />
       <Faq />
       <Testimaonial />
-      <WebdevSection /> */}
-      {/* <DomainExpertise /> */}
+      <WebdevSection />
+      <DomainExpertise />
     </>
   );
 }

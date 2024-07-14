@@ -1,7 +1,6 @@
 import React from "react";
-import { industryToggleData } from "../../data/industrypage";
 
-export default function IndustryToggle() {
+export default function IndustryToggle({data}) {
   return (
     <>
       <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
@@ -11,7 +10,7 @@ export default function IndustryToggle() {
           </h2>
         </div>
         <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
-         {industryToggleData.map((data)=>{
+         {data.map((data)=>{
             return (  
                 <>
                  <div className="py-5">

@@ -1,6 +1,7 @@
 import React from "react";
 import IndustryToggle from "../../components/industrypagecomp/IndustryToggle";
 import industryimg from "../../assets/Images/industry/images/atmimg.png";
+import { industryToggleData } from "../../data/industrypage";
 
 export default function IndustriesSection() {
   return (
@@ -16,7 +17,8 @@ export default function IndustriesSection() {
                   text-black
                   mb-4 
                   md:mt-0 mt-8"
-            >
+            > 
+            
               Industries we Revolutionarize
             </h2>
           </div>
@@ -26,7 +28,7 @@ export default function IndustriesSection() {
           </div>
         </div>
         <div className="ml-8 lg:w-1/2 lg:mt-16 lg:mb-20 ">
-          <IndustryToggle />
+          <IndustryToggle data={industryToggleData} />
         </div>
       </section>
     </>
