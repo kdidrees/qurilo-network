@@ -3,7 +3,7 @@ import { IoMdAdd } from "react-icons/io";
 import { HiMinus } from "react-icons/hi";
 import { faqData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
-import { mobilefaqData } from "../data/mobileDevelopment";
+// import { mobilefaqData } from "../data/mobileDevelopment";
 import parse from "html-react-parser";
 
 const Faq = () => {
@@ -11,12 +11,12 @@ const Faq = () => {
   return (
     <div className="my-10 md:mt-24">
       <Heading
-        title={mobilefaqData.heading}
-        desc={mobilefaqData.desc}
+        title={faqData.heading}
+        desc={faqData.desc}
       />
 
       <div className="mt-10 lg:w-[72%] md:w-[90%] w-[93%] mx-auto">
-        {mobilefaqData.faqdata.map((item, index) => {
+        {faqData.faqdata.map((item, index) => {
           return (
             <div key={index}>
               <div
