@@ -1,24 +1,28 @@
 import strategyimg from "../assets/mobileappdevelopment/images/strategy.png";
-import heroimg from "../assets/mobileappdevelopment/images/heroimg.png"
-import heromobile from "../assets/mobileappdevelopment/images/heromobile.jpg"
+import heroimg from "../assets/mobileappdevelopment/images/heroimg.png";
+import heromobile from "../assets/mobileappdevelopment/images/heromobile.jpg";
 
-// import common images here 
-import contactimg from "../assets/commonimages/contactimg.png"
-import strategyimg from "../assets/commonimages/strategy.png"
+// import common images here
+import contactimg from "../assets/commonimages/contactimg.png";
+import strategyimg from "../assets/commonimages/strategy.png";
 
+// import icons here
+import firsticon from "../assets/mobileappdevelopment/icons/Mobile_AppConsulting.png";
+import secondicon from "../assets/mobileappdevelopment/icons/UIUX_Design.png";
+import thirdicon from "../assets/mobileappdevelopment/icons/mobile_app_development.png";
+import fourthicon from "../assets/mobileappdevelopment/icons/web_app_development.png";
+import fifthicon from "../assets/mobileappdevelopment/icons/MobileAppIntegration.png";
+import sixthicon from "../assets/mobileappdevelopment/icons/QATesting.png";
+import seventhicon from "../assets/mobileappdevelopment/icons/maintenance_support.png";
+import eighticon from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png";
+import eighticon from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png";
+import ningthicon from "../assets/mobileappdevelopment/icons/cross_platform.png";
 
-// import icons here 
-import firsticon  from "../assets/mobileappdevelopment/icons/Mobile_AppConsulting.png"
-import secondicon  from "../assets/mobileappdevelopment/icons/UIUX_Design.png"
-import thirdicon  from "../assets/mobileappdevelopment/icons/mobile_app_development.png"
-import fourthicon  from "../assets/mobileappdevelopment/icons/web_app_development.png"
-import fifthicon  from "../assets/mobileappdevelopment/icons/MobileAppIntegration.png"
-import sixthicon  from "../assets/mobileappdevelopment/icons/QATesting.png"
-import seventhicon  from "../assets/mobileappdevelopment/icons/maintenance_support.png"
-import eighticon  from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png"
-import eighticon  from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png"
-import ningthicon  from "../assets/mobileappdevelopment/icons/cross_platform.png"
-
+// import grid images here
+import firstimg from "../assets/mobileappdevelopment/images/gridimages/Create_apps_to_fit _n_diverse_screen_sizes.jpg";
+import secondimg from "../assets/mobileappdevelopment/images/gridimages/Get_creative_Android_iPhone_app_developers.png";
+import thirdimg from "../assets/mobileappdevelopment/images/gridimages/Grow_with_cloud-based_mobile_solutions.png";
+import fourthimg from "../assets/mobileappdevelopment/images/gridimages/Integrate_with_social_media_to_improve_virality.jpg";
 
 export const heroSectionData = {
   id: 1,
@@ -32,7 +36,7 @@ export const heroSectionData = {
 export const mobileServicesData = {
   heading: "Our Mobile App Development Services",
   desc: `We are a leading mobile application development company that offers secure and scalable solutions tailored to the specific business needs of clients from different industries.`,
-  img: strategyimg, 
+  img: strategyimg,
   cardData: [
     {
       id: 1,
@@ -300,5 +304,5 @@ export const mobileDomainExpertiseData = {
     "Grow with cloud-based mobile solutions",
     "Streamline performance with A/B testing",
   ],
-  images: [],
+  images: [firstimg, secondimg, thirdimg, fourthimg],
 };
