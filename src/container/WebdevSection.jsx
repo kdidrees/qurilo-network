@@ -1,7 +1,7 @@
 import React from "react";
 import strategyimg from "../assets/Images/subappdev/subdev/images/strategy.png";
 import DevelopmentSubcategoryCard from "../components/cards/DevelopmentSubcategoryCard";
-import { subdevData } from "../data/subDevelopment";
+import { subdevData } from "../data/webDevelopment";
 
 export default function WebdevSection() {
   return (
