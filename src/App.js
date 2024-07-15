@@ -18,9 +18,9 @@ function App() {
       <NetworkHero />
       {/* <IndustriesSection/> */}
 
-      {/* <DevelopmentServices />
+      {/* <DevelopmentServices /> */}
       <ContactSection />
-      <DevelomentProcess /> */}
+      {/* <DevelomentProcess /> */}
       <TechnologiesSection />
       {/* <Industries />
       <Blogs />

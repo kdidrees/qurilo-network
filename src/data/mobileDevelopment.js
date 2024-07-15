@@ -2,6 +2,10 @@ import strategyimg from "../assets/mobileappdevelopment/images/strategy.png";
 import heroimg from "../assets/mobileappdevelopment/images/heroimg.png"
 import heromobile from "../assets/mobileappdevelopment/images/heromobile.jpg"
 
+// import common images here 
+import contactimg from "../assets/commonimages/contactimg.png"
+import strategyimg from "../assets/commonimages/strategy.png"
+
 
 // import icons here 
 import firsticon  from "../assets/mobileappdevelopment/icons/Mobile_AppConsulting.png"
@@ -14,7 +18,6 @@ import seventhicon  from "../assets/mobileappdevelopment/icons/maintenance_suppo
 import eighticon  from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png"
 import eighticon  from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png"
 import ningthicon  from "../assets/mobileappdevelopment/icons/cross_platform.png"
-
 
 
 export const heroSectionData = {
@@ -92,7 +95,7 @@ export const mobileContactSectionData = {
   heading: "Build an App that Drives User Engagement",
   desc: `Get an intuitive and user-friendly app designed to keep users coming back for more.`,
   button: "Contact Us",
-  img: ``,
+  img: contactimg,
 };
 
 export const mobileDevelopmentProcessData = {
