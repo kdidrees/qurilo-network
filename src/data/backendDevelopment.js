@@ -11,6 +11,8 @@ import fourthicon from "../assets/backend-development/icons/api_integration.png"
 import fifthicon from "../assets/backend-development/icons/custom_backend_solutions.png";
 import sixthicon from "../assets/backend-development/icons/Backend_Refactoring.png";
 
+// grid images here
+
 
 
 export const heroSectionData = {

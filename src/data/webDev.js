@@ -50,7 +50,7 @@ export const webServicesData = {
       heading: "eCommerce Development",
       desc: `We’ve expanded our expertise from startups to custom eCommerce solutions for large-scale, high-growth businesses. We enhance efficiency with scalable microservices architectures and high automation of business processes.`,
     },
-    {
+    {   
       id: 5,
       icon: fifthicon,
       heading: "API Development",
