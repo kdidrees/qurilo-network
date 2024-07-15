@@ -20,7 +20,7 @@ function App() {
 
       {/* <DevelopmentServices /> */}
       <ContactSection />
-      {/* <DevelomentProcess /> */}
+      <DevelomentProcess />
       <TechnologiesSection />
       {/* <Industries />
       <Blogs />

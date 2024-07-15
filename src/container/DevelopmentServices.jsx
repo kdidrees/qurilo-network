@@ -5,7 +5,7 @@ import Heading from "../components/heading/Heading";
 
 export default function DevelopmentServices() {
   return (
-    <>
+    
       <section>
         <div className="flex flex-wrap  -mx-4 md:mt-16">
           <div className="w-full px-4">
@@ -23,6 +23,6 @@ export default function DevelopmentServices() {
           <ServicesCard cardData={cardData} />
         </div>
       </section>
-    </>
+  
   );
 }

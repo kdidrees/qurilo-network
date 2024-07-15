@@ -5,7 +5,7 @@ import { industryToggleData } from "../../data/industrypage";
 
 export default function IndustriesSection() {
   return (
-    <>
+
       <section className="w-full bg-white lg:flex mb-10 lg:mt-10 ">
         <div className="m-5 ml-8 lg:w-1/2">
           <div className="mt-10 lg:ml-10 pb-6">
@@ -31,6 +31,6 @@ export default function IndustriesSection() {
           <IndustryToggle data={industryToggleData} />
         </div>
       </section>
-    </>
+    
   );
 }

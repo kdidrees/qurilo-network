@@ -5,7 +5,7 @@ import { domainExpertData } from '../data/subDevelopment';
 
 export default function DomainExpertise() {
   return (
-   <>
+  
      <section className="w-full bg-white lg:flex mb-10 lg:mt-10 ">
         <div className="m-5 ml-8 lg:w-1/2">
           <div className="mt-10 lg:ml-10">
@@ -27,7 +27,7 @@ export default function DomainExpertise() {
           <Award data={domainExpertData} />
         </div>
       </section>
-   </>
+   
   )
 }
 

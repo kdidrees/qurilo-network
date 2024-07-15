@@ -5,7 +5,7 @@ import Heading from "../components/heading/Heading";
 const DevelomentProcess = () => {
   return (
     <>
-      <div className="w-full pt-5 pb-9 bg-[#f8f8f8]">
+      <section className="w-full pt-5 pb-9 bg-[#f8f8f8]">
        <div className="pt-6">
        <Heading
           title={`Process We Follow`}
@@ -19,7 +19,7 @@ const DevelomentProcess = () => {
             const bgColor = index % 2 === 0 ? "bg-blue" : "bg-white";
             const txtColor = index % 2 === 0 ? "text-white" : "text-black";
             return (
-              <>
+             
                 <div
                   key={devdata.id}
                   className={`mx-2 ${bgColor} w-full md:my-8 my-2 relative text-center z-10   py-6 px-12 shadow-md rounded-xl`}
@@ -34,11 +34,11 @@ const DevelomentProcess = () => {
                     {devdata.desc}
                   </p>
                 </div>
-              </>
+             
             );
           })}
         </div>
-      </div>
+      </section>
     </>
   );
 };
