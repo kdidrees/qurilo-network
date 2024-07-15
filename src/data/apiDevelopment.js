@@ -1,7 +1,7 @@
 export const heroSectionData = {
   id: 1,
-  img: "",
-  ApiImg: "",
+  heroimg: "",
+  heromobile: "",
   heading: "FrontAPI Development Services",
   desc: `Looking to seamlessly exchange and integrate data across your apps or third-party applications? We offer custom API development services. We create personalized APIs that enhance user experiences and streamline processes. With a comprehensive range of services, including API design, documentation, testing, and management, we help clients achieve their business goals efficiently.`,
   btn: "Contact Us",
@@ -187,41 +187,41 @@ export const ApifaqData = {
     {
       id: 1,
       question:
-        "Why should I choose ValueCoders for my API development or API integration requirement?",
+        "Why should I choose Qurilo for my API development or API integration requirement?",
       answer:
-        " ValueCoders may be suitable for your API development or integration needs due to their expertise in the field, proven track record, experienced team, and ability to deliver reliable and scalable solutions.",
+        " Qurilo may be suitable for your API development or integration needs due to their expertise in the field, proven track record, experienced team, and ability to deliver reliable and scalable solutions.",
     },
 
     {
       id: 2,
       question: "How much do you charge to develop a custom API?",
       answer:
-        " The cost of developing a custom API can vary depending on factors such as the complexity of the API, desired features, integration requirements, and development time. It is best to contact ValueCoders directly to discuss your specific project requirements and obtain an accurate cost estimate.",
+        " The cost of developing a custom API can vary depending on factors such as the complexity of the API, desired features, integration requirements, and development time. It is best to contact Qurilo directly to discuss your specific project requirements and obtain an accurate cost estimate.",
     },
     {
       id: 3,
       question:" What technologies do you use for API development?",
       answer: `
-          ValueCoders may use a variety of technologies for API development, including popular programming languages like Java, Python, Node.js, frameworks like Spring Boot or Express.js, and industry-standard tools and libraries that best suit your project requirements.
+          Qurilo may use a variety of technologies for API development, including popular programming languages like Java, Python, Node.js, frameworks like Spring Boot or Express.js, and industry-standard tools and libraries that best suit your project requirements.
             `,
     },
     {
       id: 4,
       question:
         "How do you ensure data integrity and consistency in transactional APIs?",
-      answer: `ValueCoders may employ techniques such as data validation, proper authentication and authorization mechanisms, encryption, error handling, and employing transactional database operations to ensure data integrity and consistency in transactional APIs.`,
+      answer: `Qurilo may employ techniques such as data validation, proper authentication and authorization mechanisms, encryption, error handling, and employing transactional database operations to ensure data integrity and consistency in transactional APIs.`,
     },
     {
       id: 5,
       question:
         "How do you handle transactional errors and exceptions in API development?",
-      answer: ` ValueCoders may implement robust error handling mechanisms, including appropriate HTTP status codes, error messages, and error logging. They may also use techniques like retries, circuit breakers, or compensating transactions to effectively handle transactional errors and exceptions.`,
+      answer: ` Qurilo may implement robust error handling mechanisms, including appropriate HTTP status codes, error messages, and error logging. They may also use techniques like retries, circuit breakers, or compensating transactions to effectively handle transactional errors and exceptions.`,
     },
     {
       id: 6,
       question:
         "How do you optimize performance and scalability in transactional API systems?",
-      answer: ` ValueCoders may optimize performance and scalability in transactional API systems by employing techniques such as caching, load balancing, horizontal scaling, asynchronous processing, database optimization, and performance testing to ensure the system can handle increasing loads efficiently and reliably.`,
+      answer: ` Qurilo may optimize performance and scalability in transactional API systems by employing techniques such as caching, load balancing, horizontal scaling, asynchronous processing, database optimization, and performance testing to ensure the system can handle increasing loads efficiently and reliably.`,
     },
   ],
 };

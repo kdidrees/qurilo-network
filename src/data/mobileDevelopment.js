@@ -26,8 +26,8 @@ import fourthimg from "../assets/mobileappdevelopment/images/gridimages/Integrat
 
 export const heroSectionData = {
   id: 1,
-  img: heroimg,
-  mobileImg: heromobile,
+  heroimg: heroimg,
+  heromobile: heromobile,
   heading: "Mobile App Development Services",
   desc: `Planning to upscale your business with mobile application development services? Qurilo excels in native, cross-platform, and progressive web apps, delivering 500+ robust solutions tailored to meet your long-term goals.`,
   btn: "Contact Us",
