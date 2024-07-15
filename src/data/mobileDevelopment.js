@@ -6,7 +6,7 @@ export const heroSectionData = {
   img: "",
   mobileImg: "",
   heading: "Mobile App Development Services",
-  desc: `Planning to upscale your business with mobile application development services? ValueCoders excels in native, cross-platform, and progressive web apps, delivering 500+ robust solutions tailored to meet your long-term goals.`,
+  desc: `Planning to upscale your business with mobile application development services? Qurilo excels in native, cross-platform, and progressive web apps, delivering 500+ robust solutions tailored to meet your long-term goals.`,
   btn: "",
 };
 
@@ -213,24 +213,24 @@ export const mobilefaqData = {
   faqdata: [
     {
       id: 1,
-      question: "Why should I choose ValueCoders?",
+      question: "Why should I choose Qurilo?",
       answer:
-        " Choose ValueCoders for your mobile app development because we offer over 19 year of expertise, having successfully delivered 500+ apps. Our commitment to quality, cost-effectiveness, and client-centric service sets us apart.",
+        " Choose Qurilo for your mobile app development because we offer over 19 year of expertise, having successfully delivered 500+ apps. Our commitment to quality, cost-effectiveness, and client-centric service sets us apart.",
     },
     {
       id: 2,
-      question: "How long does ValueCoders take for mobile app development?",
+      question: "How long does Qurilo take for mobile app development?",
       answer:
-        " The timeline for mobile app development with ValueCoders varies depending on the scope and complexity of the project. Depending upon factors like app features, design, development platform, and testing, you might get your mobile app developed in weeks to several months.",
+        " The timeline for mobile app development with Qurilo varies depending on the scope and complexity of the project. Depending upon factors like app features, design, development platform, and testing, you might get your mobile app developed in weeks to several months.",
     },
     {
       id: 3,
       question: "Can I track the progress of my project?",
-      answer: `Yes, you can. ValueCoders has a well-defined process to help clients keep a track on project progress. We will have regular update meetings with you, and you can also track the project on tools like <strong>Workstatus™</strong>.`,
+      answer: `Yes, you can. Qurilo has a well-defined process to help clients keep a track on project progress. We will have regular update meetings with you, and you can also track the project on tools like <strong>Workstatus™</strong>.`,
     },
     {
       id: 4,
-      question: "What kinds of mobile apps has ValueCoders developed?",
+      question: "What kinds of mobile apps has Qurilo developed?",
       answer: `We’ve created mobile apps for various industries with our clients.`,
       ansList: [
         {

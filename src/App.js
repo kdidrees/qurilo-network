@@ -18,14 +18,14 @@ function App() {
       <NetworkHero />
       {/* <IndustriesSection/> */}
 
-      <DevelopmentServices />
+      {/* <DevelopmentServices />
       <ContactSection />
-      <DevelomentProcess />
+      <DevelomentProcess /> */}
       <TechnologiesSection />
-      <Industries />
+      {/* <Industries />
       <Blogs />
       <Faq />
-      <Testimaonial />
+      <Testimaonial /> */}
       <WebdevSection />
       <DomainExpertise />
     </>

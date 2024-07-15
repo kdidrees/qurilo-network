@@ -110,7 +110,7 @@ export const faqData = {
   faqdata: [
     {
       id: 1,
-      question: "Why should I choose ValueCoders?",
+      question: "Why should I choose Qurilo?",
       answer: `We are a highly experienced and qualified team of professionals with a proven track record of delivering quality software solutions to clients. Here are a few reasons to choose us:`,
       list: [
         "675+ software developers",
@@ -122,8 +122,8 @@ export const faqData = {
     {
       id: 2,
       question:
-        "Can I test the services of ValueCoders before committing to long-term engagement?",
-      answer: `  You can test the services of ValueCoders before committing to long-term
+        "Can I test the services of Qurilo before committing to long-term engagement?",
+      answer: `  You can test the services of Qurilo before committing to long-term
         engagement. We offer free trial to clients worldwide. This is to give
         our potential customers a risk-free way to try our software development
         services before committing to long-term engagement. We strongly believe
@@ -191,7 +191,7 @@ export const faqData = {
           Software product development outsourcing
         </strong>
         is not risky at all if you outsource your project to a reputed company.
-        ValueCoders ensures IP (Intellectual Property) & data protection in the
+        Qurilo ensures IP (Intellectual Property) & data protection in the
         following ways:
 `,
       list: [
@@ -206,7 +206,7 @@ export const faqData = {
       id: 7,
       question:
         "I want to outsource software development. What engagement options do you offer?",
-      answer: ` At ValueCoders, we offer a variety of engagement models to suit your
+      answer: ` At Qurilo, we offer a variety of engagement models to suit your
         specific project requirements. Whether you need a dedicated team of
         coders for an ongoing project or just a few extra hands for a one-off
         task, we have an engagement model that will fit your needs.

@@ -3,7 +3,7 @@ export const heroSectionData = {
   img: "",
   backendImg: "",
   heading: "Backend Development Services",
-  desc: `Struggling with outdated backend development solutions? Upgrade to enterprise-grade backend development services from ValueCoders. Our experienced team ensures secure and stable websites using the latest technologies. We offer web/backend backend, ERP/CRM backend, API integration, and backend refactoring.`,
+  desc: `Struggling with outdated backend development solutions? Upgrade to enterprise-grade backend development services from Qurilo. Our experienced team ensures secure and stable websites using the latest technologies. We offer web/backend backend, ERP/CRM backend, API integration, and backend refactoring.`,
   btn: "Contact Us",
 };
 
@@ -96,96 +96,96 @@ export const backendDevelopmentProcessData = {
 };
 
 // backend data is not available on the value coders
-//   export const backendtechnologiesData = {
-//     heading: "Our Comprehensive backend Technology Stack",
-//     desc: `Discover the full range of technologies we use for backend projects.`,
-//     cardData: [
-//       {
-//         id: 1,
-//         heading: "Back-end and Programming Languages",
-//         techstacks: [
-//           "Java",
-//           "Swift",
-//           "Objective-C",
-//           "Kotlin",
-//           "Javascript",
-//           "CSS3",
-//           "iOSCoCoa Touch",
-//           ".NET",
-//           "Java",
-//           "Python",
-//           "Node.js",
-//           "PHP",
-//         ],
-//       },
-//       {
-//         id: 2,
-//         heading: "Databases And Data Storages",
-//         techstacks: [
-//           "SQLite",
-//           "Realm",
-//           "Firebase",
-//           "Amazon RDS",
-//           "Amazon Simple Storage Services",
-//           "Amazon Redshift",
-//           "Amazon Document DB",
-//         ],
-//       },
-//       {
-//         id: 3,
-//         heading: "DevOps",
-//         techstacks: [
-//           "Docker",
-//           "Kubernetes",
-//           "Ansible",
-//           "Puppet",
-//           "AWS Developer Tools",
-//           "Azure DevOps",
-//         ],
-//       },
-//       {
-//         id: 4,
-//         heading: "QA Tools",
-//         techstacks: [
-//           "Test Flight",
-//           "XCTest",
-//           "Detox",
-//           "Earl Gray",
-//           "Appium",
-//           "Mockito",
-//           ".NET Foundation",
-//         ],
-//       },
-//       {
-//         id: 5,
-//         heading: "Monitoring Tools",
-//         techstacks: [
-//           "Zabbix",
-//           "Nagios",
-//           "Prometheus",
-//           "Elastic Stack",
-//           "Grafana",
-//           "Datadog",
-//         ],
-//       },
-//       {
-//         id: 6,
-//         heading: "APIs",
-//         techstacks: [
-//           "REST API",
-//           "Keychain API",
-//           "GraphQL",
-//           "Apiary",
-//           "Bluetooth Low Energy API",
-//           "Apple Pay",
-//           " GPay",
-//           "Google Maps",
-//           "Fingerprint API",
-//           "Keychain API",
-//         ],
-//       },
-//     ],
-//   };
+export const backendtechnologiesData = {
+  heading: "Our Comprehensive backend Technology Stack",
+  desc: `Discover the full range of technologies we use for backend projects.`,
+  cardData: [
+    {
+      id: 1,
+      heading: "Artificial Intelligence (AI)",
+      techstacks: [
+        "Python",
+        "R",
+        "Java",
+        "C++",
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "Scikit-learn",
+      ],
+    },
+    {
+      id: 2,
+      heading: "Robotic Process Automation (RPA)",
+      techstacks: [
+        "UiPath",
+        "Blue Prism",
+        "Automation Anywhere",
+        "WorkFusion",
+        "Python",
+        "JavaScript",
+        ".NET",
+        "VBScript",
+      ],
+    },
+    {
+      id: 3,
+      heading: "Internet of Things (IoT)",
+      techstacks: [
+        "Raspberry Pi",
+        "Arduino",
+        "ESP8266/ESP32",
+        "C",
+        "C++",
+        "Python",
+        "JavaScript (Node.js)",
+        "MQTT",
+      ],
+    },
+    {
+      id: 4,
+      heading: "Augmented Reality & Virtual Reality (AR/VR)",
+      techstacks: [
+        "C#",
+        "C++",
+        "JavaScript",
+        "Unity3D",
+        "Unreal Engine",
+        "ARKit (iOS)",
+        "ARCore (Android)",
+        "Vuforia",
+      ],
+    },
+    {
+      id: 5,
+      heading: "Blockchain Development",
+      techstacks: [
+        "Solidity (Ethereum)",
+        "Go (Hyperledger Fabric)",
+        "Rust (Solana)",
+        "JavaScript",
+        "Python",
+        "Ethereum",
+        "Hyperledger Fabric",
+        "Corda",
+      ],
+    },
+    {
+      id: 6,
+      heading: "OTT Development",
+      techstacks: [
+        "JavaScript",
+        "TypeScript",
+        "Swift",
+        "Kotlin",
+        "Java",
+        "Python",
+        "React",
+        "Angular",
+      ],
+    },
+  ],
+};
 
 export const backendfaqData = {
   heading: "FAQs",
@@ -193,10 +193,9 @@ export const backendfaqData = {
   faqdata: [
     {
       id: 1,
-      question:
-        "Why should I choose ValueCoders as my backend development partner?",
+      question: "Why should I choose Qurilo as my backend development partner?",
       answer:
-        " You should select ValueCoders as your backend development partner because we have a team of experienced developers proficient in various backend programming languages and frameworks. They also possess expertise in developing APIs, managing databases, and creating scalable systems.",
+        " You should select Qurilo as your backend development partner because we have a team of experienced developers proficient in various backend programming languages and frameworks. They also possess expertise in developing APIs, managing databases, and creating scalable systems.",
       list: [
         "Sound technical capabilities",
         "Strong engineering culture",
@@ -210,7 +209,7 @@ export const backendfaqData = {
     {
       id: 2,
       question:
-        "How soon can I complete my back-end development project with ValueCoders?",
+        "How soon can I complete my back-end development project with Qurilo?",
       answer:
         " The time required for backend development can vary depending on the project. For a simple CRUD application, it might only take a few weeks. But a more complex application with many endpoints and integrations could take several months. Below is a rough timeline for backend development:",
       list: [
@@ -235,13 +234,12 @@ At our backend development company, we offer a variety of technologies for backe
       id: 4,
       question: "How much does it cost for backend development?",
       answer: `The cost of backend development can vary depending on several factors, such as the project’s complexity, the scope of work, the technologies used, and the developers’ hourly rates. It is best to discuss your specific requirements to get a personalized quote. However, we charge $25-$30 hourly to develop the backend.`,
-     
     },
     {
       id: 5,
       question:
-        "How does ValueCoders ensure the quality and security of backend development projects?",
-      answer: `IValueCoders is committed to delivering high-quality and secure backend development solutions. Here’s how we ensure it:`,
+        "How does Qurilo ensure the quality and security of backend development projects?",
+      answer: `Qurilo is committed to delivering high-quality and secure backend development solutions. Here’s how we ensure it:`,
       // put list items here
       ansList: [
         {
@@ -275,15 +273,15 @@ At our backend development company, we offer a variety of technologies for backe
 };
 
 export const backendDomainExpertiseData = {
-  heading: "Our Domain Expertise",
-  desc: ``,
+  heading: "Our Backend Development Expertise",
+  desc: `We specialize in building robust, scalable, and secure backend systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.`,
   data: [
-    "Content management system",
-    "E-commerce",
-    "Online marketplace",
-    "Dating/Auction portals ",
-    "Reservation application",
-    "eLearning applications",
+    "API Development",
+    "Database Design and Management",
+    "Authentication and Authorization",
+    "Real-time Data Processing",
+    "Microservices Architecture",
+    "Serverless Computing",
   ],
   images: [],
 };
