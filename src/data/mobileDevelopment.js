@@ -1,3 +1,6 @@
+import strategyimg from "../assets/mobileappdevelopment/images/strategy.png";
+
+
 export const heroSectionData = {
   id: 1,
   img: "",
@@ -10,7 +13,7 @@ export const heroSectionData = {
 export const mobileServicesData = {
   heading: "Our Mobile App Development Services",
   desc: `We are a leading mobile application development company that offers secure and scalable solutions tailored to the specific business needs of clients from different industries.`,
-  img: "", // strategy image here
+  img: strategyimg, 
   cardData: [
     {
       id: 1,
@@ -267,15 +270,16 @@ export const mobilefaqData = {
 };
 
 export const mobileDomainExpertiseData = {
-  heading: "Our Domain Expertise",
-  desc: ``,
+  heading:
+    "Codeflies offers custom mobile app and game development services for ios/android, with proficiency in native app development.",
+  desc: `Our team of innovative app developers, analysts and UI/UX designers works together to deliver innovative and user-friendly mobile apps and games for Start-ups, SMEs and Enterprises. We specialize in custom business app, payment/money transfer app, iBeacon app, health/fitness app, news/publishing app, social networking, food ordering app, hotel booking app, flight reservation app, e-commerce, e-learning, travel app, sports app, Wearable app, geo-location, streaming and Utility apps development services.`,
   data: [
-    "Content management system",
-    "E-commerce",
-    "Online marketplace",
-    "Dating/Auction portals ",
-    "Reservation application",
-    "eLearning applications",
+    "Get creative Android/iPhone app developers",
+    "Create apps to fit on diverse screen sizes",
+    "Perform well on different mobile platforms",
+    "Integrate with social media to improve virality",
+    "Grow with cloud-based mobile solutions",
+    "Streamline performance with A/B testing",
   ],
   images: [],
 };
