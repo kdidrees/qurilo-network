@@ -193,9 +193,9 @@ export const CrossPlatformfaqData = {
     {
       id: 1,
       question:
-        "Why should I choose ValueCoders as my cross-platform app development partner?",
+        "Why should I choose Qurilo as my cross-platform app development partner?",
       answer:
-        " Choose ValueCoders for the best cross-platform mobile app development; our expert team is proficient in React Native, Xamarin, and Flutter. We have experience delivering top-notch cross-platform apps that are feature-rich, scalable, and user-friendly.",
+        " Choose Qurilo for the best cross-platform mobile app development; our expert team is proficient in React Native, Xamarin, and Flutter. We have experience delivering top-notch cross-platform apps that are feature-rich, scalable, and user-friendly.",
     },
 
     {
@@ -203,7 +203,7 @@ export const CrossPlatformfaqData = {
       question:
         "Are there any hidden charges for cross-platform app development?",
       answer:
-        "At ValueCoders, we are transparent with our clients, and there are no hidden charges for our cross-platform app development services. We offer a flexible pricing model, and you only pay for the services you need.",
+        "At Qurilo, we are transparent with our clients, and there are no hidden charges for our cross-platform app development services. We offer a flexible pricing model, and you only pay for the services you need.",
     },
     {
       id: 3,
@@ -221,7 +221,7 @@ export const CrossPlatformfaqData = {
     {
       id: 5,
       question: "Will I get the copyright of the source code?",
-      answer: `  Yes, you will own the copyright to your app’s source code. At ValueCoders, we believe in transparency and honesty and ensure that our clients have full ownership of their app and its source code.`,
+      answer: `  Yes, you will own the copyright to your app’s source code. At Qurilo, we believe in transparency and honesty and ensure that our clients have full ownership of their app and its source code.`,
     },
   ],
 };
