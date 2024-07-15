@@ -1,10 +1,22 @@
 
+// import hero images here
+import heroimg from  "../assets/backend-development/images/Backend_Development_Services.jpg"
+import heromobile from  "../assets/backend-development/images/Backend_Development_Services_MOBILE.jpg"
+
+// import services icons here
+import firsticon from "../assets/backend-development/icons/web_application_backend_development.png"
+import secondicon from "../assets/backend-development/icons/mobile_app_backend_development.png"
+import thirdicon from "../assets/backend-development/icons/ERP_CRM_Backend_Development.png";
+import fourthicon from "../assets/backend-development/icons/api_integration.png";
+import fifthicon from "../assets/backend-development/icons/custom_backend_solutions.png";
+import sixthicon from "../assets/backend-development/icons/Backend_Refactoring.png";
+
 
 
 export const heroSectionData = {
   id: 1,
-  heroimg: "",
-  heromobile: "",
+  heroimg: heroimg,
+  heromobile: heromobile,
   heading: "Backend Development Services",
   desc: `Struggling with outdated backend development solutions? Upgrade to enterprise-grade backend development services from Qurilo. Our experienced team ensures secure and stable websites using the latest technologies. We offer web/backend backend, ERP/CRM backend, API integration, and backend refactoring.`,
   btn: "Contact Us",
@@ -17,37 +29,37 @@ export const backendServicesData = {
   cardData: [
     {
       id: 1,
-      icon: ``,
+      icon:firsticon,
       heading: "Web Application Backend Development",
       desc: `We help businesses build robust web-based applications backend that enables them to create seamless user experience through their applications, using the latest technology trends while keeping your costs low.`,
     },
     {
       id: 2,
-      icon: ``,
-      heading: "backend App Backend Development",
+      icon: secondicon,
+      heading: "Mobile App Backend Development",
       desc: `Get intuitive & intelligent information flow for your backend app users with our backend development services. We provide a seamless experience across multiple devices and platforms by creating native or cross-platform systems.`,
     },
     {
       id: 3,
-      icon: ``,
+      icon: thirdicon,
       heading: "ERP/CRM Backend Development",
       desc: `Our experts help you enhance your existing ERPs or CRMs to make them richer in terms of functionalities, reporting, and user experience. We use modern frameworks and technologies for our operations.`,
     },
     {
       id: 4,
-      icon: ``,
+      icon: fourthicon,
       heading: "API Integration Services",
       desc: `As a leading backend development company, we offer reliable API development & integration services for our clients. Using this feature, they can easily customize their application. Moreover, it helps them to analyze data as per their project requirements.`,
     },
     {
       id: 5,
-      icon: ``,
+      icon: fifthicon,
       heading: "Custom Backend Solutions",
       desc: `We are one of the best custom back-end development company India. We develop custom-built backend solutions for your business that take ideas from inception to implementation with speed, accuracy, and affordability.`,
     },
     {
       id: 6,
-      icon: ``,
+      icon: sixthicon,
       heading: "Backend Refactoring",
       desc: `Need an optimum app performance solution? Our dedicated teams help you redesign the entire solution infrastructure and leave frontend systems untouched so that it runs smoothly without any technical cost or code enhancement needed on our part.`,
     },
