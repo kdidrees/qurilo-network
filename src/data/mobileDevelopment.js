@@ -1,13 +1,29 @@
 import strategyimg from "../assets/mobileappdevelopment/images/strategy.png";
+import heroimg from "../assets/mobileappdevelopment/images/heroimg.png"
+import heromobile from "../assets/mobileappdevelopment/images/heromobile.jpg"
+
+
+// import icons here 
+import firsticon  from "../assets/mobileappdevelopment/icons/Mobile_AppConsulting.png"
+import secondicon  from "../assets/mobileappdevelopment/icons/UIUX_Design.png"
+import thirdicon  from "../assets/mobileappdevelopment/icons/mobile_app_development.png"
+import fourthicon  from "../assets/mobileappdevelopment/icons/web_app_development.png"
+import fifthicon  from "../assets/mobileappdevelopment/icons/MobileAppIntegration.png"
+import sixthicon  from "../assets/mobileappdevelopment/icons/QATesting.png"
+import seventhicon  from "../assets/mobileappdevelopment/icons/maintenance_support.png"
+import eighticon  from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png"
+import eighticon  from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png"
+import ningthicon  from "../assets/mobileappdevelopment/icons/cross_platform.png"
+
 
 
 export const heroSectionData = {
   id: 1,
-  img: "",
-  mobileImg: "",
+  img: heroimg,
+  mobileImg: heromobile,
   heading: "Mobile App Development Services",
   desc: `Planning to upscale your business with mobile application development services? Qurilo excels in native, cross-platform, and progressive web apps, delivering 500+ robust solutions tailored to meet your long-term goals.`,
-  btn: "",
+  btn: "Contact Us",
 };
 
 export const mobileServicesData = {
@@ -17,55 +33,55 @@ export const mobileServicesData = {
   cardData: [
     {
       id: 1,
-      icon: ``,
+      icon: firsticon,
       heading: "Mobile App Consulting",
       desc: `Our Mobile consulting experts offer valuable insights and advice for businesses to refine their app ideas, technology, and platform selection and ways to improve the app’s user experience.`,
     },
     {
       id: 2,
-      icon: ``,
+      icon: secondicon,
       heading: "Mobile App UI/UX Design",
       desc: `Our mobile UI/UX experts thoroughly research to understand users’ needs. They create project wireframes and prototypes tailored to project requirements, aiding in visualizing design and functionality.`,
     },
     {
       id: 3,
-      icon: ``,
+      icon: thirdicon,
       heading: "Mobile App Development",
       desc: `We develop high-performing mobile apps that engage users and drive results. From concept to launch, our team provides comprehensive development services for your mobile app idea.`,
     },
     {
       id: 4,
-      icon: ``,
+      icon: fourthicon,
       heading: "Web App Development",
       desc: `Extend the reach and functionality of your mobile app with a custom web application that can seamlessly integrate with your existing mobile app or operate independently.`,
     },
     {
       id: 5,
-      icon: ``,
+      icon: fifthicon,
       heading: "Mobile App Integration",
       desc: `Our experts integrate mobile apps by identifying the required APIs. They connect the app, use development tools and frameworks, and test the app to ensure it works seamlessly across different devices.`,
     },
     {
       id: 6,
-      icon: ``,
+      icon: sixthicon,
       heading: "Mobile App QA and Testing",
       desc: `Our experts perform in-depth quality assurance and testing for mobile apps. This ensures optimal functioning across devices and operating systems.`,
     },
     {
       id: 7,
-      icon: ``,
+      icon: seventhicon,
       heading: "Maintenance and Support",
       desc: `Our experts monitor app performance, spot issues, and resolve bugs to ensure app stability and usability. They also update the app to adapt to tech changes, such as new operating system versions or security updates.`,
     },
     {
       id: 8,
-      icon: ``,
+      icon: eighticon,
       heading: "Mobile App Modernization",
       desc: `Our experts can modernize your mobile apps by updating design, functionality, and technology. They ensure that your app meets changing user needs and technological advancements.`,
     },
     {
       id: 9,
-      icon: ``,
+      icon: ningthicon,
       heading: "Cross-Platform App Development ",
       desc: `Our experts modernize your mobile apps with cross-platform development, ensuring they work seamlessly on both iOS and Android. We optimize for efficiency and user satisfaction.`,
     },
