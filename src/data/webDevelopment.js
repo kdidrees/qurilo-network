@@ -14,7 +14,6 @@ import elearningimg from "../assets/Images/subappdev/solutions/images/elearning.
 import reservationimg from "../assets/Images/subappdev/solutions/images/reservation.png";
 import contentmanagementimg from "../assets/Images/subappdev/solutions/images/contentmanagement.png";
 
-
 export const subdevData = [
   {
     id: 1,
