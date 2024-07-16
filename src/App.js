@@ -16,18 +16,18 @@ function App() {
   return (
     <>
       <NetworkHero />
-      {/* <IndustriesSection/> */}
+      <IndustriesSection/>
 
-      {/* <DevelopmentServices /> */}
+      {/* <DevelopmentServices />
       <ContactSection />
       <DevelomentProcess />
-      <TechnologiesSection />
+      <TechnologiesSection /> */}
       {/* <Industries />
       <Blogs />
       <Faq />
       <Testimaonial /> */}
-      <WebdevSection />
-      <DomainExpertise />
+      {/* <WebdevSection />
+      <DomainExpertise /> */}
     </>
   );
 }
