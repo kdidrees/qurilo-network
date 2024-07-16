@@ -1,12 +1,12 @@
 import React from "react";
-import IndustryToggle from "../../components/industrypagecomp/IndustryToggle";
 import industryimg from "../../assets/Images/industry/images/atmimg.png";
-import { industryToggleData } from "../../data/industrypage";
+import { industryPageData } from "../../data/industrypage";
+import Industry from "../../components/industrypagecomp/IndustryToggle";
 
 export default function IndustriesSection() {
   return (
     <section>
-      {industryToggleData.map((item, index) => (
+      {industryPageData.map((item, index) => (
         <div
           key={index}
           className={`w-full bg-white lg:flex mb-10 lg:mt-4 ${
@@ -17,7 +17,7 @@ export default function IndustriesSection() {
             <img src={item.img} alt={item.heading} />
           </div>
           <div className="ml-8 lg:w-1/2 lg:mt-16 lg:mb-20">
-            <IndustryToggle data={[item]} />
+            <Industry data={[item]} />
           </div>
         </div>
       ))}

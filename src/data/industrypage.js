@@ -6,7 +6,7 @@ import pharmaimg from "../assets/industry-page/images/pharma_health.png";
 import manufacturingimg from "../assets/industry-page/images/manufacturing_automation.png";
 import travelimg from "../assets/industry-page/images/travel_logistics.png";
 
-export const industryToggleData = [
+export const industryPageData = [
   {
     id: 1,
     img: fintechimg,
