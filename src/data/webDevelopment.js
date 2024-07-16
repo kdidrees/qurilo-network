@@ -5,6 +5,14 @@ import thirdicon from "../assets/web-development/icons/third.png";
 import fourthicon from "../assets/web-development/icons/fourth.png";
 import fifthicon from "../assets/web-development/icons/fifth.png";
 import sixthicon from "../assets/web-development/icons/sixth.png";
+import seventhicon from "../assets/web-development/icons/crossplatform_app.png";
+import eighticon from "../assets/web-development/icons/webportal_development.png";
+import ninthicon from "../assets/web-development/icons/qa.png";
+import tenthicon from "../assets/web-development/icons/legacy_modernization.png";
+import eleventhicon from "../assets/web-development/icons/architecture.png";
+import twelthicon from "../assets/web-development/icons/business_analysis.png";
+import thirtinicon from "../assets/web-development/icons/integration.png";
+import fourteenicon from "../assets/web-development/icons/continuous_support_evolution.png";
 
 // import grd images here
 import ecommerceimg from "../assets/web-development/images/gridimages/ecommerce.png";
@@ -16,6 +24,11 @@ import contentmanagementimg from "../assets/web-development/images/gridimages/co
 import heroimg from "../assets/backend-development/images/Backend_Development_Services.jpg";
 import heromobile from "../assets/backend-development/images/Backend_Development_Services_MOBILE.jpg";
 
+// import common images here 
+import contactimg from "../assets/common-images/contactimg.png"
+import strategyimg from "../assets/common-images/strategy.png"
+
+
 export const heroSectionData = {
   id: 1,
   heroDesktop: heroimg,
@@ -25,10 +38,10 @@ export const heroSectionData = {
   btn: "Contact Us",
 };
 
-export const webServicesData = {
+export const servicesData = {
   heading: "Success-Driven Services for Your Business",
   desc: `Experience the best of full-stack web development to ensure growth-centric digital transformation for your business. Our professional web development services include robust web solutions ranging from e-commerce portals, CMS, and ERP solutions to chatbots, custom apps, and more.`,
-  img: "", // strategy image here
+  img: strategyimg, // strategy image here
   list: [
     {
       id: 1,
@@ -68,73 +81,73 @@ export const webServicesData = {
     },
     {
       id: 7,
-      icon: "",
+      icon: seventhicon,
       heading: "Cross Platform App Development",
       desc: `Reach a wider audience with applications that work flawlessly on various platforms. Our custom web development services allows you to create cross-platform apps that expand your market presence efficiently.`,
     },
     {
       id: 8,
-      icon: "",
+      icon: eighticon,
       heading: "Web Portal Development",
       desc: `We develop specialized web portals tailored for diverse groups including customers, business partners, eCommerce users, patients, and vendors. Our portals seamlessly integrate with corporate systems, providing a reliable hub of current information and support.`,
     },
     {
       id: 9,
-      icon: "",
+      icon: ninthicon,
       heading: "QA & Testing",
       desc: `Outsource a web application development company to test your web app throughout the Software Development Life Cycle (SDLC) and examine it post-development, focusing on the functional scope, performance, usability, security, and other important aspects.`,
     },
     {
       id: 10,
-      icon: "",
+      icon: tenthicon,
       heading: "Legacy Modernization",
       desc: `We ensure your web app remains relevant by modernizing its architecture and refactoring its source code. Our experts enhance performance by transitioning to more powerful environments, adding new features, and repairing outdated UX/UI designs.`,
     },
     {
       id: 11,
-      icon: "",
+      icon: eleventhicon,
       heading: "Architecture",
       desc: `Our solution architects meticulously plan functional components, select optimal technologies, and ensure the feasibility of business logic implementation. They also map API connections within the web solution and external systems.`,
     },
     {
       id: 12,
-      icon: "",
+      icon: twelthicon,
       heading: "Business Analysis",
       desc: `Our business analysts prioritize your target audience’s needs through requirements engineering, defining the solution’s scope. They serve as a bridge between business stakeholders and the IT team to maintain alignment.`,
     },
     {
       id: 13,
-      icon: "",
+      icon: thirtinicon,
       heading: "Integration",
       desc: `We configure APIs to seamlessly integrate your web app with corporate or third-party systems and services, ensuring instant data synchronization across platforms.`,
     },
     {
       id: 14,
-      icon: "",
+      icon: fourteenicon,
       heading: "Continuous Support and Evolution",
       desc: `We continuously improve your web-based software to stay efficient, competitive, and aligned with your evolving business needs. Our streamlined DevOps processes ensure quick updates and planned module releases.`,
     },
   ],
 };
 
-export const webContactSectionData = {
+export const contactOneData = {
   heading: "web for the Future!",
   desc: `Enable Seamless Integrations and Expand Reach.`,
   button: "Contact Us",
-  img: "",
+  img: contactimg,
 };
 
-export const contactSectiontwo = {
+export const contactTwoData = {
   heading: "Worried About Security and Performance?",
   desc: `ValueCoders offers robust and secure custom web app development to meet your standards.`,
   button: "Contact Us",
-  img: "",
+ 
 };
 
-export const webtechnologiesData = {
+export const technologiesData = {
   heading: "Our Comprehensive web Technology Stack",
   desc: `Discover the full range of technologies we use for web projects.`,
-  cardData: [
+  list: [
     {
       id: 1,
       heading: "Web & Full Stack",
@@ -167,7 +180,7 @@ export const webtechnologiesData = {
   ],
 };
 
-export const webfaqData = {
+export const faqData = {
   heading: "FAQs",
   desc: ``, // desc is empty here
   faqdata: [
@@ -217,10 +230,10 @@ export const webfaqData = {
   ],
 };
 
-export const webDomainExpertiseData = {
+export const domainExpertiseData = {
   heading: "Our web Development Expertise",
   desc: `We specialize in building robust, scalable, and secure web systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.`,
-  list: [
+  points: [
     "Content management system",
     "E-commerce",
     "Online marketplace",
