@@ -15,7 +15,7 @@ export default function IndustryToggle({ data }) {
               {item?.data?.map((ele) => {
                 return (
                   <>
-                    <h3 className="font-medium">{ele.heading}</h3>
+                    <h3 className="md:text-xl text-black  font-bold font-sans mb-7">{ele.heading}</h3>
                     <p className="font-medium  font-sans text-gray-500 mb-6 dark:text-gray-400  mt-3">
                       {ele.desc}
                     </p>
