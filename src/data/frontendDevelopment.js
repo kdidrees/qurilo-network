@@ -1,9 +1,27 @@
+// import common images here
+import strategyimg from "../assets/common-images/strategy.png";
+import contactimg from "../assets/common-images/contactimg.png";
+
+// import service icons here
+import firsticon from "../assets/frontend-development/icons/Custom_Front-end_Development.png";
+import secondicon from "../assets/frontend-development/icons/Front-end_Architecture_Design.png";
+import thirdicon from "../assets/frontend-development/icons/cms_development.png";
+import fourthicon from "../assets/frontend-development/icons/Single_Page_Apps_Development.png";
+import fifthicon from "../assets/frontend-development/icons/UI_UX_Development.png";
+import sixthicon from "../assets/frontend-development/icons/Progressive_Web_Apps_Development.png";
+
+// import grid images here 
+import firstimg from "../assets/frontend-development/images/gridimages/Component-Based_Architecture.png"
+import secondimg from "../assets/frontend-development/images/gridimages/Progressive_Web_Apps.png"
+import thirdimg from "../assets/frontend-development/images/gridimages/Single_Page_Applications.png"
+import fourthimg from "../assets/frontend-development/images/gridimages/State_Management.png"
+
 export const heroSectionData = {
   id: 1,
   img: "",
   frontendImg: "",
   heading: "Front-end Development Services",
-  desc: `Struggling to enhance the look and usability of your website or app? ValueCoders offers dedicated front-end developers with Angular, React, and JavaScript expertise. We deliver top-notch front-end development services, ensuring seamless user experiences and innovative interfaces. Partner with us for visually appealing and user-friendly solutions.`,
+  desc: `Struggling to enhance the look and usability of your website or app? Qurilo offers dedicated front-end developers with Angular, React, and JavaScript expertise. We deliver top-notch front-end development services, ensuring seamless user experiences and innovative interfaces. Partner with us for visually appealing and user-friendly solutions.`,
   btn: "Contact Us",
 };
 
@@ -13,47 +31,42 @@ export const frontendServicesData = {
 
 Recognized as one of the best front-end development companies in India, we specialize in providing the best front-end web development services that bring value to your business. Our team strives to provide innovative solutions to suit even the most unique business needs.
 `,
-  img: "", // strategy image here
+  img: strategyimg,
   cardData: [
     {
       id: 1,
-      icon: ``,
+      icon: firsticon,
       heading: "Custom Front-end Development",
       desc: `We provide front-end development solutions that are intuitive to use, load quickly, and are rich in features. Our cutting-edge technologies ensure your app stands out in the crowd!`,
     },
     {
       id: 2,
-      icon: ``,
+      icon: secondicon,
       heading: "Front-end Architecture & Design",
       desc: `With our front-end development expertise, we ensure your apps have a sleek and modern look that will deliver an engaging and immersive experience to users.`,
     },
+
     {
       id: 3,
-      icon: ``,
-      heading: "ERP/CRM frontend Development",
-      desc: `Our experts help you enhance your existing ERPs or CRMs to make them richer in terms of functionalities, reporting, and user experience. We use modern frameworks and technologies for our operations.`,
-    },
-    {
-      id: 4,
-      icon: ``,
+      icon: fourthicon,
       heading: "Single Page Apps Development",
       desc: `With our single-page application development services, we can help you boost performance and enhance UX flexibility.`,
     },
     {
-      id: 5,
-      icon: ``,
+      id: 4,
+      icon: fifthicon,
       heading: "UI/UX Development",
       desc: `With our proven experience in UI/UX design and app development, we create cross-device customer-facing interfaces that are tailored for your business needs.`,
     },
     {
-      id: 6,
-      icon: ``,
+      id: 5,
+      icon: sixthicon,
       heading: "Progressive Web Apps Development",
       desc: `We use Progressive Web Apps (PWAs) to deliver mobile versions of websites that mimic their native app counterparts.`,
     },
     {
-      id: 7,
-      icon: "",
+      id: 6,
+      icon: thirdicon,
       heading: "CMS Development",
       desc: `We offer a comprehensive solution to establish a top-of-the-line content management system that is responsive and reliable.`,
     },
@@ -64,44 +77,7 @@ export const frontendContactSectionData = {
   heading: "Frontend Finesse!",
   desc: `Create stunning user interfaces with our expert frontend development.`,
   button: "Contact Us",
-  img: ``,
-};
-
-export const frontendDevelopmentProcessData = {
-  heading: "The frontend  Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the frontend application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the frontend application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the frontend application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
+  img: contactimg,
 };
 
 export const frontendtechnologiesData = {
@@ -202,9 +178,9 @@ export const frontendfaqData = {
     {
       id: 1,
       question:
-        "Why should I choose ValueCoders as my Front-end development partner?",
+        "Why should I choose Qurilo as my Front-end development partner?",
       answer:
-        " ValueCoders is a trusted front-end development partner with a team of experienced developers. We prioritize client satisfaction, ensure timely delivery, and offer cost-effective solutions. With our expertise in front-end technologies and dedication to quality, we can provide you with high-performance, visually appealing, and user-friendly front-end solutions.",
+        " Qurilo is a trusted front-end development partner with a team of experienced developers. We prioritize client satisfaction, ensure timely delivery, and offer cost-effective solutions. With our expertise in front-end technologies and dedication to quality, we can provide you with high-performance, visually appealing, and user-friendly front-end solutions.",
     },
 
     {
@@ -224,7 +200,7 @@ export const frontendfaqData = {
       id: 4,
       question:
         "How do you ensure that my website is mobile-friendly and responsive?",
-      answer: `At ValueCoders, we follow best practices for responsive web design. Our front-end developers utilize CSS media queries, flexible grid systems, and responsive design frameworks to ensure your website adapts seamlessly to different screen sizes and devices. We conduct thorough testing to ensure optimal mobile-friendliness and responsiveness.`,
+      answer: `At Qurilo, we follow best practices for responsive web design. Our front-end developers utilize CSS media queries, flexible grid systems, and responsive design frameworks to ensure your website adapts seamlessly to different screen sizes and devices. We conduct thorough testing to ensure optimal mobile-friendliness and responsiveness.`,
     },
     {
       id: 5,
@@ -248,5 +224,5 @@ export const frontendDomainExpertiseData = {
     "Frontend Performance Optimization",
     "Accessibility",
   ],
-  images: [],
+  images: [firstimg,secondimg,thirdimg,fourthimg],
 };
