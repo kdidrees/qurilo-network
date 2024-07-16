@@ -4,7 +4,7 @@ export default function IndustryToggle({ data }) {
   return (
     <>
       <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
-        <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+        <div className="grid divide-y divide-neutral-200 max-w-xl lg:mx-auto  mt-8">
           {data.map((item) => (
             <div key={item.heading} className="py-3">
               <div className="flex flex-col items-left lg:ml-12 md:mt-12 mt-4">
