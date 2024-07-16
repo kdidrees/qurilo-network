@@ -14,14 +14,7 @@ export default function IndustriesSection() {
           }`}
         >
           <div className="m-5 ml-8 lg:w-1/2">
-            <div className="mt-10 lg:ml-10 pb-6">
-              <h2 className="font-semibold text-2xl font-sans md:text-3xl text-black mb-4 md:mt-0 mt-8">
-                {item.heading}
-              </h2>
-            </div>
-            <div>
-              <img src={industryimg} alt="" />
-            </div>
+            <img src={industryimg} alt="" />
           </div>
           <div className="ml-8 lg:w-1/2 lg:mt-16 lg:mb-20">
             <IndustryToggle data={[item]} />
