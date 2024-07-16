@@ -9,7 +9,7 @@ export default function IndustriesSection() {
       {industryToggleData.map((item, index) => (
         <div
           key={index}
-          className={`w-full bg-white lg:flex mb-10 lg:mt-10 ${
+          className={`w-full bg-white lg:flex mb-10 lg:mt-4 ${
             index % 2 === 0 ? "flex-row" : "flex-row-reverse"
           }`}
         >

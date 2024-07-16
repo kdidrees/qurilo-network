@@ -1,7 +1,7 @@
 export const industryToggleData = [
   {
     id: 1,
-    heading: `Innovative Banking Solutions`,
+    heading: `Fintech, Banking & Financial Services`,
     data: [
       {
         id: 1,
@@ -30,7 +30,7 @@ export const industryToggleData = [
   },
   {
     id: 2,
-    heading: `Tech Innovation in Retail`,
+    heading: `Retail & E-commerce`,
     data: [
       {
         id: 1,
@@ -60,7 +60,7 @@ export const industryToggleData = [
 
   {
     id: 3,
-    heading: `Disrupting Non Profit, Education and Government Sectors`,
+    heading: ` Non Profit & Education`,
     data: [
       {
         id: 1,
@@ -89,7 +89,7 @@ export const industryToggleData = [
   },
   {
     id: 4,
-    heading: `Our Healthcare offerings`,
+    heading: `Pharma & Healthcare`,
     data: [
       {
         id: 1,
@@ -118,7 +118,7 @@ export const industryToggleData = [
   },
   {
     id: 5,
-    heading: `All the best bits of Manufacturing & Chemicals`,
+    heading: `Manufacturing, Automotive & Chemicals`,
     data: [
       {
         id: 1,
@@ -145,7 +145,7 @@ export const industryToggleData = [
   },
   {
     id: 6,
-    heading: `Innovation in Hospitality`,
+    heading: `Travel, Logistics & Hospitality`,
     data: [
       {
         id: 1,
