@@ -243,3 +243,4 @@ export const domainExpertiseData = {
   ],
   images: [ecommerceimg, elearningimg, reservationimg, contentmanagementimg],
 };
+
