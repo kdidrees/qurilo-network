@@ -12,7 +12,10 @@ import fifthicon from "../assets/backend-development/icons/custom_backend_soluti
 import sixthicon from "../assets/backend-development/icons/Backend_Refactoring.png";
 
 // grid images here
-
+import firstimg from "../assets/backend-development/images/gridimages/Authentication_and_AuthorizatioN.png"
+import secondimg from "../assets/backend-development/images/gridimages/Real-timeData_Processing.png"
+import thirdimg from "../assets/backend-development/images/gridimages/Serverless_Computing.png"
+import fourthimg from "../assets/backend-development/images/gridimages/cloud-computing-data-management-concept.jpg"
 
 
 export const heroSectionData = {
@@ -300,5 +303,5 @@ export const backendDomainExpertiseData = {
     "Microservices Architecture",
     "Serverless Computing",
   ],
-  images: [],
+  images: [firstimg,secondimg,thirdimg,fourthimg],
 };
