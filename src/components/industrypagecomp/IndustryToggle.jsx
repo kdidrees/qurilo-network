@@ -10,7 +10,7 @@ export default function IndustryToggle({ data }) {
             className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen"
           >
             <div className="flex flex-col items-left lg:ml-12 ">
-              <h2 className="font-semibold text-2xl font-sans md:text-3xl text-black mb-4 md:mt-0 mt-8">
+              <h2 className="font-semibold text-2xl text-left  font-sans md:text-3xl text-black mb-4 md:mt-0 mt-8">
                 {ele.heading}
               </h2>
             </div>

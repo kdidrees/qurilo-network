@@ -1,6 +1,15 @@
+// import images here
+import fintechimg from "../assets/industry-page/images/fintech_banking.png";
+import retailimg from "../assets/industry-page/images/retail.png";
+import nonprofitimg from "../assets/industry-page/images/non_profit_govt_education.png";
+import pharmaimg from "../assets/industry-page/images/pharma_health.png";
+import manufacturingimg from "../assets/industry-page/images/manufacturing_automation.png";
+import travelimg from "../assets/industry-page/images/travel_logistics.png";
+
 export const industryToggleData = [
   {
     id: 1,
+    img: fintechimg,
     heading: `Fintech, Banking & Financial Services`,
     desc: `We drive intelligent banking through secure, instant transactions and seamless omnichannel experiences. Our innovations modernize the banking industry with disruptive tech.`,
     data: [
@@ -14,6 +23,7 @@ export const industryToggleData = [
   },
   {
     id: 2,
+    img: retailimg,
     heading: `Retail & E-commerce`,
     desc: `Elevating customer satisfaction with digital intelligence in e-commerce. As a dynamic e-commerce developer, we aid retail and e-commerce in diverse growth strategies. `,
     data: [
@@ -28,6 +38,8 @@ export const industryToggleData = [
 
   {
     id: 3,
+    img: nonprofitimg,
+
     heading: ` Non Profit & Education`,
     desc: `At Kellton, we specialize in tailor-made eLearning and educational software solutions. Our expertise assists Non-profits and Government institutions in serving global communities with essential software solutions.  `,
     data: [
@@ -41,6 +53,8 @@ export const industryToggleData = [
   },
   {
     id: 4,
+    img: pharmaimg,
+
     heading: `Pharma & Healthcare`,
     desc: `Kellton excels in healthcare, driving patient acquisition-retention through comprehensive solutions. We transition organizations into a connected, remote service ecosystem, delivering personalized care at the speed of change.  `,
     data: [
@@ -54,6 +68,8 @@ export const industryToggleData = [
   },
   {
     id: 5,
+    img: manufacturingimg,
+
     heading: `Manufacturing, Automotive & Chemicals`,
     desc: `Meeting customer demands while maintaining streamlined processes is no small feat. From organizational silos to regulatory compliance, the list is extensive, but the solutions begin here. `,
     data: [
@@ -67,6 +83,8 @@ export const industryToggleData = [
   },
   {
     id: 6,
+    img: travelimg,
+
     heading: `Travel, Logistics & Hospitality`,
     desc: `Our solutions empower travel companies to scale limitlessly, revamp services, and realize their customer experience vision, from touchpoints to journeys.`,
     data: [
