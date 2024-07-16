@@ -15,7 +15,7 @@ export default function IndustryToggle({ data }) {
               <h3 className="font-medium">
                 {item.heading}
               </h3>
-              <p className="text-neutral-600 mt-3">
+              <p className="text-desc mt-3">
                 {item.desc}
               </p>
             </div>
