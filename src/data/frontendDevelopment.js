@@ -16,10 +16,15 @@ import secondimg from "../assets/frontend-development/images/gridimages/Progress
 import thirdimg from "../assets/frontend-development/images/gridimages/Single_Page_Applications.png"
 import fourthimg from "../assets/frontend-development/images/gridimages/State_Management.png"
 
+// import hero images here 
+import heroimg from "../assets/frontend-development/images/Front-end_Development_Services.png"
+import heromobile from "../assets/frontend-development/images/front-end_development_services_mobile.jpg"
+
+
 export const heroSectionData = {
   id: 1,
-  img: "",
-  frontendImg: "",
+  heroimg: heroimg,
+  heromobile: heromobile,
   heading: "Front-end Development Services",
   desc: `Struggling to enhance the look and usability of your website or app? Qurilo offers dedicated front-end developers with Angular, React, and JavaScript expertise. We deliver top-notch front-end development services, ensuring seamless user experiences and innovative interfaces. Partner with us for visually appealing and user-friendly solutions.`,
   btn: "Contact Us",
