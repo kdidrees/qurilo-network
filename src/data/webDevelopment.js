@@ -6,9 +6,7 @@ import fourthicon from "../assets/Images/subappdev/subdev/icons/fourth.png";
 import fifthicon from "../assets/Images/subappdev/subdev/icons/fifth.png";
 import sixthicon from "../assets/Images/subappdev/subdev/icons/sixth.png";
 
-
 // domain exper images here 
-
 import ecommerceimg from "../assets/Images/subappdev/solutions/images/ecommerce.png";
 import elearningimg from "../assets/Images/subappdev/solutions/images/elearning.png";
 import reservationimg from "../assets/Images/subappdev/solutions/images/reservation.png";

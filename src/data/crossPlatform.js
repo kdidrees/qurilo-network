@@ -227,18 +227,17 @@ export const CrossPlatformfaqData = {
 };
 
 export const CrossPlatformDomainExpertiseData = {
-    heading: "Our CrossPlatform Development Expertise",
-    desc: `Explore our specialized capabilities in creating robust, scalable, and secure CrossPlatform solutions tailored for diverse industries.`,
-    data: [
-      "CrossPlatform Application Architecture",
-      "API Integration Strategies",
-      "Real-time Data Syncing",
-      "CrossPlatform Security Protocols",
-      "Performance Optimization Techniques",
-      "CrossPlatform Compatibility Testing",
-      "Version Control and Maintenance",
-      "Comprehensive Documentation Practices",
-    ],
-    images: [],
-  };
-  
+  heading: "Our CrossPlatform Development Expertise",
+  desc: `Explore our specialized capabilities in creating robust, scalable, and secure CrossPlatform solutions tailored for diverse industries.`,
+  data: [
+    "CrossPlatform Application Architecture",
+    "API Integration Strategies",
+    "Real-time Data Syncing",
+    "CrossPlatform Security Protocols",
+    "Performance Optimization Techniques",
+    "CrossPlatform Compatibility Testing",
+    "Version Control and Maintenance",
+    "Comprehensive Documentation Practices",
+  ],
+  images: [],
+};

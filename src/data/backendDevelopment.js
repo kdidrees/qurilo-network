@@ -86,7 +86,7 @@ export const contactTwoData = {
   button: "Contact Us",
 };
 
-
+  
 export const technologiesData = {
   heading: "Our Comprehensive backend Technology Stack",
   desc: `Discover the full range of technologies we use for backend projects.`,

@@ -12,10 +12,16 @@ import elearningimg from "../assets/web-development/images/gridimages/elearning.
 import reservationimg from "../assets/web-development/images/gridimages/reservation.png";
 import contentmanagementimg from "../assets/web-development/images/gridimages/contentmanagement.png";
 
+
+// import hero images here
+import heroimg from  "../assets/backend-development/images/Backend_Development_Services.jpg"
+import heromobile from  "../assets/backend-development/images/Backend_Development_Services_MOBILE.jpg"
+
+
 export const heroSectionData = {
   id: 1,
-  heroimg: heroimg,
-  heromobile: heromobile,
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
   heading: "Custom Web App Development Services",
   desc: `Finding it tough to stand out online? ValueCoders custom web application development services can help. With innovative solutions tailored to your unique needs, we empower your online presence to capture attention and drive success.`,
   btn: "Contact Us",
@@ -117,137 +123,61 @@ export const webContactSectionData = {
   heading: "web for the Future!",
   desc: `Enable Seamless Integrations and Expand Reach.`,
   button: "Contact Us",
-  img: ``,
+  img: '',
 };
 
-export const webDevelopmentProcessData = {
-  heading: "The web  Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the web application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the web application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the web application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
+export const contactSectiontwo = {
+  heading: "Worried About Security and Performance?",
+  desc: `ValueCoders offers robust and secure custom web app development to meet your standards.`,
+  button: "Contact Us",
+  img: '',
 };
 
-// web data is not available on the value coders
+
+
 export const webtechnologiesData = {
   heading: "Our Comprehensive web Technology Stack",
   desc: `Discover the full range of technologies we use for web projects.`,
   cardData: [
     {
       id: 1,
-      heading: "Artificial Intelligence (AI)",
+      heading: "Web & Full Stack",
       techstacks: [
-        "Python",
-        "R",
+        "PHP",
+        ".NET",
+        "Angular",
+        "React",
         "Java",
-        "C++",
-        "TensorFlow",
-        "PyTorch",
-        "Keras",
-        "Scikit-learn",
+        "Vue",
       ],
     },
     {
       id: 2,
-      heading: "Robotic Process Automation (RPA)",
+      heading: "Ecommerce & CMS",
       techstacks: [
-        "UiPath",
-        "Blue Prism",
-        "Automation Anywhere",
-        "WorkFusion",
-        "Python",
-        "JavaScript",
-        ".NET",
-        "VBScript",
+        "Sharepoint",
+        "Sitecore",
+        "Drupal",
+        "Sitefinity",
+        "Umbraco",
+        "Kentico",
       ],
     },
     {
       id: 3,
-      heading: "Internet of Things (IoT)",
+      heading: "Backend",
       techstacks: [
-        "Raspberry Pi",
-        "Arduino",
-        "ESP8266/ESP32",
-        "C",
-        "C++",
-        "Python",
-        "JavaScript (Node.js)",
-        "MQTT",
-      ],
-    },
-    {
-      id: 4,
-      heading: "Augmented Reality & Virtual Reality (AR/VR)",
-      techstacks: [
-        "C#",
-        "C++",
-        "JavaScript",
-        "Unity3D",
-        "Unreal Engine",
-        "ARKit (iOS)",
-        "ARCore (Android)",
-        "Vuforia",
-      ],
-    },
-    {
-      id: 5,
-      heading: "Blockchain Development",
-      techstacks: [
-        "Solidity (Ethereum)",
-        "Go (Hyperledger Fabric)",
-        "Rust (Solana)",
-        "JavaScript",
-        "Python",
+        "ChatBot",
         "Ethereum",
-        "Hyperledger Fabric",
-        "Corda",
-      ],
-    },
-    {
-      id: 6,
-      heading: "OTT Development",
-      techstacks: [
-        "JavaScript",
-        "TypeScript",
-        "Swift",
-        "Kotlin",
-        "Java",
-        "Python",
-        "React",
-        "Angular",
+        "Hyperledger",
+        "Smart Contract",
+        "ML & AI",
+        "Blockchain",
       ],
     },
   ],
 };
+
 
 export const webfaqData = {
   heading: "FAQs",
@@ -255,46 +185,31 @@ export const webfaqData = {
   faqdata: [
     {
       id: 1,
-      question: "Why should I choose Qurilo as my web development partner?",
+      question: "Why should I choose ValueCoders for custom web app development?",
       answer:
-        " You should select Qurilo as your web development partner because we have a team of experienced developers proficient in various web programming languages and frameworks. They also possess expertise in developing APIs, managing databases, and creating scalable systems.",
-      list: [
-        "Sound technical capabilities",
-        "Strong engineering culture",
-        "Client-centric approach",
-        "Strong understanding of the HTTP protocol and web servers",
-        "Ability to debug complex problems",
-        "Excellent customer service and support",
-      ],
+        " ValueCoders is a trusted choice for custom web app development because we have expertise, experience, and a focus on client satisfaction. We offer tailored solutions, follow an agile methodology, and provide dedicated teams with efficient collaboration. With our emphasis on quality, cost-effectiveness, and delivering value, we are a reliable partner for successful web app development.",
+     
     },
 
     {
       id: 2,
       question:
-        "How soon can I complete my back-end development project with Qurilo?",
+        "Can you help me improve my existing web application?",
       answer:
-        " The time required for web development can vary depending on the project. For a simple CRUD application, it might only take a few weeks. But a more complex application with many endpoints and integrations could take several months. Below is a rough timeline for web development:",
-      list: [
-        "Week 1: Develop the initial feature set and define the database structure.",
-        "Week 2: Write the code to connect to the database and perform basic CRUD operations.",
-        "Week 3: Add authentication and authorization to your application.",
-        "Week 4: Implement any remaining features, such as user profiles, file uploads, etc.",
-        "Week 5: Perform final testing and then launch.",
-      ],
+        " Yes, we can help you improve your existing web application. Our team of experienced developers is skilled in enhancing and optimizing web applications.",
+     
     },
     {
       id: 3,
       question:
-        " What are your main technologies you offer for web development?",
+        " What is the cost & time to create a custom web application?",
       answer: `
-        Technology is always evolving, and new languages and frameworks are constantly emerging. As such, we make it a point to stay up-to-date on the latest developments in web technology to always offer our clients the best possible solution.
-  <br/><br/>
-At our web development company, we offer a variety of technologies for web development, including Node.js, PHP, Python, and Ruby on Rails. We may use one or multiple technologies to create a robust and scalable web solution depending on the project.
+       The cost & time of custom web application development depends on several factors such as the size and build of the web application, the features & third-party integrations, APIs, animations, localizations, backend, cross-platform development toolsets, platforms, etc. We can provide an ETA and estimated cost if you share your basic idea. Contact us today to get a clear idea about cost and time.
         `,
     },
     {
       id: 4,
-      question: "How much does it cost for web development?",
+      question: "What are the types of web solutions does ValueCoders develop?",
       answer: `The cost of web development can vary depending on several factors, such as the project’s complexity, the scope of work, the technologies used, and the developers’ hourly rates. It is best to discuss your specific requirements to get a personalized quote. However, we charge $25-$30 hourly to develop the web.`,
     },
     {
