@@ -1,6 +1,30 @@
+
+// import common images here 
+import contactimg from "../assets/common-images/contactimg.png"
+import strategyimg from "../assets/common-images/strategy.png"
+
+// import hero images here 
+import heroimg from "../assets/api-development/images/API_Development_Services.png"
+import heromobile from "../assets/api-development/images/api_development_services_mobile.jpg"
+
+// import services icons here
+import firsticon from "../assets/api-development/icons/consulting.png"
+import secondicon from "../assets/api-development/icons/api_management.png"
+import thirdicon from "../assets/api-development/icons/api_implementation.png"
+import fourthicon from "../assets/api-development/icons/microservice_development.png"
+import fifthicon from "../assets/api-development/icons/Legacy_API_Modernization_Services.png"
+
+// grid images here
+import firstimg from "../assets/api-development/images/gridimages/GraphQL_API_Development.png"
+import secondimg from "../assets/api-development/images/gridimages/Microservices_Architecture.png"
+import thirdimg from "../assets/api-development/images/gridimages/Rate_Limiting_Throttling.png"
+import fourthimg from "../assets/api-development/images/gridimages/Real-time_Data_Processing.png"
+
+
+
 export const heroSectionData = {
-  heroimg: "",
-  heromobile: "",
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
   heading: "FrontAPI Development Services",
   desc: `Looking to seamlessly exchange and integrate data across your apps or third-party applications? We offer custom API development services. We create personalized APIs that enhance user experiences and streamline processes. With a comprehensive range of services, including API design, documentation, testing, and management, we help clients achieve their business goals efficiently.`,
   btn: "Contact Us",
@@ -9,35 +33,35 @@ export const heroSectionData = {
 export const ApiServicesData = {
   heading: "API Development Services",
   desc: `We provide customizable API development services. Whether you require a straightforward application integration with data or a more intricate solution, our services meet your needs.`,
-  img: "", // strategy image here
+  img: strategyimg, 
   cardData: [
     {
       id: 1,
-      icon: ``,
+      icon: firsticon,
       heading: "API Consulting",
       desc: `We can help you successfully navigate the complex world of APIs to create an effective plan and maximize revenue.`,
     },
     {
       id: 2,
-      icon: ``,
+      icon: secondicon,
       heading: "API Management",
       desc: `Our experts cover the management of APIs, including designing, publishing, securing, monitoring, and analyzing them.`,
     },
     {
       id: 3,
-      icon: ``,
+      icon: thirdicon,
       heading: "API Implementation & Support",
       desc: `We ensure a smooth implementation and integration of API. Once integrated, we provide ongoing support to ensure your API continues functioning as expected.`,
     },
     {
       id: 4,
-      icon: ``,
+      icon: fourthicon,
       heading: "Microservice Development",
       desc: `Experts cover the development of microservices architecture to create scalable and flexible APIs that can handle complex processes with minimal downtime.`,
     },
     {
       id: 5,
-      icon: ``,
+      icon: fifthicon,
       heading: "Legacy API Modernization Services",
       desc: `We help improve process flexibility with cross-platform collaboration with small & isolated services around any specific domain. `,
     },
@@ -48,45 +72,10 @@ export const ApiContactSectionData = {
   heading: "APIs that Amplify!",
   desc: `Boost Your Business Capabilities with Custom APIs.`,
   button: "Contact Us",
-  img: ``,
+  img: contactimg,
 };
 
-export const ApiDevelopmentProcessData = {
-  heading: "The Api  Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the Api application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the Api application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the Api application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
-};  
+
 
 export const ApitechnologiesData = {
   heading: "Our Comprehensive API Technology Stack",
@@ -238,6 +227,6 @@ export const ApiDomainExpertiseData = {
       "API Versioning",
       "API Documentation",
     ],
-    images: [],
+    images: [firstimg,secondimg,thirdimg,fourthimg],
   };
   
