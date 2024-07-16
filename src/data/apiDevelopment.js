@@ -1,26 +1,23 @@
+// import common images here
+import contactimg from "../assets/common-images/contactimg.png";
+import strategyimg from "../assets/common-images/strategy.png";
 
-// import common images here 
-import contactimg from "../assets/common-images/contactimg.png"
-import strategyimg from "../assets/common-images/strategy.png"
-
-// import hero images here 
-import heroimg from "../assets/api-development/images/API_Development_Services.png"
-import heromobile from "../assets/api-development/images/api_development_services_mobile.jpg"
+// import hero images here
+import heroimg from "../assets/api-development/images/API_Development_Services.png";
+import heromobile from "../assets/api-development/images/api_development_services_mobile.jpg";
 
 // import services icons here
-import firsticon from "../assets/api-development/icons/consulting.png"
-import secondicon from "../assets/api-development/icons/api_management.png"
-import thirdicon from "../assets/api-development/icons/api_implementation.png"
-import fourthicon from "../assets/api-development/icons/microservice_development.png"
-import fifthicon from "../assets/api-development/icons/Legacy_API_Modernization_Services.png"
+import firsticon from "../assets/api-development/icons/consulting.png";
+import secondicon from "../assets/api-development/icons/api_management.png";
+import thirdicon from "../assets/api-development/icons/api_implementation.png";
+import fourthicon from "../assets/api-development/icons/microservice_development.png";
+import fifthicon from "../assets/api-development/icons/Legacy_API_Modernization_Services.png";
 
 // grid images here
-import firstimg from "../assets/api-development/images/gridimages/GraphQL_API_Development.png"
-import secondimg from "../assets/api-development/images/gridimages/Microservices_Architecture.png"
-import thirdimg from "../assets/api-development/images/gridimages/Rate_Limiting_Throttling.png"
-import fourthimg from "../assets/api-development/images/gridimages/Real-time_Data_Processing.png"
-
-
+import firstimg from "../assets/api-development/images/gridimages/GraphQL_API_Development.png";
+import secondimg from "../assets/api-development/images/gridimages/Microservices_Architecture.png";
+import thirdimg from "../assets/api-development/images/gridimages/Rate_Limiting_Throttling.png";
+import fourthimg from "../assets/api-development/images/gridimages/Real-time_Data_Processing.png";
 
 export const heroSectionData = {
   heroDesktop: heroimg,
@@ -30,10 +27,10 @@ export const heroSectionData = {
   btn: "Contact Us",
 };
 
-export const ApiServicesData = {
+export const servicesData = {
   heading: "API Development Services",
   desc: `We provide customizable API development services. Whether you require a straightforward application integration with data or a more intricate solution, our services meet your needs.`,
-  img: strategyimg, 
+  img: strategyimg,
   cardData: [
     {
       id: 1,
@@ -68,16 +65,19 @@ export const ApiServicesData = {
   ],
 };
 
-export const ApiContactSectionData = {
+export const contactOneData = {
   heading: "APIs that Amplify!",
   desc: `Boost Your Business Capabilities with Custom APIs.`,
   button: "Contact Us",
   img: contactimg,
 };
+export const contactTwoData = {
+  heading: "APIs for the Future!",
+  desc: `Enable Seamless Integrations and Expand Reach.`,
+  button: "Contact Us",
+};
 
-
-
-export const ApitechnologiesData = {
+export const technologiesData = {
   heading: "Our Comprehensive API Technology Stack",
   desc: `Discover the full range of technologies we use for API projects.`,
   cardData: [
@@ -168,7 +168,7 @@ export const ApitechnologiesData = {
   ],
 };
 
-export const ApifaqData = {
+export const faqData = {
   heading: "FAQs",
   desc: ``, // desc is empty here
   faqdata: [
@@ -188,7 +188,7 @@ export const ApifaqData = {
     },
     {
       id: 3,
-      question:" What technologies do you use for API development?",
+      question: " What technologies do you use for API development?",
       answer: `
           Qurilo may use a variety of technologies for API development, including popular programming languages like Java, Python, Node.js, frameworks like Spring Boot or Express.js, and industry-standard tools and libraries that best suit your project requirements.
             `,
@@ -214,19 +214,18 @@ export const ApifaqData = {
   ],
 };
 
-export const ApiDomainExpertiseData = {
-    heading: "Our API Development Expertise",
-    desc: `We specialize in building robust, scalable, and secure API systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.`,
-    data: [
-      "RESTful API Design",
-      "GraphQL API Development",
-      "Microservices Architecture",
-      "Real-time Data Processing",
-      "API Security Best Practices",
-      "Rate Limiting & Throttling",
-      "API Versioning",
-      "API Documentation",
-    ],
-    images: [firstimg,secondimg,thirdimg,fourthimg],
-  };
-  
+export const domainExpertiseData = {
+  heading: "Our API Development Expertise",
+  desc: `We specialize in building robust, scalable, and secure API systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.`,
+  data: [ 
+    "RESTful API Design",
+    "GraphQL API Development",
+    "Microservices Architecture",
+    "Real-time Data Processing",
+    "API Security Best Practices",
+    "Rate Limiting & Throttling",
+    "API Versioning",
+    "API Documentation",
+  ],
+  images: [firstimg, secondimg, thirdimg, fourthimg],
+};
