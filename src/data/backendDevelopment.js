@@ -249,7 +249,7 @@ At our backend development company, we offer a variety of technologies for backe
           desc: `We conduct regular code reviews to maintain quality and identify potential issues or improvements. This helps ensure the backend code is clean, efficient, and maintainable.`,
         },
         {
-          id: 5,
+          id: 5,  
           heading: `Collaboration and Communication`,
           desc: `We maintain transparent and open communication throughout development. We actively involve clients in discussions, provide regular updates, and seek feedback to ensure alignment with their expectations.`,
         },
