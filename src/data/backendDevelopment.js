@@ -34,7 +34,7 @@ export const servicesData = {
   heading: "Our Backend Development Services",
   desc: `As a leading backend web development company in India, we specialize in building best-in-class backend solutions that bring value to your business. Our innovative and creative teams deliver projects with excellence.`,
   img: strategyimg, 
-  cardData: [
+  list: [
     {
       id: 1,
       icon:firsticon,
@@ -86,11 +86,11 @@ export const contactTwoData = {
   button: "Contact Us",
 };
 
-  
+
 export const technologiesData = {
   heading: "Our Comprehensive backend Technology Stack",
   desc: `Discover the full range of technologies we use for backend projects.`,
-  cardData: [
+  list: [
     {
       id: 1,
       heading: "Artificial Intelligence (AI)",
@@ -265,7 +265,7 @@ At our backend development company, we offer a variety of technologies for backe
 export const domainExpertiseData = {
   heading: "Our Backend Development Expertise",
   desc: `We specialize in building robust, scalable, and secure backend systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.`,
-  data: [
+  points: [
     "API Development",
     "Database Design and Management",
     "Authentication and Authorization",
