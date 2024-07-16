@@ -1,56 +1,73 @@
+// import common images here
+import contactimg from "../assets/common-images/contactimg.png";
+import strategyimg from "../assets/common-images/strategy.png";
+
+// import hero images here
+import heroimg from "../assets/website-portal-development/images/Website Development Company.png";
+import heromobile from "../assets/website-portal-development/images/website_development_company_mobile.png";
+
+// import services icons here
+import firsticon from "../assets/website-portal-development/icons/custom_website_development.png";
+import secondicon from "../assets/website-portal-development/icons/website_migration_services.png";
+import thirdicon from "../assets/website-portal-development/icons/qa_testing.png";
+import fourthicon from "../assets/website-portal-development/icons/support_and_maintenance.png";
+import fifthicon from "../assets/website-portal-development/icons/consulting_and_business_analysis.png";
+import sixthicon from "../assets/website-portal-development/icons/web_design_uiux_services.png";
+
+// grid images here
+import firstimg from "../assets/website-portal-development/images/gridimages/API_Integration_Strategies.png";
+import secondimg from "../assets/website-portal-development/images/gridimages/Performance_Optimization_Techniques.png";
+import thirdimg from "../assets/website-portal-development/images/gridimages/Real-time_Data_Syncing.png";
+import fourthimg from "../assets/website-portal-development/images/gridimages/Website_Security_Protocols.png";
+
 export const heroSectionData = {
   id: 1,
-  heroimg: "",
+  heroimg: heroimg,
   heromobile: "",
   heading: "Website Development Company",
   desc: `Experience a comprehensive solution that brings your product vision to life. With 18+ years of experience, our website development firm delivers customized web solutions, including consulting, development, migration, and testing. Connect with us today to take your business to new heights.`,
   btn: "Contact Us",
 };
 
-export const WebsiteServicesData = {
+export const servicesData = {
   heading: "Our Website Development Services",
   desc: `Our website development services are the perfect solution for businesses seeking growth-centric digital transformation. Whether you need eCommerce portals, CMS, ERP solutions, chatbots, custom apps, or more, our team of experts can deliver robust web solutions.`,
   img: "", // strategy image here
   cardData: [
     {
       id: 1,
-      icon: ``,
+      icon: firsticon,
       heading: "Custom Website Development",
       desc: `Our experienced website developers develop interactive custom web apps that run smoothly on all major platforms and devices. We keep a user-centric approach while building web applications to deliver an end product that engages customers.`,
     },
     {
       id: 2,
-      icon: ``,
+      icon: secondicon,
       heading: "Website Migration Services",
       desc: `Our web development company has experienced developers offering website migration services, which involve moving a website from one platform to another. They also optimize websites focusing on improving website performance and speed.`,
     },
     {
       id: 3,
-      icon: ``,
+      icon: thirdicon,
       heading: "QA & Testing",
       desc: `Once a complete website is developed, it needs to be tested before delivery. Our team of experienced QA testers follows the standard testing procedures to ensure that your website delivers optimum performance and functions exactly as intended!`,
     },
     {
       id: 4,
-      icon: ``,
+      icon: fourthicon,
       heading: "Support & Maintenance",
       desc: `Our experienced support and maintenance team ensures that your website runs seamlessly and functions smoothly. Our maintenance services include reviewing all your website pages, running error checks, and making optimizations to keep the site running effortlessly. `,
     },
     {
       id: 5,
-      icon: ``,
+      icon: fifthicon,
       heading: "Consulting & Business Analysis ",
       desc: `Our experienced technology consulting and business analysis experts analyze your current processes, identify challenges you are facing, recommend improvements based on industry standards, and provide guidance for future growth!`,
     },
+
     {
       id: 6,
-      icon: ``,
-      heading: "Front and Backend Development",
-      desc: `We use Javascript frameworks such as Vue, React, Angular and more for implementation of a design idea at the front-end. Our developers also work on .Net, Node.js, PHP, and other proven frameworks for backend development.`,
-    },
-    {
-      id: 7,
-      icon: ``,
+      icon: sixthicon,
       heading: "Web Design & UI/UX Services",
       desc: `Our website designers specialize in designing interactive websites with intuitive UIs, stunning graphics, clean layouts, and more! Our expert UI/UX designers work closely with website developers to deliver high-quality websites optimized for conversions.`,
     },
@@ -62,43 +79,6 @@ export const WebsiteContactSectionData = {
   desc: `Elevate Your Business with Top-Notch Websites.`,
   button: "Contact Us",
   img: ``,
-};
-
-export const WebsiteDevelopmentProcessData = {
-  heading: "The Website  Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the Website application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the Website application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the Website application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
 };
 
 export const WebsitetechnologiesData = {
@@ -196,5 +176,5 @@ export const WebsiteDomainExpertiseData = {
     "Version Control and Maintenance",
     "Comprehensive Documentation Practices",
   ],
-  images: [],
+  images: [firstimg, secondimg, thirdimg, fourthimg],
 };

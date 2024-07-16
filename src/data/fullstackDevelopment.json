@@ -1,8 +1,8 @@
 {
   "heroSectionData": {
     "id": 1,
-    "heroimg": "../assets/fullstack-development/images/Hire_Full_Stack_Developers.png",
-    "heromobile": "../assets/fullstack-development/images/hire_full_stack_developers_mobile.jpg",
+    "heroDesktop": "../assets/fullstack-development/images/Hire_Full_Stack_Developers.png",
+    "heroMobile": "../assets/fullstack-development/images/hire_full_stack_developers_mobile.jpg",
     "heading": "Hire Full Stack Developers ",
     "desc": "Qurilo offers the solution to keep your website up-to-date and dynamic; hire our expert full-stack developers versed in MEAN stack, MERN framework, Laravel/PHP, and Java for seamless development.",
     "btn": "Contact Us"

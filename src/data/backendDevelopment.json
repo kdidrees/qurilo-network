@@ -1,8 +1,8 @@
 {
     "heroSectionData": {
       "id": 1,
-      "heroimg": "../assets/backend-development/images/Backend_Development_Services.jpg",
-      "heromobile": "../assets/backend-development/images/Backend_Development_Services_MOBILE.jpg",
+      "heroDesktop": "../assets/backend-development/images/Backend_Development_Services.jpg",
+      "heroMobile": "../assets/backend-development/images/Backend_Development_Services_MOBILE.jpg",
       "heading": "Backend Development Services",
       "desc": "Struggling with outdated backend development solutions? Upgrade to enterprise-grade backend development services from Qurilo. Our experienced team ensures secure and stable websites using the latest technologies. We offer web/backend backend, ERP/CRM backend, API integration, and backend refactoring.",
       "btn": "Contact Us"
