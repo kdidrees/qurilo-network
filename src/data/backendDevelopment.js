@@ -23,8 +23,8 @@ import strategyimg from "../assets/common-images/strategy.png"
 
 export const heroSectionData = {
   id: 1,
-  heroimg: heroimg,
-  heromobile: heromobile,
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
   heading: "Backend Development Services",
   desc: `Struggling with outdated backend development solutions? Upgrade to enterprise-grade backend development services from Qurilo. Our experienced team ensures secure and stable websites using the latest technologies. We offer web/backend backend, ERP/CRM backend, API integration, and backend refactoring.`,
   btn: "Contact Us",

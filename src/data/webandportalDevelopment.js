@@ -3,7 +3,7 @@ import contactimg from "../assets/common-images/contactimg.png";
 import strategyimg from "../assets/common-images/strategy.png";
 
 // import hero images here
-import heroimg from "../assets/website-portal-development/images/Website Development Company.png";
+import heroimg from "../assets/website-portal-development/images/Website_Development_Company.png";
 import heromobile from "../assets/website-portal-development/images/website_development_company_mobile.png";
 
 // import services icons here
@@ -22,8 +22,8 @@ import fourthimg from "../assets/website-portal-development/images/gridimages/We
 
 export const heroSectionData = {
   id: 1,
-  heroimg: heroimg,
-  heromobile: "",
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
   heading: "Website Development Company",
   desc: `Experience a comprehensive solution that brings your product vision to life. With 18+ years of experience, our website development firm delivers customized web solutions, including consulting, development, migration, and testing. Connect with us today to take your business to new heights.`,
   btn: "Contact Us",
@@ -32,7 +32,7 @@ export const heroSectionData = {
 export const servicesData = {
   heading: "Our Website Development Services",
   desc: `Our website development services are the perfect solution for businesses seeking growth-centric digital transformation. Whether you need eCommerce portals, CMS, ERP solutions, chatbots, custom apps, or more, our team of experts can deliver robust web solutions.`,
-  img: "", // strategy image here
+  img: strategyimg, // strategy image here
   cardData: [
     {
       id: 1,
@@ -74,14 +74,19 @@ export const servicesData = {
   ],
 };
 
-export const WebsiteContactSectionData = {
+export const contactOneData = {
   heading: "Websites that Win!",
   desc: `Elevate Your Business with Top-Notch Websites.`,
   button: "Contact Us",
-  img: ``,
+  img: contactimg,
+};
+export const contactTwoData = {
+  heading: "Web Success Awaits!",
+  desc: `Partner with the Best in Website Development.`,
+  button: "Contact Us",
 };
 
-export const WebsitetechnologiesData = {
+export const technologiesData = {
   heading: "Our Comprehensive Website Technology Stack",
   desc: `Discover the full range of technologies we use for Website projects.`,
   cardData: [
@@ -127,7 +132,7 @@ export const WebsitetechnologiesData = {
   ],
 };
 
-export const WebsitefaqData = {
+export const faqData = {
   heading: "FAQs",
   desc: ``, // desc is empty here
   faqdata: [
@@ -163,7 +168,7 @@ export const WebsitefaqData = {
   ],
 };
 
-export const WebsiteDomainExpertiseData = {
+export const domainExpertiseData = {
   heading: "Our Website Development Expertise",
   desc: `Explore our specialized capabilities in creating robust, scalable, and secure Website solutions tailored for diverse industries.`,
   data: [
