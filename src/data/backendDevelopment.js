@@ -17,6 +17,9 @@ import secondimg from "../assets/backend-development/images/gridimages/Real-time
 import thirdimg from "../assets/backend-development/images/gridimages/Serverless_Computing.png"
 import fourthimg from "../assets/backend-development/images/gridimages/cloud-computing-data-management-concept.jpg"
 
+// import common images here 
+import contactimg from "../assets/common-images/contactimg.png"
+import strategyimg from "../assets/common-images/strategy.png"
 
 export const heroSectionData = {
   id: 1,
@@ -30,7 +33,7 @@ export const heroSectionData = {
 export const backendServicesData = {
   heading: "Our Backend Development Services",
   desc: `As a leading backend web development company in India, we specialize in building best-in-class backend solutions that bring value to your business. Our innovative and creative teams deliver projects with excellence.`,
-  img: "", // strategy image here
+  img: strategyimg, 
   cardData: [
     {
       id: 1,
@@ -75,47 +78,10 @@ export const backendContactSectionData = {
   heading: "Backend for the Future!",
   desc: `Enable Seamless Integrations and Expand Reach.`,
   button: "Contact Us",
-  img: ``,
+  img: contactimg,
 };
 
-export const backendDevelopmentProcessData = {
-  heading: "The Backend  Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the backend application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the backend application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the backend application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
-};
 
-// backend data is not available on the value coders
 export const backendtechnologiesData = {
   heading: "Our Comprehensive backend Technology Stack",
   desc: `Discover the full range of technologies we use for backend projects.`,
