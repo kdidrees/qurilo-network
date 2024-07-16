@@ -30,7 +30,7 @@ export const heroSectionData = {
   btn: "Contact Us",
 };
 
-export const frontendServicesData = {
+export const servicesData = {
   heading: "Front-end Development Services",
   desc: `
 
@@ -78,14 +78,19 @@ Recognized as one of the best front-end development companies in India, we speci
   ],
 };
 
-export const frontendContactSectionData = {
+export const contactOneData = {
   heading: "Frontend Finesse!",
   desc: `Create stunning user interfaces with our expert frontend development.`,
   button: "Contact Us",
   img: contactimg,
 };
+export const contactTwoData = {
+  heading: "User-Friendly UI!",
+  desc: `Enhance user experience and engagement with our frontend services.`,
+  button: "Contact Us",
+};
 
-export const frontendtechnologiesData = {
+export const technologiesData = {
   heading: "Our Comprehensive Frontend Technology Stack",
   desc: `Discover the full range of technologies we use for frontend projects.`,
   cardData: [
@@ -176,7 +181,7 @@ export const frontendtechnologiesData = {
   ],
 };
 
-export const frontendfaqData = {
+export const faqData = {
   heading: "FAQs",
   desc: ``, // desc is empty here
   faqdata: [
@@ -216,7 +221,7 @@ export const frontendfaqData = {
   ],
 };
 
-export const frontendDomainExpertiseData = {
+export const domainExpertiseData = {
   heading: "Our Frontend Development Expertise",
   desc: `We specialize in building robust, scalable, and secure frontend systems tailored to meet the needs of diverse industries. Our expertise ensures seamless user experiences, efficient state management, and reliable performance for your applications.`,
   data: [

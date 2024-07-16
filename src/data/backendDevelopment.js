@@ -81,10 +81,9 @@ export const contactOneData = {
   img: contactimg,
 };
 export const contactTwoData = {
-  heading: "Backend for the Future!",
-  desc: `Enable Seamless Integrations and Expand Reach.`,
+  heading: "Backend Excellence Here!",
+  desc: `Unlock New Business Potentials with Backend.`,
   button: "Contact Us",
-  img: contactimg,
 };
 
 
@@ -218,7 +217,6 @@ export const faqData = {
         " What are your main technologies you offer for backend development?",
       answer: `
         Technology is always evolving, and new languages and frameworks are constantly emerging. As such, we make it a point to stay up-to-date on the latest developments in backend technology to always offer our clients the best possible solution.
-  <br/><br/>
 At our backend development company, we offer a variety of technologies for backend development, including Node.js, PHP, Python, and Ruby on Rails. We may use one or multiple technologies to create a robust and scalable backend solution depending on the project.
         `,
     },
