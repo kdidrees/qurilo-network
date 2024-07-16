@@ -1,7 +1,30 @@
+
+// import common images here 
+import strategyimg from "../assets/common-images/strategy.png"
+import contactimg from "../assets/common-images/contactimg.png"
+
+// import hero images here 
+import heroimg from "../assets/fullstack-development/images/Hire_Full_Stack_Developers.png"
+import heromoobileimg from "../assets/fullstack-development/images/hire_full_stack_developers_mobile.jpg"
+
+// import icons here 
+import firsticon from "../assets/fullstack-development/icons/Full_Stack_Web_Development.png"
+import secondicon from "../assets/fullstack-development/icons/front_end_development.png"
+import thirdicon from "../assets/fullstack-development/icons/back_end_development.png"
+import fourthicon from "../assets/fullstack-development/icons/MEAN_MERN_Stack_Development.png"
+import fifthicon from "../assets/fullstack-development/icons/Full-stack_Support_and_Maintenance.png"
+
+// import grid images here 
+import firstimg from "../assets/fullstack-development/images/gridimages/API_Integration_Strategies.png"
+import secondimg from "../assets/fullstack-development/images/gridimages/Performance_Optimization_Techniques.png"
+import thirdimg from "../assets/fullstack-development/images/gridimages/Real-time_Data_Syncing.png"
+import fourthimg from "../assets/fullstack-development/images/gridimages/fullStack_Security_Protocols.png"
+
+
 export const heroSectionData = {
   id: 1,
-  heroimg: "",
-  heromobile: "",
+  heroimg: heroimg,
+  heromobile: heromoobileimg,
   heading: "Hire Full Stack Developers ",
   desc: `ValueCoders offers the solution to keep your website up-to-date and dynamic; hire our expert full-stack developers versed in MEAN stack, MERN framework, Laravel/PHP, and Java for seamless development.`,
   btn: "Contact Us",
@@ -10,41 +33,36 @@ export const heroSectionData = {
 export const fullStackServicesData = {
   heading: "Expertise of Our Full-Stack Developers",
   desc: `Our full-stack software engineers are experts in all stages of software development. Here are some of their core proficiencies:`,
-  img: "", // strategy image here
+  img: strategyimg, // strategy image here
   cardData: [
     {
       id: 1,
-      icon: ``,
+      icon: firsticon,
       heading: "Full Stack Web Development",
       desc: `Our full-stack coders are having top-of-the-line proficiency in building custom web solutions for startups, SMEs, and enterprises.`,
     },
     {
       id: 2,
-      icon: ``,
+      icon: secondicon,
       heading: "Front-end Development",
       desc: `Hire full-stack developers India with expertise in popular front-end frameworks such as Bootstrap, Foundation, and AngularJS.`,
     },
     {
       id: 3,
-      icon: ``,
+      icon: thirdicon,
       heading: "Back-end Development",
       desc: `Our developers have experience in popular back-end frameworks such as Ruby on Rails, Laravel, Express.js, and Node.js.`,
     },
     {
       id: 4,
-      icon: ``,
+      icon: fourthicon,
       heading: "MEAN & MERN Stack Development",
       desc: `Hire Full Stack developers having expertise in building web applications using MongoDB, ExpressJS, AngularJS, and Node.js. `,
     },
+  
     {
       id: 5,
-      icon: ``,
-      heading: "Native Mobile App Improvement ",
-      desc: `It involves enhancing the user experience and functionality of a mobile application by incorporating native features and functionalities of each platform. This process requires understanding the nuances of each platform's programming language to optimize the application's performance and user experience.  `,
-    },
-    {
-      id: 6,
-      icon: ``,
+      icon: fourthicon,
       heading: "Full-stack Support and Maintenance",
       desc: `Our developers can fulfill your ongoing support and maintenance needs for your web and mobile application development.`,
     },
@@ -55,45 +73,9 @@ export const fullStackContactSectionData = {
   heading: "Try Before, Commit Later",
   desc: `Start your 7-day trial today and discover the perfect fit for your project needs.`,
   button: "Contact Us",
-  img: ``,
+  img: contactimg,
 };
 
-export const fullStackDevelopmentProcessData = {
-  heading: "The fullStack  Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the fullStack application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the fullStack application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the fullStack application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
-};
 
 export const fullStacktechnologiesData = {
   heading: "Our Comprehensive fullStack Technology Stack",
@@ -280,5 +262,5 @@ export const fullStackDomainExpertiseData = {
     "Version Control and Maintenance",
     "Comprehensive Documentation Practices",
   ],
-  images: [],
+  images: [firstimg,secondimg,thirdimg,fourthimg],
 };
