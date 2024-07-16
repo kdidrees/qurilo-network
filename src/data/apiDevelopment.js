@@ -1,5 +1,4 @@
 export const heroSectionData = {
-  id: 1,
   heroimg: "",
   heromobile: "",
   heading: "FrontAPI Development Services",
