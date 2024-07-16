@@ -30,7 +30,7 @@ export const heroSectionData = {
   btn: "Contact Us",
 };
 
-export const backendServicesData = {
+export const servicesData = {
   heading: "Our Backend Development Services",
   desc: `As a leading backend web development company in India, we specialize in building best-in-class backend solutions that bring value to your business. Our innovative and creative teams deliver projects with excellence.`,
   img: strategyimg, 
@@ -74,7 +74,13 @@ export const backendServicesData = {
   ],
 };
 
-export const backendContactSectionData = {
+export const contactOneData = {
+  heading: "Backend for the Future!",
+  desc: `Enable Seamless Integrations and Expand Reach.`,
+  button: "Contact Us",
+  img: contactimg,
+};
+export const contactTwoData = {
   heading: "Backend for the Future!",
   desc: `Enable Seamless Integrations and Expand Reach.`,
   button: "Contact Us",
@@ -82,7 +88,7 @@ export const backendContactSectionData = {
 };
 
 
-export const backendtechnologiesData = {
+export const technologiesData = {
   heading: "Our Comprehensive backend Technology Stack",
   desc: `Discover the full range of technologies we use for backend projects.`,
   cardData: [
@@ -173,7 +179,7 @@ export const backendtechnologiesData = {
   ],
 };
 
-export const backendfaqData = {
+export const faqData = {
   heading: "FAQs",
   desc: ``, // desc is empty here
   faqdata: [
@@ -258,7 +264,7 @@ At our backend development company, we offer a variety of technologies for backe
   ],
 };
 
-export const backendDomainExpertiseData = {
+export const domainExpertiseData = {
   heading: "Our Backend Development Expertise",
   desc: `We specialize in building robust, scalable, and secure backend systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.`,
   data: [

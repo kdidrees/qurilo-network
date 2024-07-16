@@ -26,7 +26,7 @@ export const heroSectionData = {
   heroimg: heroimg,
   heromobile: heromoobileimg,
   heading: "Hire Full Stack Developers ",
-  desc: `ValueCoders offers the solution to keep your website up-to-date and dynamic; hire our expert full-stack developers versed in MEAN stack, MERN framework, Laravel/PHP, and Java for seamless development.`,
+  desc: `Qurilo offers the solution to keep your website up-to-date and dynamic; hire our expert full-stack developers versed in MEAN stack, MERN framework, Laravel/PHP, and Java for seamless development.`,
   btn: "Contact Us",
 };
 
@@ -216,35 +216,63 @@ export const fullStackfaqData = {
     {
       id: 1,
       question:
-        "Why should I choose ValueCoders as my cross-platform app development partner?",
+        "What are the benefits of hiring Full-stack engineers from ValueCoders?",
       answer:
-        " Choose ValueCoders for the best cross-platform mobile app development; our expert team is proficient in React Native, Xamarin, and Flutter. We have experience delivering top-notch cross-platform apps that are feature-rich, scalable, and user-friendly.",
+        " When you hire a Full stack developer in India, you get complete peace of mind, on-time project execution, strict non-disclosure agreement, easy team scale up & down, and no contract lock-in. Also, you will have the opportunity to work with the top 1% of full-stack developers in India have 5+ years of average experience.",
+        ansList: [
+          {
+            id: 1,
+            heading: `Expertise`,
+            desc: `ValueCoders claims to have a team of experienced full-stack engineers with the knowledge and skills to handle various tasks and technologies.`,
+          },
+          {
+            id: 2,
+            heading: `Cost-effectiveness`,
+            desc: `Hire full-stack programmers from ValueCoders may be more cost-effective than hiring in-house full-stack engineers or using multiple specialized contractors.`,
+          },
+          {
+            id: 3,
+            heading: `Flexibility`,
+            desc: ` Full-stack engineers can work on various aspects of a project, which can be beneficial when you need to pivot or make changes to your project.`,
+          },
+          {
+            id: 4,
+            heading: `Communication `,
+            desc: `ValueCoders claims to have a team of professionals who are proficient in English and can communicate effectively with clients. This can be helpful in ensuring that your project is delivered to your specifications.`,
+          },
+        ],
     },
 
     {
       id: 2,
       question:
-        "Are there any hidden charges for cross-platform app development?",
+        "Will I have direct contact with the assigned developers?",
       answer:
-        "At ValueCoders, we are transparent with our clients, and there are no hidden charges for our cross-platform app development services. We offer a flexible pricing model, and you only pay for the services you need.",
+        "You will have direct contact with the assigned developers all the time. They are available on skype and other IM software for quick communication. We want you to be comfortable working with them and be able to get your questions answered quickly.",
     },
     {
       id: 3,
       question:
-        " Do you offer any after-sales service/app support after completing the development process?",
+        " What if I am not satisfied with the hired Full stack app developer's work and would like to exit?",
       answer: `
-              Yes, we do. Our experts will ensure that your app runs smoothly and performs well, and we will provide maintenance and support as needed.
-                `,
+      If you would like to exit the contract due to dissatisfaction with the developer’s work, we will work with you to ensure a smooth transition and minimize any potential impact on your project timeline. Our team will provide you with options to replace the developer with someone who better meets your project requirements.
+                  `,
     },
     {
       id: 4,
-      question: "Is it possible to look at my app during development?",
-      answer: `Yes, we offer our clients cross-platform mobile app development services where they can access the app during development. We understand the importance of client involvement in the development process and encourage our clients to provide feedback as we work on their projects.`,
+      question: " How much does it cost to hire full-stack developer?",
+      answer: `The cost to hire Full-stack developers in India can vary greatly depending on their experience, level of expertise, and the project’s complexity. Generally speaking, basic full-stack app development services can range from around $15-30 per hour. For more complex tasks and projects that require specialized skills or experience, the cost may be significantly higher – in some cases, up to several thousands of dollars.`,
     },
     {
       id: 5,
-      question: "Will I get the copyright of the source code?",
-      answer: `  Yes, you will own the copyright to your app’s source code. At ValueCoders, we believe in transparency and honesty and ensure that our clients have full ownership of their app and its source code.`,
+      question: "How can I choose the best full-stack developer?",
+      answer: `  Picking up the best Full Stack developer can be confusing. But not when you consider these factors in hiring reputed application developers:`,
+      list: [
+        "Checking out the developer’s portfolio.",
+        "Identifying current and past clients.",
+        "Always look for the developer’s platform compatibility.",
+        "Always look out for clear communication channels"
+      ],
     },
   ],
 };
