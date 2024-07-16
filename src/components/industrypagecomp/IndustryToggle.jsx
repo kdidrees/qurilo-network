@@ -21,7 +21,7 @@ export default function IndustryToggle({ data }) {
                 </p>
                 {ele.data.map((heading) => {
                   return (
-                  <div className="border-b-2 border-gray-200 pb-4 mt-2">
+                  <div className="border-b-[1px] border-gray-400 pb-4 mt-2">
                       <h3 key={heading} className="font-medium">
                       {heading}
                     </h3>
