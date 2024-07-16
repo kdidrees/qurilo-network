@@ -9,7 +9,7 @@ export default function IndustryToggle({ data }) {
             <div key={item.heading} className="py-3">
               <div className="flex flex-col items-left lg:ml-12 md:mt-12 mt-4">
                 <h2 className="text-black text-xl md:mt-6 mt-3">
-                  {item.heading}
+                  {/* {item.heading} */}
                 </h2>
               </div>
               {item?.data?.map((ele) => {

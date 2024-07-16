@@ -18,7 +18,7 @@ export default function IndustriesSection() {
               <h2
                 className="font-semibold text-2xl font-sans md:text-3xl text-black mb-4 md:mt-0 mt-8"
               >
-                Industries we Revolutionarize
+                {item.heading}
               </h2>
             </div>
             <div>
