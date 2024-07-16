@@ -6,9 +6,13 @@ import pharmaimg from "../assets/industry-page/images/pharma_health.png";
 import manufacturingimg from "../assets/industry-page/images/manufacturing_automation.png";
 import travelimg from "../assets/industry-page/images/travel_logistics.png";
 
+// import hero section images here
+import industryhero from "../assets/industry-page/images/industryhero.png";
+import industryheromobile from "../assets/industry-page/images/heromobile.png";
+
 export const herosectionData = {
-  heroimg: "",
-  heromobile: "",
+  heroimg: industryhero,
+  heromobile: industryheromobile,
   heading: "Industries",
   desc: `Each industry has its quirks. Understanding their unique challenges is key to business success`,
 };
