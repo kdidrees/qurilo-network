@@ -1,104 +1,99 @@
+// import common images here 
+import contactimg from "../assets/common-images/contactimg.png"
+import strategyimg from "../assets/common-images/strategy.png"
+
+
+
+// import hero images here
+import heroimg from  "../assets/cross-platform/images/home_page_image.png"
+import heromobile from  "../assets/cross-platform/images/mobile_page_image.png.jpg"
+
+// import services icons here
+import firsticon from "../assets/cross-platform/icons/Application_Consultation_and_Architecture.png"
+import secondicon from "../assets/cross-platform/icons/Solution_Prototyping.png"
+import thirdicon from "../assets/cross-platform/icons/Multi-Platform_Application.png"
+import fourthicon from "../assets/cross-platform/icons/Support_Maintenance_Optimization.png"
+import fifthicon from "../assets/cross-platform/icons/Native_Mobile_App_Improvement.png"
+import sixthicon from "../assets/cross-platform/icons/Dedicated_Cross-Platform_Development_Team.png"
+
+// grid images here
+import firstimg from "../assets/cross-platform/images/gridimages/API_Integration_Strategies.png"
+import secondimg from "../assets/cross-platform/images/gridimages/CrossPlatform_Security_Protocols.png"
+import thirdimg from "../assets/cross-platform/images/gridimages/Performance_Optimization_Techniques.png"
+import fourthimg from "../assets/cross-platform/images/gridimages/Real-time_Data_Syncing.png"
+
 export const heroSectionData = {
   id: 1,
-  heroimg: "",
-  heromobile: "",
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
   heading: "Cross-Platform App Development Services",
   desc: `Struggling to find a partner for your cross-platform app development needs? We offer a dedicated team of experts who create robust, scalable, and interactive web and mobile apps tailored to your business requirements. From AI/VR to wearable and utility apps, we deliver secure, high-quality solutions within your timeframe.`,
   btn: "Contact Us",
 };
 
-export const CrossPlatformServicesData = {
+export const servicesData = {
   heading: "Cross-Platform App Development Services",
   desc: `We have expertise in providing cross-platform app development services for all types of devices at the price of one codebase and using the same IDE language and APIs. We provide various services listed below:`,
-  img: "", // strategy image here
-  cardData: [
+  img: strategyimg, // strategy image here
+  list: [
     {
       id: 1,
-      icon: ``,
+      icon: firsticon,
       heading: "Application Consultation and Architecture",
       desc: `This service involves consulting clients to understand their business requirements, based on which the team develops a detailed project plan outlining the scope, timelines, and resources. The architecture designs the application's technical architecture.`,
     },
     {
       id: 2,
-      icon: ``,
+      icon: secondicon,
       heading: "Solution Prototyping",
       desc: `We develop a functional prototype of the application to validate the final product meets the client's needs and requirements, is user-friendly, and is financially feasible. We build a prototype to help businesses understand how the app will perform in the market.`,
     },
     {
       id: 3,
-      icon: ``,
+      icon: thirdicon,
       heading: "Multi-Platform Application ",
       desc: `It involves creating software applications that can run on multiple operating systems, such as Android, iOS, and Windows Phone, with a single codebase. This process requires platform compatibility, user interface design, testing and debugging, and deployment and distribution across multiple app stores.`,
     },
     {
       id: 4,
-      icon: ``,
+      icon: fourthicon,
       heading: "Support, Maintenance, and Optimization ",
       desc: `This system involves ongoing efforts to ensure the application continues to function effectively and efficiently on multiple platforms. This includes regular updates to address bugs and security issues, optimizing performance, and providing customer support. `,
     },
     {
       id: 5,
-      icon: ``,
+      icon: fifthicon,
       heading: "Native Mobile App Improvement ",
       desc: `It involves enhancing the user experience and functionality of a mobile application by incorporating native features and functionalities of each platform. This process requires understanding the nuances of each platform's programming language to optimize the application's performance and user experience.  `,
     },
     {
       id: 6,
-      icon: ``,
+      icon: sixthicon,
       heading: "Dedicated Cross-Platform Development Team ",
       desc: `We offer dedicated cross-platform development team for hire by identifying the project requirements. The team provides development support and ongoing support and feedback to ensure meet project goals and deadlines. It also maintains effective communication and collaboration with the project stakeholders. `,
     },
   ],
 };
 
-export const CrossPlatformContactSectionData = {
+export const contactOneData = {
   heading: "One App, All Platforms!",
   desc: `Maximize ROI with Cross-Platform App Development.`,
   button: "Contact Us",
-  img: ``,
+  img: contactimg,
+};
+export const contactTwoData = {
+  heading: "Be Platform-Perfect!",
+  desc: `Get Apps that Perform Seamlessly Everywhere.`,
+  button: "Contact Us",
 };
 
-export const CrossPlatformDevelopmentProcessData = {
-  heading: "The CrossPlatform  Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the CrossPlatform application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the CrossPlatform application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the CrossPlatform application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
-};
 
-export const CrossPlatformtechnologiesData = {
+
+
+export const technologiesData = {
   heading: "Our Comprehensive CrossPlatform Technology Stack",
   desc: `Discover the full range of technologies we use for CrossPlatform projects.`,
-  cardData: [
+  list: [
     {
       id: 1,
       heading: "Programming Languages",
@@ -186,7 +181,7 @@ export const CrossPlatformtechnologiesData = {
   ],
 };
 
-export const CrossPlatformfaqData = {
+export const faqData = {
   heading: "FAQs",
   desc: `Here are answers to some questions our clients frequently have in their minds:`,
   faqdata: [
@@ -226,10 +221,10 @@ export const CrossPlatformfaqData = {
   ],
 };
 
-export const CrossPlatformDomainExpertiseData = {
+export const domainExpertiseData = {
   heading: "Our CrossPlatform Development Expertise",
   desc: `Explore our specialized capabilities in creating robust, scalable, and secure CrossPlatform solutions tailored for diverse industries.`,
-  data: [
+  points: [
     "CrossPlatform Application Architecture",
     "API Integration Strategies",
     "Real-time Data Syncing",
@@ -239,5 +234,5 @@ export const CrossPlatformDomainExpertiseData = {
     "Version Control and Maintenance",
     "Comprehensive Documentation Practices",
   ],
-  images: [],
+  images: [firstimg,secondimg,thirdimg,fourthimg],
 };

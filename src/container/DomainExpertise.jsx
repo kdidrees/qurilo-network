@@ -1,7 +1,7 @@
 import React from 'react';
 import SolPara from '../components/solutions/SolPara';
 import Award from '../components/solutions/Award';
-import { domainExpertData } from '../data/webDevelopment';
+import { domainExpertiseData } from '../data/webDevelopment';
 
 export default function DomainExpertise() {
   return (
