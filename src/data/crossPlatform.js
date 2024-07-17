@@ -34,7 +34,7 @@ export const heroSectionData = {
 export const servicesData = {
   heading: "Cross-Platform App Development Services",
   desc: `We have expertise in providing cross-platform app development services for all types of devices at the price of one codebase and using the same IDE language and APIs. We provide various services listed below:`,
-  img: strategyimg, // strategy image here
+  img: strategyimg, 
   list: [
     {
       id: 1,
