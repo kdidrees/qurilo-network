@@ -10,9 +10,9 @@ import travelimg from "../assets/industry-page/images/travel_logistics.png";
 import industryhero from "../assets/industry-page/images/industryhero.png";
 import industryheromobile from "../assets/industry-page/images/heromobile.png";
 
-export const herosectionData = {
-  heroimg: industryhero,
-  heromobile: industryheromobile,
+export const heroSectionData = {
+  heroDesktop: industryhero,
+  heroMobile: industryheromobile,
   heading: "Industries",
   desc: `Each industry has its quirks. Understanding their unique challenges is key to business success`,
 };
@@ -26,7 +26,7 @@ export const industryPageData = [
     data: [
       "Custom banking software",
       "Peer-to-Peer (P2P) lending and crowdfunding software",
-      "Compliance, risk management, and fraud detection systems",
+      "Compliance, risk management, and fraud detection systems", 
       "Investment portfolio management software",
       "Loan management & trading platform development",
       "Branch transformation and phygital banking",
@@ -108,3 +108,4 @@ export const industryPageData = [
     ],
   },
 ];
+
