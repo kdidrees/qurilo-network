@@ -25,7 +25,7 @@ export const heroSectionData = {
   heroDesktop: heroimg,
   heroMobile: heromobile,
   heading: "eCommerce Consulting Services",
-  desc: `Navigating eCommerce complexities? ValueCoders’ eCommerce consulting services help you make informed decisions and maximize ROI. Our experienced team offers customized solutions using Magento, WooCommerce, and Shopify. Streamline your eCommerce operations and achieve your goals.`,
+  desc: `Navigating eCommerce complexities? Qurilo’ eCommerce consulting services help you make informed decisions and maximize ROI. Our experienced team offers customized solutions using Magento, WooCommerce, and Shopify. Streamline your eCommerce operations and achieve your goals.`,
   btn: "Contact Us",
 };
 
@@ -88,37 +88,37 @@ export const faqData = {
     {
       id: 1,
       question:
-        "What sets ValueCoders' eCommerce consulting services apart from others in the market?",
+        "What sets Qurilo' eCommerce consulting services apart from others in the market?",
       answer:
-        " ValueCoders’ eCommerce consulting services set themselves apart by combining their experience and expertise, offering a customized approach tailored to each client’s needs, providing comprehensive services covering various areas of eCommerce, employing data-driven decision making, focusing on long-term success, adopting a client-centric approach, and showcasing a proven track record of delivering successful outcomes.",
+        " Qurilo’ eCommerce consulting services set themselves apart by combining their experience and expertise, offering a customized approach tailored to each client’s needs, providing comprehensive services covering various areas of eCommerce, employing data-driven decision making, focusing on long-term success, adopting a client-centric approach, and showcasing a proven track record of delivering successful outcomes.",
     },
 
     {
       id: 2,
       question:
-        "How can ValueCoders help me choose the right eCommerce platform for my business?",
+        "How can Qurilo help me choose the right eCommerce platform for my business?",
       answer:
-        "  ValueCoders has a team of experienced consultants who can assess your business requirements, budget, scalability needs, and other factors to recommend the most suitable eCommerce platform. They consider factors like ease of use, customization options, integrations, security, and scalability to ensure you make an informed decision that aligns with your business goals.",
+        "  Qurilo has a team of experienced consultants who can assess your business requirements, budget, scalability needs, and other factors to recommend the most suitable eCommerce platform. They consider factors like ease of use, customization options, integrations, security, and scalability to ensure you make an informed decision that aligns with your business goals.",
     },
     {
       id: 3,
       question:
-        " How can I get started with ValueCoders' eCommerce consulting service?",
+        " How can I get started with Qurilo' eCommerce consulting service?",
       answer: `
-      To get started with ValueCoders’ eCommerce consulting service, you can contact their team through their website or contact them directly. They will schedule an initial consultation to understand your business goals, challenges, and requirements. Based on this assessment, they will propose a tailored consulting plan to address your specific needs and help you achieve eCommerce success.
+      To get started with Qurilo’ eCommerce consulting service, you can contact their team through their website or contact them directly. They will schedule an initial consultation to understand your business goals, challenges, and requirements. Based on this assessment, they will propose a tailored consulting plan to address your specific needs and help you achieve eCommerce success.
         `,
     },
     {
       id: 4,
       question:
-        "What industries does ValueCoders specialize in for eCommerce consulting?",
-      answer: `ValueCoders has experience working across various industries, including but not limited to retail, fashion, electronics, consumer goods, healthcare, and B2B eCommerce. Their consultants can adapt their expertise to cater to your industry’s specific requirements and dynamics, ensuring tailored solutions that drive results.`,
+        "What industries does Qurilo specialize in for eCommerce consulting?",
+      answer: `Qurilo has experience working across various industries, including but not limited to retail, fashion, electronics, consumer goods, healthcare, and B2B eCommerce. Their consultants can adapt their expertise to cater to your industry’s specific requirements and dynamics, ensuring tailored solutions that drive results.`,
     },
     {
       id: 5,
       question:
-        " Can ValueCoders assist with integrating third-party tools and services with my eCommerce platform?",
-      answer: `Absolutely! ValueCoders’ consultants have experience in integrating various third-party tools and services with eCommerce platforms. Whether it’s payment gateways, CRM systems, inventory management solutions, or marketing automation tools, they can guide you through the integration process and help you select the most suitable options for your business needs.`,
+        " Can Qurilo assist with integrating third-party tools and services with my eCommerce platform?",
+      answer: `Absolutely! Qurilo’ consultants have experience in integrating various third-party tools and services with eCommerce platforms. Whether it’s payment gateways, CRM systems, inventory management solutions, or marketing automation tools, they can guide you through the integration process and help you select the most suitable options for your business needs.`,
     },
   ],
 };

@@ -1,20 +1,20 @@
 // import hero images here
-import heroimg from "../assets/backend-development/images/Backend_Development_Services.jpg";
-import heromobile from "../assets/backend-development/images/Backend_Development_Services_MOBILE.jpg";
+import heroimg from "../assets/b2b-ecommerce/images/HOME_PAGE_IMAGE.png";
+import heromobile from "../assets/b2b-ecommerce/images/MOBILE_IMAGE.jpg";
 
 // import services icons here
-import firsticon from "../assets/backend-development/icons/web_application_backend_development.png";
-import secondicon from "../assets/backend-development/icons/mobile_app_backend_development.png";
-import thirdicon from "../assets/backend-development/icons/ERP_CRM_Backend_Development.png";
-import fourthicon from "../assets/backend-development/icons/api_integration.png";
-import fifthicon from "../assets/backend-development/icons/custom_backend_solutions.png";
-import sixthicon from "../assets/backend-development/icons/Backend_Refactoring.png";
+import firsticon from "../assets/b2b-ecommerce/icons/B2B_eCommerce_Consulting.png";
+import secondicon from "../assets/b2b-ecommerce/icons/Web_eCommerce.png";
+import thirdicon from "../assets/b2b-ecommerce/icons/Mobile_Commerce.png";
+import fourthicon from "../assets/b2b-ecommerce/icons/B2B_eCommerce_Supply_Chain_Automation.png";
+import fifthicon from "../assets/b2b-ecommerce/icons/Multistore_eCommerce.png";
+import sixthicon from "../assets/b2b-ecommerce/icons/B2B_eCommerce_Maintenance_Support.png";
 
 // grid images here
-import firstimg from "../assets/backend-development/images/gridimages/Authentication_and_AuthorizatioN.png";
-import secondimg from "../assets/backend-development/images/gridimages/Real-timeData_Processing.png";
-import thirdimg from "../assets/backend-development/images/gridimages/Serverless_Computing.png";
-import fourthimg from "../assets/backend-development/images/gridimages/cloud-computing-data-management-concept.jpg";
+import firstimg from "../assets/b2b-ecommerce/images/gridimages/Conscious_data_confidentiality_integrity.png";
+import secondimg from "../assets/b2b-ecommerce/images/gridimages/Implementation_consulting.png";
+import thirdimg from "../assets/b2b-ecommerce/images/gridimages/e-commerce_business.png";
+import fourthimg from "../assets/b2b-ecommerce/images/gridimages/eCommerce_software.png";
 
 // import common images here
 import contactimg from "../assets/common-images/contactimg.png";
@@ -25,7 +25,7 @@ export const heroSectionData = {
   heroDesktop: heroimg,
   heroMobile: heromobile,
   heading: "B2B eCommerce Solutions",
-  desc: `Struggling with B2B eCommerce challenges? ValueCoders has you covered. Our tailored solutions address the evolving digital landscape and meet the needs of your B2B customers. With our range of B2B eCommerce solutions, we help businesses of all sizes establish a strong online presence that aligns with their unique requirements.`,
+  desc: `Struggling with B2B eCommerce challenges? Qurilo has you covered. Our tailored solutions address the evolving digital landscape and meet the needs of your B2B customers. With our range of B2B eCommerce solutions, we help businesses of all sizes establish a strong online presence that aligns with their unique requirements.`,
   btn: "Contact Us",
 };
 
@@ -94,15 +94,15 @@ export const faqData = {
   faqdata: [
     {
       id: 1,
-      question: "Why should I choose ValueCoders for B2B eCommerce solutions?",
+      question: "Why should I choose Qurilo for B2B eCommerce solutions?",
       answer:
-        " At ValueCoders, we have extensive experience in delivering tailored B2B eCommerce solutions. Our team of experts ensures seamless integrations, user-friendly interfaces, and personalized features to enhance your B2B operations and drive business growth.",
+        " At Qurilo, we have extensive experience in delivering tailored B2B eCommerce solutions. Our team of experts ensures seamless integrations, user-friendly interfaces, and personalized features to enhance your B2B operations and drive business growth.",
     },
 
     {
       id: 2,
       question:
-        "Do ValueCoders provide ongoing support and maintenance for B2B eCommerce platforms?",
+        "Do Qurilo provide ongoing support and maintenance for B2B eCommerce platforms?",
       answer:
         "  Yes, we offer comprehensive support and maintenance services to keep your B2B eCommerce platform up-to-date, secure, and performing optimally, ensuring uninterrupted business operations.",
     },
@@ -116,26 +116,25 @@ export const faqData = {
     {
       id: 4,
       question:
-        "Can I test ValueCoders' B2B eCommerce services before committing to a long-term engagement?",
+        "Can I test Qurilo' B2B eCommerce services before committing to a long-term engagement?",
       answer: `Absolutely! We offer a risk-free trial period and proof of concept to let you experience the value we bring to your B2B eCommerce project before making a long-term commitment.`,
     },
     {
       id: 5,
       question:
-        " Can ValueCoders assist with migrating an existing B2B eCommerce store to a new platform?",
+        " Can Qurilo assist with migrating an existing B2B eCommerce store to a new platform?",
       answer: `Yes, our team specializes in smooth B2B eCommerce store migrations, ensuring data integrity, SEO preservation, and minimal downtime during the transition. We make the process hassle-free and seamless for you.`,
     },
   ],
 };
 
 export const domainExpertiseData = {
-    heading: "B2B eCommerce Consulting",
-    desc: `Our experts review your existing eCommerce business strategy, resources, technologies, and other vital aspects to discover hidden issues for growth by assessing current business processes, generating process analysis reports, and pinpointing high-level business requirements.`,
-    points: [
-      "Assess current business process",
-      "Generate process analysis reports",
-      "Pinpoint high-level business requirements",
-    ],
-    images: [firstimg, secondimg, thirdimg, fourthimg],
-  };
-  
+  heading: "B2B eCommerce Consulting",
+  desc: `Our experts review your existing eCommerce business strategy, resources, technologies, and other vital aspects to discover hidden issues for growth by assessing current business processes, generating process analysis reports, and pinpointing high-level business requirements.`,
+  points: [
+    "Assess current business process",
+    "Generate process analysis reports",
+    "Pinpoint high-level business requirements",
+  ],
+  images: [firstimg, secondimg, thirdimg, fourthimg],
+};
