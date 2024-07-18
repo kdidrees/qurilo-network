@@ -1,7 +1,7 @@
 {
   "heroSectionData": {
-    "heroDesktop": "../assets/backend-development/images/Backend_Development_Services.jpg",
-    "heroMobile": "../assets/backend-development/images/Backend_Development_Services_MOBILE.jpg",
+    "heroDesktop": "../assets/b2b-ecommerce/images/HOME_PAGE_IMAGE.png",
+    "heroMobile": "../assets/b2b-ecommerce/images/MOBILE_IMAGE.jpg",
     "heading": "B2B eCommerce Solutions",
     "desc": "Struggling with B2B eCommerce challenges? Qurilo has you covered. Our tailored solutions address the evolving digital landscape and meet the needs of your B2B customers. With our range of B2B eCommerce solutions, we help businesses of all sizes establish a strong online presence that aligns with their unique requirements.",
     "btn": "Contact Us"
@@ -13,37 +13,37 @@
     "list": [
       {
         "id": 1,
-        "icon": "../assets/backend-development/icons/web_application_backend_development.png",
+        "icon": "../assets/b2b-ecommerce/icons/B2B_eCommerce_Consulting.png",
         "heading": "B2B eCommerce Consulting",
         "desc": "Our experts review your existing eCommerce business strategy, resources, technologies, and other vital aspects to discover hidden issues for growth by assessing current business processes, generating process analysis reports, and pinpointing high-level business requirements."
       },
       {
         "id": 2,
-        "icon": "../assets/backend-development/icons/mobile_app_backend_development.png",
+        "icon": "../assets/b2b-ecommerce/icons/Web_eCommerce.png",
         "heading": "Web eCommerce",
         "desc": "We offer a comprehensive range of services to help businesses create a seamless online shopping experience for their customers, including custom eCommerce storefronts, web-based POS systems, and product information management systems."
       },
       {
         "id": 3,
-        "icon": "../assets/backend-development/icons/ERP_CRM_Backend_Development.png",
+        "icon": "../assets/b2b-ecommerce/icons/Mobile_Commerce.png",
         "heading": "Mobile Commerce",
         "desc": "We specialize in creating mCommerce applications that make shopping easy and convenient by providing feature-rich B2B eCommerce mobile apps to sell online, streamlining the shopping experience for your prospects, and enabling easy browsing and checkout."
       },
       {
         "id": 4,
-        "icon": "../assets/backend-development/icons/api_integration.png",
+        "icon": "../assets/b2b-ecommerce/icons/B2B_eCommerce_Supply_Chain_Automation.png",
         "heading": "B2B eCommerce Supply Chain Automation",
         "desc": "We help you build a solid B2B supply chain at the lowest cost to make you stand up high in this competitive edge by procuring the required materials, facilitating full control over order executions, and enabling quick resolution of order claims."
       },
       {
         "id": 5,
-        "icon": "../assets/backend-development/icons/custom_backend_solutions.png",
+        "icon": "../assets/b2b-ecommerce/icons/Multistore_eCommerce.png",
         "heading": "Multistore eCommerce",
         "desc": "With our years of experience in eCommerce solutions, we help you set up multi stores for your business or operate under multiple brands by employing personalized merchandising techniques, interactive product imaging, and upsell and cross-sell capabilities."
       },
       {
         "id": 6,
-        "icon": "../assets/backend-development/icons/Backend_Refactoring.png",
+        "icon": "../assets/b2b-ecommerce/icons/B2B_eCommerce_Maintenance_Support.png",
         "heading": "B2B eCommerce Maintenance & Support",
         "desc": "With B2B eCommerce maintenance and support, we ensure the continued success of a company's eCommerce platform by providing regular updates and upgrades, maximizing customer satisfaction, and minimizing downtime."
       }
@@ -100,9 +100,9 @@
       "Pinpoint high-level business requirements"
     ],
     "images": [
-      "../assets/backend-development/images/gridimages/Authentication_and_AuthorizatioN.png",
-      "../assets/backend-development/images/gridimages/Real-timeData_Processing.png",
-      "../assets/backend-development/images/gridimages/Serverless_Computing.png",
+      "../assets/b2b-ecommerce/images/gridimages/Conscious_data_confidentiality_integrity.png",
+      "../assets/b2b-ecommerce/images/gridimages/Implementation_consulting.png",
+      "../assets/b2b-ecommerce/images/gridimages/e-commerce_business.png",
       "../assets/backend-development/images/gridimages/cloud-computing-data-management-concept.jpg"
     ]
   }

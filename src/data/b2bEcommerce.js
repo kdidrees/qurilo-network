@@ -14,7 +14,7 @@ import sixthicon from "../assets/b2b-ecommerce/icons/B2B_eCommerce_Maintenance_S
 import firstimg from "../assets/b2b-ecommerce/images/gridimages/Conscious_data_confidentiality_integrity.png";
 import secondimg from "../assets/b2b-ecommerce/images/gridimages/Implementation_consulting.png";
 import thirdimg from "../assets/b2b-ecommerce/images/gridimages/e-commerce_business.png";
-import fourthimg from "../assets/b2b-ecommerce/images/gridimages/eCommerce_software.png";
+import fourthimg from "../assets/b2b-ecommerce/images/gridimages/e-commerce_business.png";
 
 // import common images here
 import contactimg from "../assets/common-images/contactimg.png";
