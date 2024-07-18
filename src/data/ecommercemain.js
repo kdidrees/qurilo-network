@@ -1,19 +1,27 @@
 // import hero images here
-import heroimg from "../assets/ecommerce-consulting/images/home_page_image.png";
-import heromobile from "../assets/ecommerce-consulting/images/mobile_image.jpg";
+import heroimg from "../assets/ecommercemain/images/eCommerce_Development_Services.png";
+import heromobile from "../assets/ecommercemain/images/eCommerce_Development_Services_mobile.png";
+
 
 // import services icons here
-import firsticon from "../assets/ecommerce-consulting/icons/eCommerce_Strategy_Consulting_Service.png";
-import secondicon from "../assets/ecommerce-consulting/icons/eCommerce_MobileWeb_App_Design.png";
-import thirdicon from "../assets/ecommerce-consulting/icons/eCommerce_App_Development_Consulting.png";
-import fourthicon from "../assets/ecommerce-consulting/icons/QA_Testing_Consulting.png";
-import fifthicon from "../assets/ecommerce-consulting/icons/eCommerce_Digitalization_Consulting.png";
+import firsticon from "../assets/ecommercemain/icons/Custom_eCommerce_Development.png";
+import secondicon from "../assets/ecommercemain/icons/Website_Design.png";
+import thirdicon from "../assets/ecommercemain/icons/consulting.png";
+import fourthicon from "../assets/ecommercemain/icons/implementation.png";
+import fifthicon from "../assets/ecommercemain/icons/backend_development.png";
+import sixthicon from "../assets/ecommercemain/icons/frontend_development.png";
+import seventhicon from "../assets/ecommercemain/icons/mobile_app_development.png";
+import eighticon from "../assets/ecommercemain/icons/maintenance_migration.png";
+import ningthicon from "../assets/ecommercemain/icons/Platform-based_Development.png";
+import tenthicon from "../assets/ecommercemain/icons/ecommerce_integrations.png";
+import eleventhicon from "../assets/ecommercemain/icons/eCommerce_Audit.png";
+import twelethicon from "../assets/ecommercemain/icons/digital_marketing_services.png";
 
 // grid images here
-import firstimg from "../assets/ecommerce-consulting/images/gridimages/Generate_process_analysis_reports.jpg";
-import secondimg from "../assets/ecommerce-consulting/images/gridimages/business-people-working-with-ipad-side-view.jpg";
-import thirdimg from "../assets/ecommerce-consulting/images/gridimages/contract-fair-agreement-webpage-interface.jpg";
-import fourthimg from "../assets/ecommerce-consulting/images/gridimages/social-media-marketing-concept-marketing-with-applications.jpg";
+import firstimg from "../assets/ecommercemain/images/gridimages/App_Maintenance_Support.png";
+import secondimg from "../assets/ecommercemain/images/gridimages/Cross-platform_Development.png";
+import thirdimg from "../assets/ecommercemain/images/gridimages/Frontend_Development.png";
+import fourthimg from "../assets/ecommercemain/images/gridimages/Mobile_App_Development.jpg";
 
 // import common images here
 import contactimg from "../assets/common-images/contactimg.png";
@@ -78,19 +86,19 @@ export const servicesData = {
     },
     {
       id: 8,
-      icon: eighthicon,
+      icon: eighticon,
       heading: "Maintenance & Migration",
       desc: `Our maintenance & migration services ensure your eCommerce platform runs smoothly and stays updated. We handle maintenance and migration, minimizing downtime and enhancing performance.`,
     },
     {
       id: 9,
-      icon: ninthicon,
+      icon: ningthicon,
       heading: "Platform-based Development",
       desc: `We excel in platform-based eCommerce development using Magento, Shopify, and WooCommerce. Our experts ensure smooth integration, enhanced user experience, and improved performance to boost online sales and growth.`,
     },
     {
       id: 10,
-      icon: tenticon,
+      icon: tenthicon,
       heading: "eCommerce Integrations",
       desc: `We excel in eCommerce integrations, connecting your store with CRM, ERP, payment gateways, and third-party systems. Our solutions enhance efficiency, streamline operations, and drive superior customer experiences.`,
     },
@@ -102,7 +110,7 @@ export const servicesData = {
     },
     {
       id: 12,
-      icon: twelfthicon,
+      icon: twelethicon,
       heading: "Digital Marketing Services",
       desc: `We utilize strategic SEO tactics and design engaging social media campaigns, tailoring our approach to enhance your online visibility, drive traffic, and ultimately increase conversions for your eCommerce platform.`,
     },
