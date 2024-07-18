@@ -1,27 +1,25 @@
-// businesstypedata icons here
-import startupicon from "../assets/Images/appdevelopment/icons/startupicon.png";
+// import common images here
+import contactimg from "../assets/common-images/contactimg.png";
+import strategyimg from "../assets/common-images/strategy.png";
 
-// businesstypedata images here
-import startupimg from "../assets/Images/appdevelopment/images/startups.jpg";
-import digitalagencies from "../assets/Images/appdevelopment/images/digitalagencies.jpg";
-import enterprisesimg from "../assets/Images/appdevelopment/images/enterprises.png";
-import productcompaniesimg from "../assets/Images/appdevelopment/images/productcompanies.png";
-import cmoimg from "../assets/Images/appdevelopment/images/cmos.png";
-import ctoimg from "../assets/Images/appdevelopment/images/ctos.png";
+// import hero images here 
+import heroimg from "../assets/application-development-main/images/Custom_Application_Development_Services.png"
+import heromobile from "../assets/application-development-main/images/Custom_Application_Development_Services_mobile.png"
 
-// blog images here
-import blogimg1 from "../assets/Images/appdevelopment/blogs/images/first.png";
-import blogimg2 from "../assets/Images/appdevelopment/blogs/images/second.jpg";
+// import services icons here
+import firsticon from "../assets/application-development-main/icons/web_app_development.png";
+import firsticon from "../assets/application-development-main/icons/";
+import firsticon from "../assets/application-development-main/icons/";
 
-// testimonial images here
-import testimonialImg1 from "../assets/Images/appdevelopment/testimonials/imagefirst.png";
-import testimonialImg2 from "../assets/Images/appdevelopment/testimonials/user2.png";
+// grid images here
+import firstimg from "../assets/b2b-ecommerce/images/gridimages/Conscious_data_confidentiality_integrity.png";
+
 
 export const heroSectionData = {
   heroDesktop: heroimg,
   heroMobile: heromobile,
-  heading: "eCommerce Development Services",
-  desc: `Tap into the vast online marketplace, reach new customers, and achieve sustainable growth with eCommerce development. Our custom ecommerce solutions integrate seamlessly with existing systems and provide valuable data for optimization.`,
+  heading: "Custom Application Development Services",
+  desc: `Do you have unique business challenges that off-the-shelf software can’t solve? Custom applications create solutions designed specifically for your needs, giving you the edge you deserve.`,
   btn: "Get  Free Consultation",
 };
 export const servicesData = {
