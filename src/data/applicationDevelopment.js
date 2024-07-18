@@ -17,68 +17,164 @@ import blogimg2 from "../assets/Images/appdevelopment/blogs/images/second.jpg";
 import testimonialImg1 from "../assets/Images/appdevelopment/testimonials/imagefirst.png";
 import testimonialImg2 from "../assets/Images/appdevelopment/testimonials/user2.png";
 
-export const cardData = [
-  {
-    id: 1,
-    heading: "Web App Development",
-    description: `Our   company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 2,
-    heading: "Mobile App Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 3,
-    heading: "Frontend Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 4,
-    heading: "Backend Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 5,
-    heading: "Cross-platform Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 6,
-    heading: "App Maintenance & Support",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 7,
-    heading: "Website & Portal Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 8,
-    heading: "Application Modernization",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 9,
-    heading: "API Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 10,
-    heading: "Full Stack Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 11,
-    heading: "Cloud Application Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-  {
-    id: 12,
-    heading: "OTT App Development",
-    description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
-  },
-];
+export const heroSectionData = {
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
+  heading: "eCommerce Development Services",
+  desc: `Tap into the vast online marketplace, reach new customers, and achieve sustainable growth with eCommerce development. Our custom ecommerce solutions integrate seamlessly with existing systems and provide valuable data for optimization.`,
+  btn: "Get  Free Consultation",
+};
+export const servicesData = {
+  heading: "Your Vision, Our Application Expertise",
+  desc: `
+  We specialize in delivering result-driven custom app development services and innovative mobile app solutions tailored for startups and enterprises. Our expertise ensures applications that exceed expectations, empowering your business for success in today’s dynamic digital landscape
+`,
+  img: strategyimg,
+  list: [
+    {
+      id: 1,
+      heading: "Web App Development",
+      description: `Our   company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 2,
+      heading: "Mobile App Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 3,
+      heading: "Frontend Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 4,
+      heading: "Backend Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 5,
+      heading: "Cross-platform Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 6,
+      heading: "App Maintenance & Support",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 7,
+      heading: "Website & Portal Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 8,
+      heading: "Application Modernization",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 9,
+      heading: "API Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 10,
+      heading: "Full Stack Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 11,
+      heading: "Cloud Application Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+    {
+      id: 12,
+      heading: "OTT App Development",
+      description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
+    },
+  ],
+};
+
+export const contactOneData = {
+  heading: "Build an App that Drives User Engagement",
+  desc: `Want to drive conversions at a quick pace? Let us build an app that meets the purpose.`,
+  button: "Contact Us",
+  img: contactimg,
+};
+export const contactTwoData = {
+  heading: "Unlock Your Growth Potential",
+  desc: `Let's us build a scalable and result-driven application that grows your bottom line.`,
+  button: "Get Started",
+};
+
+export const faqData = {
+  heading: "FAQs",
+  desc: ``,
+  faqdata: [
+    {
+      id: 1,
+      question:
+        " Why should I choose ValueCoders for application development services?",
+      answer:
+        "  ValueCoders delivers exceptional custom app development with our team of 19+ years of experienced developers and a 99.98% uptime guarantee. Get a high-ROI solution tailored to your needs.",
+    },
+
+    {
+      id: 2,
+      question:
+        " How do you ensure your applications are compliant with data privacy regulations?",
+      answer:
+        "  Following are some key points to ensure application compliance and data privacy protection:",
+      list: [
+        "Signing a Non-Disclosure Agreement (NDA)",
+        "Using special industry regulations such as GDPR, HIPAA, etc",
+        "Following secure coding and data protection practices",
+        "All our employees are strictly verified before recruitment",
+        "Establishing firewalls, encryption, and VPN services to prevent online security breaches",
+      ],
+    },
+    {
+      id: 3,
+      question: "How much does it cost to develop a mobile app?",
+      answer: `
+      Building your custom app can cost anywhere from $10,000 to $250,000+ depending on complexity. Get a free quote from ValueCoders to understand your project’s exact cost
+        `,
+    },
+    {
+      id: 4,
+      question:
+        "What technologies and frameworks does ValueCoders specialize in for application development?",
+      answer: ` ValueCoders is one of the leading custom app development company that specializes in a wide range of technologies and frameworks, including but not limited to:`,
+      ansList: [
+        {
+          id: 1,
+          heading: "Front-end technologies:",
+          desc: `HTML5, CSS3, JavaScript, Angular, React, Vue.js`,
+        },
+        {
+          id: 2,
+          heading: "Back-end technologies:",
+          desc: `PHP, Node.js, Ruby on Rails, ASP.NET, Java, Python`,
+        },
+        {
+          id: 3,
+          heading: "Mobile app development",
+          desc: ` iOS (Swift, Objective-C), Android (Java, Kotlin), React Native`,
+        },
+        {
+          id: 4,
+          heading: "Database technologies",
+          desc: ` MySQL, PostgreSQL, MongoDB, Oracle, SQL Server`,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question:
+        "How does ValueCoders ensure timely delivery and adherence to project deadlines?",
+      answer: ` At ValueCoders, we prioritize timely delivery and meeting project deadlines. We follow agile methodologies, breaking projects into manageable sprints with defined timelines. Our project management team closely monitors progress, maintains effective communication with clients, and ensures transparency throughout development, guaranteeing timely delivery of your application.`,
+    },
+  ],
+};
 
 export const technologiesData = [
   {
@@ -99,271 +195,5 @@ export const technologiesData = [
   {
     heading: "Blockchain",
     tech: ["ChatBot", "Ethereum", "Solidity", "Smart Contract", "ML & AI"],
-  },
-];
-
-
-
-export const faqData = {
-  heading: "FAQs",
-  desc: `Here are some questions related to software outsourcing that our clients frequently ask:`,
-  faqdata: [
-    {
-      id: 1,
-      question: "Why should I choose Qurilo?",
-      answer: `We are a highly experienced and qualified team of professionals with a proven track record of delivering quality software solutions to clients. Here are a few reasons to choose us:`,
-      list: [
-        "675+ software developers",
-        "Expertise in different technologies",
-        "Strong reputation for quality work",
-        "Experience working on complex projects for different industry verticals",
-      ],
-    },
-    {
-      id: 2,
-      question:
-        "Can I test the services of Qurilo before committing to long-term engagement?",
-      answer: `  You can test the services of Qurilo before committing to long-term
-        engagement. We offer free trial to clients worldwide. This is to give
-        our potential customers a risk-free way to try our software development
-        services before committing to long-term engagement. We strongly believe
-        in our products and services and want to allow everyone to experience
-        firsthand the value we can bring. <br />
-        <br /> Just fill out a form and
-        <strong className="">connect with our team </strong>
-        immediately. We hope you’ll take advantage of this and give us a chance
-        to show you what we can do.`,
-    },
-    {
-      id: 3,
-      question: "How much does outsourcing software development to India cost?",
-      answer: ` The cost of
-        <strong className="">
-          outsource software development
-        </strong>
-        depends on several factors such as the size and build of the
-        application, the features & third-party integrations, APIs, animations,
-        localizations, backend, cross-platform toolsets, platforms, etc. If you
-        share your basic idea, we can provide you with an ETA and estimated
-        cost.
-`,
-    },
-    {
-      id: 4,
-      question:
-        "I own a digital agency. Do you offer white-label software development services?",
-      answer: ` Yes, we provide all types of
-        <strong className="">
-          
-          white-label software development services
-        </strong>
-        , including business-to-business (B2B), business-to-customer (B2C), and
-        software-as-a-service (SaaS). Get in touch with our experts to know more
-        about white-label software services. <br />
-        <br />
-        We believe in complete transparency and collaboration with our clients
-        regarding white-label software development. We understand that every
-        business has unique requirements and needs, and we work closely with our
-        clients to ensure that we meet all their specific needs. We also offer
-        24/7 support and maintenance services to ensure that our client’s
-        businesses always run smoothly.
-`,
-    },
-    {
-      id: 5,
-      question: "Do you work with startups and clients on a budget?",
-      answer: ` <span>
-        Yes, we work with startups. Since our establishment, we have worked with
-        thousands of startups across the globe and become the proud partner in
-        their success journey. We have built hundreds of Minimum Viable Products
-        (MVPs) and scaled several startups to new heights. Also, we provide you
-        with initial technology consulting that helps you cut costs & time.
-        <br /> <br /> Let us know your budget, and our experts will be happy to
-        help you.
-      </span>
-`,
-    },
-    {
-      id: 6,
-      question:
-        "Is outsourcing software development risky? How do you ensure IP (Intellectual Property) and data protection?",
-      answer: `  <strong className="">
-          Software product development outsourcing
-        </strong>
-        is not risky at all if you outsource your project to a reputed company.
-        Qurilo ensures IP (Intellectual Property) & data protection in the
-        following ways:
-`,
-      list: [
-        "We sign a Non-Disclosure Agreement (NDA)",
-        "We meet special industry regulations such as GDPR, HIPAA, etc.",
-        "We follow secure coding and data protection practices",
-        "We establish firewalls, encryption, and VPN services to prevent online security breaches",
-        "All our employees are strictly verified before recruitment",
-      ],
-    },
-    {
-      id: 7,
-      question:
-        "I want to outsource software development. What engagement options do you offer?",
-      answer: ` At Qurilo, we offer a variety of engagement models to suit your
-        specific project requirements. Whether you need a dedicated team of
-        coders for an ongoing project or just a few extra hands for a one-off
-        task, we have an engagement model that will fit your needs.
-        <br />
-        <br />
-        <strong className="">Dedicated Team:</strong>Dedicated team
-        model comprises a PM, SW Engineer, QA Engineer, and other roles defined
-        for each specific project.
-        <br />
-        <strong className="">Staff Augmentation: </strong>We
-        provide extra talent to boost your specific projects. This extended team
-        works as a part of your local team, attending your daily meetings and
-        reporting directly to your manager.
-        <br />
-        <strong className="">
-          Offshore Development Center:
-        </strong>
-        We also provide a dedicated software development office with all
-        required infrastructure and employees in India. Our ODC model helps you
-        save budget and speed up development, recruiting, and optimizing
-        accounting and HR.
-`,
-    },
-    {
-      id: 8,
-      question: "How does the software development outsourcing process work?",
-      answer: `Software development outsourcing works differently, depending on the project requirements and the company’s needs. But ‌the process typically looks something like this:`,
-      list: [
-        "The company defines the project scope and objectives and finds a trustworthy provider.",
-        "The provider creates a team of qualified professionals working on the project.",
-        "The team works closely with the client to ensure all deliverables meet or exceed expectations.",
-        "Upon completion, the client gives final approval and pays for the work completed.",
-      ],
-      paraAfterList: `Each software development outsourcing project is unique, so this process
-          will vary somewhat from case to case. <br /> <br /> It fulfills the
-          requirement of a capable team cost-efficiently, and you get technical
-          support after the experts complete the project.`,
-    },
-    {
-      id: 9,
-      question:
-        "What are the advantages of outsourcing software development to India over Latin America, the Philippines or Eastern Europe?",
-      answer: `Many reasons make India an ideal destination for
-        <strong className="">software outsourcing services</strong>
-        . Here are a few reasons that give a competitive edge to India over
-        Latin America, the Philippines, or Eastern Europe:
-`,
-      list: [
-        "Outsourcing software development projects to India is always more cost-effective.",
-        "You get a large pool of English-speaking skilled workforce in India, which might be a challenge in Eastern Europe and Philippines.",
-        "Indian companies provide state-of-the-art infrastructural and technological support to the clients outsourcing to them.",
-        "IT companies in India keep themselves abreast with the latest technological advancements.",
-      ],
-    },
-
-   
-  ],
-};
-
-export const DevelopmentProcessData = [
-  {
-    id: 1,
-    heading: "Planning",
-    desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-  },
-  {
-    id: 2,
-    heading: "Planning",
-    desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-  },
-  {
-    id: 3,
-    heading: "Planning",
-    desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-  },
-  {
-    id: 4,
-    heading: "Planning",
-    desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-  },
-  {
-    id: 5,
-    heading: "Planning",
-    desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-  },
-  {
-    id: 6,
-    heading: "Planning",
-    desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-  },
-];
-
-export const blogData = [
-  {
-    date: "Jun,26,24",
-    image: `${blogimg1}`,
-    title:
-      "Case Study: Start of Ola – Safe and Secure Transport Revolution in India",
-    subtitle:
-      "Introduction OLA, India’s leading taxi app company, has redefined transportation in the country,...",
-  },
-  {
-    date: "jun,26,23",
-    image: `${blogimg2}`,
-    title:
-      "The Impact of AI on Industries: The Future of Automation and Human Collaboration",
-    subtitle:
-      "The Potential of Artificial Intelligence in Coimbatore Coimbatore, a melting pot of technology and...",
-  },
-  {
-    date: "Mar,26,22",
-    image: `${blogimg2}`,
-    title: "Lights, Camera, Reel: the Power of Short-Form Video Content",
-    subtitle:
-      "Lights, Camera, Reel: the Power of Short-Form Video Content What is Short-form Video Short-form...",
-  },
-];
-
-export const Testimaonials = [
-  {
-    message: "Best services",
-    description:
-      "This is the best service I have ever used.This is the best service I have ever used.This is the best service I have ever used.This is the best service I have ever used.",
-    name: "John Doe",
-    position: "CEO, Example Co.",
-    image: testimonialImg1,
-  },
-  {
-    message: "Best services",
-    description:
-      "Absolutely fantastic! Highly recommend.This is the best service I have ever used.",
-    name: "Jane Smith",
-    position: "CTO, Example Inc.",
-    image: testimonialImg2,
-  },
-  {
-    message: "Best services",
-    description:
-      "Outstanding service and great support! This is the best service I have ever used.",
-    name: "Michael Brown",
-    position: "COO, Sample Corp.",
-    image: testimonialImg1,
-  },
-  {
-    message: "Best services",
-    description:
-      "Excellent experience. Will definitely use again! This is the best service I have ever used.",
-    name: "Emily Johnson",
-    position: "CTO, Test Company",
-    image: testimonialImg2,
-  },
-  {
-    message: "Best services",
-    description:
-      "Very professional team. Delivered on time! This is the best service I have ever used.",
-    name: "David Lee",
-    position: "CEO, Another Example",
-    image: testimonialImg1,
   },
 ];

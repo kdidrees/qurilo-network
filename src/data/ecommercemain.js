@@ -128,9 +128,9 @@ export const faqData = {
     {
       id: 1,
       question:
-        " Why should I choose ValueCoders for eCommerce development services?",
+        " Why should I choose Qurilo for eCommerce development services?",
       answer:
-        "  ValueCoders is a leading custom eCommerce development services company that offers customized, scalable, and feature-rich eCommerce solutions for businesses of all sizes. With our team of experienced developers and cutting-edge technologies, we can help you build an online store that is user-friendly, secure, and provides an exceptional shopping experience to your customers.",
+        "  Qurilo is a leading custom eCommerce development services company that offers customized, scalable, and feature-rich eCommerce solutions for businesses of all sizes. With our team of experienced developers and cutting-edge technologies, we can help you build an online store that is user-friendly, secure, and provides an exceptional shopping experience to your customers.",
     },
 
     {
@@ -138,7 +138,7 @@ export const faqData = {
       question:
         " How much does it cost to develop an eCommerce business development website?",
       answer:
-        "  The cost of developing a custom eCommerce solution depends on various factors, such as the project’s complexity, features and functionalities, design, and development time. At ValueCoders, we offer flexible engagement models that cater to all budgets, ensuring high-quality and efficient delivery of your project.",
+        "  The cost of developing a custom eCommerce solution depends on various factors, such as the project’s complexity, features and functionalities, design, and development time. At Qurilo, we offer flexible engagement models that cater to all budgets, ensuring high-quality and efficient delivery of your project.",
     },
     {
       id: 3,
