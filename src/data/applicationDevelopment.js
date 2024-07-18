@@ -2,18 +2,29 @@
 import contactimg from "../assets/common-images/contactimg.png";
 import strategyimg from "../assets/common-images/strategy.png";
 
-// import hero images here 
-import heroimg from "../assets/application-development-main/images/Custom_Application_Development_Services.png"
-import heromobile from "../assets/application-development-main/images/Custom_Application_Development_Services_mobile.png"
+// import hero images here
+import heroimg from "../assets/application-development-main/images/Custom_Application_Development_Services.png";
+import heromobile from "../assets/application-development-main/images/Custom_Application_Development_Services_mobile.png";
 
 // import services icons here
 import firsticon from "../assets/application-development-main/icons/web_app_development.png";
-import firsticon from "../assets/application-development-main/icons/";
-import firsticon from "../assets/application-development-main/icons/";
+import secondicon from "../assets/application-development-main/icons/mobile_app_development.png";
+import thirdicon from "../assets/application-development-main/icons/frontend_development.png";
+import fourthicon from "../assets/application-development-main/icons/backend_development.png";
+import fifthicon from "../assets/application-development-main/icons/cross_platform_development.png";
+import sixthicon from "../assets/application-development-main/icons/app_maintenance.png";
+import seventhicon from "../assets/application-development-main/icons/website_portal_development.png";
+import eighticon from "../assets/application-development-main/icons/application_modernization.png";
+import ningthicon from "../assets/application-development-main/icons/api_developer.png";
+import tenthicon from "../assets/application-development-main/icons/full_stack_development.png";
+import eleventhicon from "../assets/application-development-main/icons/cloud_application_development.png";
+import twelthicon from "../assets/application-development-main/icons/ott_app_development.png";
 
 // grid images here
-import firstimg from "../assets/b2b-ecommerce/images/gridimages/Conscious_data_confidentiality_integrity.png";
-
+import firstimg from "../assets/application-development-main/images/gridimages/App_Maintenance_Support.png";
+import secondimg from "../assets/application-development-main/images/gridimages/Cross-platform_Development.png";
+import thirdimg from "../assets/application-development-main/images/gridimages/Frontend_Development.png";
+import fourthimg from "../assets/application-development-main/images/gridimages/Mobile_App_Development.jpg";
 
 export const heroSectionData = {
   heroDesktop: heroimg,
@@ -31,61 +42,81 @@ export const servicesData = {
   list: [
     {
       id: 1,
+      icon: firsticon,
       heading: "Web App Development",
       description: `Our   company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 2,
+      icon: secondicon,
       heading: "Mobile App Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 3,
+      icon: thirdicon,
+
       heading: "Frontend Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 4,
+      icon: fourthicon,
+
       heading: "Backend Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 5,
+      icon: fifthicon,
+
       heading: "Cross-platform Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 6,
+      icon: sixthicon,
+
       heading: "App Maintenance & Support",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 7,
+      icon: seventhicon,
+
       heading: "Website & Portal Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 8,
+      icon: eighticon,
+
       heading: "Application Modernization",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 9,
+      icon: ningthicon,
+
       heading: "API Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 10,
+      icon: tenthicon,
+
       heading: "Full Stack Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 11,
+      icon: eleventhicon,
       heading: "Cloud Application Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
     {
       id: 12,
+      icon: twelthicon,
       heading: "OTT App Development",
       description: `Our company specializes in creating top-tier, customizable native mobile apps that foster audience loyalty. We ensure a consistent, user-friendly experience across screens, enabling businesses with our expertise.`,
     },
@@ -111,9 +142,9 @@ export const faqData = {
     {
       id: 1,
       question:
-        " Why should I choose ValueCoders for application development services?",
+        " Why should I choose Qurilo for application development services?",
       answer:
-        "  ValueCoders delivers exceptional custom app development with our team of 19+ years of experienced developers and a 99.98% uptime guarantee. Get a high-ROI solution tailored to your needs.",
+        "  Qurilo delivers exceptional custom app development with our team of 19+ years of experienced developers and a 99.98% uptime guarantee. Get a high-ROI solution tailored to your needs.",
     },
 
     {
@@ -134,14 +165,14 @@ export const faqData = {
       id: 3,
       question: "How much does it cost to develop a mobile app?",
       answer: `
-      Building your custom app can cost anywhere from $10,000 to $250,000+ depending on complexity. Get a free quote from ValueCoders to understand your project’s exact cost
+      Building your custom app can cost anywhere from $10,000 to $250,000+ depending on complexity. Get a free quote from Qurilo to understand your project’s exact cost
         `,
     },
     {
       id: 4,
       question:
-        "What technologies and frameworks does ValueCoders specialize in for application development?",
-      answer: ` ValueCoders is one of the leading custom app development company that specializes in a wide range of technologies and frameworks, including but not limited to:`,
+        "What technologies and frameworks does Qurilo specialize in for application development?",
+      answer: ` Qurilo is one of the leading custom app development company that specializes in a wide range of technologies and frameworks, including but not limited to:`,
       ansList: [
         {
           id: 1,
@@ -168,8 +199,8 @@ export const faqData = {
     {
       id: 5,
       question:
-        "How does ValueCoders ensure timely delivery and adherence to project deadlines?",
-      answer: ` At ValueCoders, we prioritize timely delivery and meeting project deadlines. We follow agile methodologies, breaking projects into manageable sprints with defined timelines. Our project management team closely monitors progress, maintains effective communication with clients, and ensures transparency throughout development, guaranteeing timely delivery of your application.`,
+        "How does Qurilo ensure timely delivery and adherence to project deadlines?",
+      answer: ` At Qurilo, we prioritize timely delivery and meeting project deadlines. We follow agile methodologies, breaking projects into manageable sprints with defined timelines. Our project management team closely monitors progress, maintains effective communication with clients, and ensures transparency throughout development, guaranteeing timely delivery of your application.`,
     },
   ],
 };
@@ -210,5 +241,5 @@ export const domainExpertiseData = {
     "Application Modernization",
     "API Development",
   ],
-  images: [firstimg, secondimg, thirdimg],
+  images: [firstimg, secondimg, thirdimg,fourthimg],
 };
