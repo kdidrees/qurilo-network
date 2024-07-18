@@ -123,42 +123,42 @@ export const contactTwoData = {
 
 export const faqData = {
   heading: "FAQs",
-  desc: `Here are a few common questions our clients ask:`,
+  desc: `Here are answers to some questions our clients frequently have in their minds.`,
   faqdata: [
     {
       id: 1,
       question:
-        "What sets ValueCoders' eCommerce consulting services apart from others in the market?",
+        " Why should I choose ValueCoders for eCommerce development services?",
       answer:
-        " ValueCoders’ eCommerce consulting services set themselves apart by combining their experience and expertise, offering a customized approach tailored to each client’s needs, providing comprehensive services covering various areas of eCommerce, employing data-driven decision making, focusing on long-term success, adopting a client-centric approach, and showcasing a proven track record of delivering successful outcomes.",
+        "  ValueCoders is a leading custom eCommerce development services company that offers customized, scalable, and feature-rich eCommerce solutions for businesses of all sizes. With our team of experienced developers and cutting-edge technologies, we can help you build an online store that is user-friendly, secure, and provides an exceptional shopping experience to your customers.",
     },
 
     {
       id: 2,
       question:
-        "How can ValueCoders help me choose the right eCommerce platform for my business?",
+        " How much does it cost to develop an eCommerce business development website?",
       answer:
-        "  ValueCoders has a team of experienced consultants who can assess your business requirements, budget, scalability needs, and other factors to recommend the most suitable eCommerce platform. They consider factors like ease of use, customization options, integrations, security, and scalability to ensure you make an informed decision that aligns with your business goals.",
+        "  The cost of developing a custom eCommerce solution depends on various factors, such as the project’s complexity, features and functionalities, design, and development time. At ValueCoders, we offer flexible engagement models that cater to all budgets, ensuring high-quality and efficient delivery of your project.",
     },
     {
       id: 3,
       question:
-        " How can I get started with ValueCoders' eCommerce consulting service?",
+        " Are your eCommerce applications mobile-friendly?",
       answer: `
-      To get started with ValueCoders’ eCommerce consulting service, you can contact their team through their website or contact them directly. They will schedule an initial consultation to understand your business goals, challenges, and requirements. Based on this assessment, they will propose a tailored consulting plan to address your specific needs and help you achieve eCommerce success.
+ Yes, all our eCommerce applications are mobile-friendly and responsive, ensuring seamless user experience on all devices. Our custom eCommerce solution experts use the latest technologies, such as HTML5, CSS3, and Bootstrap, to develop eCommerce websites that are optimized for mobile devices.
         `,
     },
     {
       id: 4,
       question:
-        "What industries does ValueCoders specialize in for eCommerce consulting?",
-      answer: `ValueCoders has experience working across various industries, including but not limited to retail, fashion, electronics, consumer goods, healthcare, and B2B eCommerce. Their consultants can adapt their expertise to cater to your industry’s specific requirements and dynamics, ensuring tailored solutions that drive results.`,
+        "Do you offer support and maintenance after launch? How?",
+      answer: `Absolutely! We are a reputed eCommerce application development services company and offer post-launch support and maintenance to ensure your website is up-to-date, secure, and optimally functioning. Our support team is available 24/7 to address any issues or concerns and make updates and modifications as per your requirements.`,
     },
     {
       id: 5,
       question:
-        " Can ValueCoders assist with integrating third-party tools and services with my eCommerce platform?",
-      answer: `Absolutely! ValueCoders’ consultants have experience in integrating various third-party tools and services with eCommerce platforms. Whether it’s payment gateways, CRM systems, inventory management solutions, or marketing automation tools, they can guide you through the integration process and help you select the most suitable options for your business needs.`,
+        " How do you ensure my eCommerce platform is mobile-friendly and optimized for conversions?",
+      answer: ` We use responsive design techniques to ensure your eCommerce platform looks and functions perfectly on all devices. Our team focuses on user experience (UX) and conversion rate optimization (CRO) principles to create intuitive, high-converting mobile interfaces.`,
     },
   ],
 };
