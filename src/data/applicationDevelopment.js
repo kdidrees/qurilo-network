@@ -197,3 +197,20 @@ export const technologiesData = [
     tech: ["ChatBot", "Ethereum", "Solidity", "Smart Contract", "ML & AI"],
   },
 ];
+
+export const domainExpertiseData = {
+  heading: "Custom Application Development Services",
+  desc: `Do you have unique business challenges that off-the-shelf software can’t solve? Custom applications create solutions designed specifically for your needs, giving you the edge you deserve.`,
+  points: [
+    "Web App Development",
+    "Mobile App Development",
+    "Frontend Development",
+    "Backend Development",
+    "Cross-platform Development",
+    "App Maintenance & Support",
+    "Website & Portal Development",
+    "Application Modernization",
+    "API Development",
+  ],
+  images: [firstimg, secondimg, thirdimg],
+};
