@@ -18,7 +18,7 @@ export default function ItServicesSection() {
           <div className="md:m-8 m-2">
             <img
               src={item.img}
-              width={isTab ? 1000 : 600}
+              width={isTab ? 1000 : 550}
               alt={item.heading}
               className="rounded-xl"
             />
