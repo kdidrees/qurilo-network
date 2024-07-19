@@ -1,9 +1,9 @@
 import React from "react";
 import industryimg from "../../assets/Images/industry/images/atmimg.png";
-import { industryPageData} from "../../data/ItServices";
+import { industryPageData } from "../../data/ItServices";
 import Industry from "../../components/industrypagecomp/IndustryToggle";
 
-export default function IndustriesSection() {
+export default function ItServicesSection() {
   return (
     <section>
       {industryPageData.map((item, index) => (
