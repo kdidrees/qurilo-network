@@ -1,10 +1,10 @@
 // import images here
 import cloudimg from "../assets/it-services/images/cloud_computing.png";
-import retailimg from "../assets/industry-page/images/retail.png";
-import nonprofitimg from "../assets/industry-page/images/non_profit_govt_education.png";
-import pharmaimg from "../assets/industry-page/images/pharma_health.png";
-import manufacturingimg from "../assets/industry-page/images/manufacturing_automation.png";
-import travelimg from "../assets/industry-page/images/travel_logistics.png";
+import networkimg from "../assets/it-services/images/network_management.png";
+import serverimg from "../assets/it-services/images/server_management.png";
+import cyberimg from "../assets/it-services/images/cyber_security.png";
+import voipimg from "../assets/it-services/images/voip_communication.png";
+import databackupimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
 
 // import hero section images here
 import industryhero from "../assets/industry-page/images/industryhero.png";
@@ -34,7 +34,7 @@ export const industryPageData = [
   },
   {
     id: 2,
-    img: cloudimg,
+    img: networkimg,
     heading: "Network Management Services",
     desc: "Optimizing network performance and security with cutting-edge solutions. Our network management services ensure robust, reliable, and scalable network infrastructure.",
     data: [
@@ -49,7 +49,7 @@ export const industryPageData = [
 
   {
     id: 3,
-    img: cloudimg,
+    img: serverimg,
     heading: "Server Management Services",
     desc: "Enhancing server performance and reliability with comprehensive management solutions. Our server management services ensure secure, optimized, and scalable server infrastructure.",
     data: [
@@ -63,7 +63,7 @@ export const industryPageData = [
   },
   {
     id: 4,
-    img: cloudimg,
+    img: cyberimg,
     heading: "Cyber Security Services",
     desc: "Kellton excels in cybersecurity, protecting businesses with comprehensive solutions. We ensure a secure, resilient digital ecosystem, safeguarding data and assets from evolving threats.",
     data: [
@@ -77,7 +77,7 @@ export const industryPageData = [
   },
   {
     id: 5,
-    img: cloudimg,
+    img: voipimg,
     heading: "VoIP and Connection Services",
     desc: "Delivering seamless communication solutions to enhance business connectivity. Our VoIP and connection services ensure reliable, high-quality voice and data transmission.",
     data: [
@@ -91,7 +91,7 @@ export const industryPageData = [
   },
   {
     id: 6,
-    img: cloudimg,
+    img: databackupimg,
 
     heading: "Data Backup and Disaster Recovery",
     desc: "Ensuring business continuity with robust data backup and disaster recovery solutions. Our services protect critical data and minimize downtime during unforeseen events.",
@@ -102,6 +102,65 @@ export const industryPageData = [
       "Data replication and mirroring",
       "Recovery testing and validation",
       "Business continuity management",
+    ],
+  },
+  {
+    id: 7,
+    img: databackupimg,
+
+    heading: "Helpdesk and Technical Support",
+    desc: "Providing expert assistance to resolve technical issues efficiently. Our helpdesk and support services ensure minimal downtime and optimal performance.",
+    data: [
+      "24/7 technical support",
+      "Remote troubleshooting and diagnostics",
+      "Helpdesk software solutions",
+      "Incident management and resolution",
+      "User training and support",
+      "Service level agreement (SLA) management",
+    ],
+  },
+  {
+    id: 8,
+    img: databackupimg,
+    heading: "Infrastructure and Storage Services",
+    desc: "Designing and managing robust infrastructure solutions for efficient data storage and access. Our services ensure high availability, security, and scalability.",
+    data: [
+      "Cloud infrastructure setup and management",
+      "On-premises server installation and maintenance",
+      "Data storage solutions and management",
+      "Backup and disaster recovery services",
+      "Virtualization and server consolidation",
+      "Network infrastructure design and support",
+    ],
+  },
+  {
+    id: 9,
+    img: databackupimg,
+
+    heading: "Identity & Access Management",
+    desc: "Implementing comprehensive identity and access management solutions to safeguard sensitive information and streamline user access controls.",
+    data: [
+      "User identity and access provisioning",
+      "Single sign-on (SSO) solutions",
+      "Multi-factor authentication (MFA)",
+      "Role-based access control (RBAC)",
+      "Identity governance and administration",
+      "Compliance and audit reporting",
+    ],
+  },
+  {
+    id: 7,
+    img: databackupimg,
+
+    heading: "IT Consulting & Strategy",
+    desc: "Offering expert advice to optimize IT investments and align technology with business goals. Our consulting services drive strategic IT initiatives and transformation.",
+    data: [
+      "IT strategy development and planning",
+      "Technology assessments and audits",
+      "Digital transformation consulting",
+      "IT project management",
+      "Cybersecurity assessments",
+      "Cloud strategy and migration",
     ],
   },
 ];
