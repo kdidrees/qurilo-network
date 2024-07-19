@@ -16,7 +16,7 @@ module.exports = {
         'second':"#D6DFF9",
         'third':"#E1DCF3",
         'fourth':"#F9EBDD", 
-        "blue":"#558BDC",
+        "text-primary-500":"#558BDC",
         "creme":"#f9ebdd",
         "carasoul":"#0D184B",
         "desc":"#3e3e3e"

@@ -1,7 +1,6 @@
 import "./App.css";
 import NetworkHero from "./components/NetworkHero";
 
-import IndustriesSection from "./container/industry/IndustriesSection";
 import ItServicesSection from "./container/it-services/ItServicesSection";
 function App() {
   return (
