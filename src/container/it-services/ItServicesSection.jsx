@@ -12,7 +12,7 @@ export default function ItServicesSection() {
             index % 2 === 0 ? "flex-row-reverse" : "flex-row"
           }`}
         >
-          <div className="m-8">
+          <div className="md:m-8 m-2">
             <img src={item.img} width={600} alt={item.heading} className="rounded-xl" />
           </div>
           <div className="ml-0 lg:w-1/2 lg:mt-16 lg:mb-20">
