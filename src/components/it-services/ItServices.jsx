@@ -16,12 +16,15 @@ export default function Industry({ data }) {
             </div>
             <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto  ">
               <div className="py-3">
-                <p className="font-medium  font-sans text-gray-500 mb-6 dark:text-gray-400  mt-3">
+                <p className="font-medium   font-sans text-gray-500 py-4 dark:text-gray-400 border-b-[1px]  border-text-primary-500  mt-1">
                   {ele.desc}
                 </p>
+
+                <div className="invisible my-6"></div>
+
                 {ele.data.map((heading) => {
                   return (
-                  <div className="border-b-[1px] border-gray-400 pb-4 mt-2">
+                  <div className="border-b-[1px] border-gray-400 pb-2 pt-4  w-96">
                       <h3 key={heading} className="font-medium">
                       {heading}
                     </h3>

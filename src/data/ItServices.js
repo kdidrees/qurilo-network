@@ -29,7 +29,7 @@ export const industryPageData = [
       "Cloud security and compliance solutions",
       "Disaster recovery and backup solutions",
       "Cloud-native application development",
-      "DevOps and continuous integration/continuous deployment (CI/CD) services",
+      "DevOps and continuous (CI/CD) services",
     ],
   },
   {

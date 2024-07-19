@@ -8,12 +8,12 @@ export default function ItServicesSection() {
       {industryPageData.map((item, index) => (
         <div
           key={index}
-          className={`w-full bg-white lg:flex justify-eve mb-10 lg:mt-4 ${
-            index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+          className={`w-full bg-white lg:flex justify-between mb-10 lg:mt-4 ${
+            index % 2 === 0 ? "flex-row-reverse" : "flex-row"
           }`}
         >
-          <div className="m-5 ml-8  ">
-            <img src={item.img} alt={item.heading} />
+          <div className=" ">
+            <img src={item.img} width={600} alt={item.heading} className="rounded-xl" />
           </div>
           <div className="ml-0 lg:w-1/2 lg:mt-16 lg:mb-20">
           <ItServices data={[item]} />
