@@ -5,6 +5,10 @@ import serverimg from "../assets/it-services/images/server_management.png";
 import cyberimg from "../assets/it-services/images/cyber_security.png";
 import voipimg from "../assets/it-services/images/voip_communication.png";
 import databackupimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
+import helpdeskimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
+import infrastructure_storageimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
+import identityimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
+import itconsultingimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
 
 // import hero section images here
 import industryhero from "../assets/industry-page/images/industryhero.png";
