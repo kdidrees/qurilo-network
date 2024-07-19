@@ -1,5 +1,5 @@
 // import images here
-import fintechimg from "../assets/industry-page/images/fintech_banking.png";
+import cloudimg from "../assets/it-services/images/cloud_computing.png";
 import retailimg from "../assets/industry-page/images/retail.png";
 import nonprofitimg from "../assets/industry-page/images/non_profit_govt_education.png";
 import pharmaimg from "../assets/industry-page/images/pharma_health.png";
@@ -20,7 +20,7 @@ export const heroSectionData = {
 export const industryPageData = [
   {
     id: 1,
-    img: fintechimg,
+    img: cloudimg,
     heading: "Cloud IT Services",
     desc: "We transform businesses with agile, scalable, and secure cloud solutions. Our expertise in cloud technologies ensures seamless integration and optimal performance.",
     data: [
@@ -34,7 +34,7 @@ export const industryPageData = [
   },
   {
     id: 2,
-    img: retailimg,
+    img: cloudimg,
     heading: "Network Management Services",
     desc: "Optimizing network performance and security with cutting-edge solutions. Our network management services ensure robust, reliable, and scalable network infrastructure.",
     data: [
@@ -49,7 +49,7 @@ export const industryPageData = [
 
   {
     id: 3,
-    img: nonprofitimg,
+    img: cloudimg,
     heading: "Server Management Services",
     desc: "Enhancing server performance and reliability with comprehensive management solutions. Our server management services ensure secure, optimized, and scalable server infrastructure.",
     data: [
@@ -63,7 +63,7 @@ export const industryPageData = [
   },
   {
     id: 4,
-    img: pharmaimg,
+    img: cloudimg,
     heading: "Cyber Security Services",
     desc: "Kellton excels in cybersecurity, protecting businesses with comprehensive solutions. We ensure a secure, resilient digital ecosystem, safeguarding data and assets from evolving threats.",
     data: [
@@ -77,7 +77,7 @@ export const industryPageData = [
   },
   {
     id: 5,
-    img: manufacturingimg,
+    img: cloudimg,
     heading: "VoIP and Connection Services",
     desc: "Delivering seamless communication solutions to enhance business connectivity. Our VoIP and connection services ensure reliable, high-quality voice and data transmission.",
     data: [
@@ -91,7 +91,7 @@ export const industryPageData = [
   },
   {
     id: 6,
-    img: travelimg,
+    img: cloudimg,
 
     heading: "Data Backup and Disaster Recovery",
     desc: "Ensuring business continuity with robust data backup and disaster recovery solutions. Our services protect critical data and minimize downtime during unforeseen events.",

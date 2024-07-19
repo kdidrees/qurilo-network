@@ -1,33 +1,41 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Nunito Sans', 'ui-sans-serif', 'system-ui'],
+        sans: ["Nunito Sans", "ui-sans-serif", "system-ui"],
       },
-      colors:{
+      colors: {
         // 'purple':'#cc3d5c',
         // 'networkbg':'#F2F2F2',
         // 'first':'#0A142A',
 
-        'second':"#D6DFF9",
-        'third':"#E1DCF3",
-        'fourth':"#F9EBDD", 
-        "text-primary-500":"#558BDC",
-        "creme":"#f9ebdd",
-        "carasoul":"#0D184B",
-        "desc":"#3e3e3e"
-      }
-      
-      ,
-      boxShadow:{
-        "custom": '0 4px 6px -1px rgba(53, 4, 40, 0.5), 0 2px 4px -1px rgba(53, 4, 40, 0.3)',
-      }
-    
+        second: "#D6DFF9",
+        third: "#E1DCF3",
+        fourth: "#F9EBDD",
+        "text-primary-500": "#558BDC",
+        blue: "#558BDC",
+        creme: "#f9ebdd",
+        carasoul: "#0D184B",
+        desc: "#3e3e3e",
+      },
+
+      keyframes: {
+        slideIn: {
+          "0%": { backgroundPosition: "100% 0" },
+          "100%": { backgroundPosition: "0 0" },
+        },
+        slideOut: {
+          "0%": { backgroundPosition: "0 0" },
+          "100%": { backgroundPosition: "100% 0" },
+        },
+      },
+      animation: {
+        "slide-in": "slideIn 1s forwards",
+        "slide-out": "slideOut 1s forwards",
+      },
     },
   },
   plugins: [],
-}
+};
