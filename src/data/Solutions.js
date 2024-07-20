@@ -10,7 +10,6 @@ import customerManagementImg from "../assets/business-solutions/images/Customer_
 import businessIntelligenceImg from "../assets/business-solutions/images/Business_Intelligence_Analytics_Solutions.png";
 import marketingAutomationImg from "../assets/business-solutions/images/Marketing_Automation.png";
 
-
 // import hero section images here
 import heroimg from "../assets/business-solutions/images/heroimg.png";
 import heromobile from "../assets/business-solutions/images/heromobile.png";
@@ -132,7 +131,7 @@ export const SolutionsPageData = {
     },
     {
       id: 8,
-      img: customerManagementImg,
+      img: transformImg,
       heading: "Customer Relationship Management",
       desc: "Automate marketing, sales, and customer service with our reliable CRM software development services, ensuring seamless customer tracking, purchase history, and contact management for cost savings and enhanced customer satisfaction.",
       data: [
