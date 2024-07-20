@@ -5,10 +5,10 @@ import serverimg from "../assets/it-services/images/server_management.png";
 import cyberimg from "../assets/it-services/images/cyber_security.png";
 import voipimg from "../assets/it-services/images/voip_communication.png";
 import databackupimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
-import helpdeskimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
-import infrastructure_storageimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
-import identityimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
-import itconsultingimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
+import helpdeskimg from "../assets/it-services/images/helpdesk_technical_support.png";
+import infrastructure_storageimg from "../assets/it-services/images/infrastructure_storage_services.png";
+import identityimg from "../assets/it-services/images/identity_access_management.png";
+import itconsultingimg from "../assets/it-services/images/it_consulting_strategy.png";
 
 // import hero section images here
 import industryhero from "../assets/industry-page/images/industryhero.png";
@@ -38,7 +38,7 @@ export const industryPageData = [
   },
   {
     id: 2,
-    img: cloudimg,
+    img: networkimg,
     heading: "Network Management Services",
     desc: "Optimizing network performance and security with cutting-edge solutions. Our network management services ensure robust, reliable, and scalable network infrastructure.",
     data: [
@@ -53,7 +53,7 @@ export const industryPageData = [
 
   {
     id: 3,
-    img: cloudimg,
+    img: serverimg,
     heading: "Server Management Services",
     desc: "Enhancing server performance and reliability with comprehensive management solutions. Our server management services ensure secure, optimized, and scalable server infrastructure.",
     data: [
@@ -67,7 +67,7 @@ export const industryPageData = [
   },
   {
     id: 4,
-    img: cloudimg,
+    img: cyberimg,
     heading: "Cyber Security Services",
     desc: "Kellton excels in cybersecurity, protecting businesses with comprehensive solutions. We ensure a secure, resilient digital ecosystem, safeguarding data and assets from evolving threats.",
     data: [
@@ -81,7 +81,7 @@ export const industryPageData = [
   },
   {
     id: 5,
-    img: cloudimg,
+    img: voipimg,
     heading: "VoIP and Connection Services",
     desc: "Delivering seamless communication solutions to enhance business connectivity. Our VoIP and connection services ensure reliable, high-quality voice and data transmission.",
     data: [
@@ -110,7 +110,7 @@ export const industryPageData = [
   },
   {
     id: 7,
-    img: databackupimg,
+    img: helpdeskimg,
 
     heading: "Helpdesk and Technical Support",
     desc: "Providing expert assistance to resolve technical issues efficiently. Our helpdesk and support services ensure minimal downtime and optimal performance.",
@@ -125,7 +125,7 @@ export const industryPageData = [
   },
   {
     id: 8,
-    img: databackupimg,
+    img: infrastructure_storageimg,
     heading: "Infrastructure and Storage Services",
     desc: "Designing and managing robust infrastructure solutions for efficient data storage and access. Our services ensure high availability, security, and scalability.",
     data: [
@@ -139,7 +139,7 @@ export const industryPageData = [
   },
   {
     id: 9,
-    img: databackupimg,
+    img: identityimg,
 
     heading: "Identity & Access Management",
     desc: "Implementing comprehensive identity and access management solutions to safeguard sensitive information and streamline user access controls.",
@@ -154,7 +154,7 @@ export const industryPageData = [
   },
   {
     id: 7,
-    img: databackupimg,
+    img: itconsultingimg,
 
     heading: "IT Consulting & Strategy",
     desc: "Offering expert advice to optimize IT investments and align technology with business goals. Our consulting services drive strategic IT initiatives and transformation.",
