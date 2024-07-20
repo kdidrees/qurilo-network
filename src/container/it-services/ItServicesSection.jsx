@@ -1,17 +1,21 @@
 import React from "react";
-import { SolutionsPageData } from "../../data/Solutions";
+import { ItServicesPageData } from "../../data/ItServices";
 import ItServices from "../../components/it-services/ItServices";
 import { useMediaQuery } from "react-responsive";
+import Heading  from "../../components/heading/Heading"
 
 export default function ItServicesSection() {
   const isTab = useMediaQuery({ maxWidth: 1024 });
 
   return (
     <section className="lg:mx-20">
-      {SolutionsPageData.map((item, index) => (
+     <div className="py-8">
+     <Heading title={ItServicesPageData.heading} desc={ItServicesPageData.desc} />
+     </div>
+      {ItServicesPageData.list.map((item, index) => (
         <div
           key={index}
-          className={`w-full bg-white lg:flex justify-between mb-10 lg:mt-4 ${
+          className={`w-full bg-white lg:flex justify-between mb-10 lg:mt-8 ${
             index % 2 === 0 ? "flex-row-reverse" : "flex-row"
           }`}
         >
