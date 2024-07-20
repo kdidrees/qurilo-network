@@ -12,8 +12,8 @@ import marketingAutomationImg from "../assets/business-solutions/images/Marketin
 
 
 // import hero section images here
-import heroimg from "../assets/it-services/images/heroimg.png";
-import heromobile from "../assets/it-services/images/heromobile.png";
+import heroimg from "../assets/business-solutions/images/heroimg.png";
+import heromobile from "../assets/business-solutions/images/heromobile.png";
 
 export const heroSectionData = {
   heroDesktop: heroimg,
@@ -39,6 +39,7 @@ export const SolutionsPageData = {
         "Ongoing Support and Continuous Evolution",
         "Advanced Campaign Management and Optimization",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/erp`
     },
 
     {
@@ -53,6 +54,7 @@ export const SolutionsPageData = {
         "Accurate Demand Forecasting and Analysis",
         "Efficient Warehouse and Distribution Management",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/scm`
     },
     {
       id: 3,
@@ -67,6 +69,7 @@ export const SolutionsPageData = {
         "Integrated Energy and Sustainability Management",
         "Detailed Workplace Analytics and Insights",
       ],
+      link:"https://qurilo.netlify.app/business-solutions/fms"
     },
     {
       id: 4,
@@ -80,6 +83,7 @@ export const SolutionsPageData = {
         "Streamlined Administration and Management",
         "Seamless Integration with Existing Systems",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/lms`
     },
     {
       id: 5,
@@ -94,6 +98,7 @@ export const SolutionsPageData = {
         "Ongoing Support and System Evolution",
         "Enhanced Employee Engagement and Satisfaction Programs",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/hrms`
     },
     {
       id: 6,
@@ -108,6 +113,7 @@ export const SolutionsPageData = {
         "In-Depth Customer Analytics and Reporting",
         "Effective Customer Feedback Collection and Management",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/css`
     },
     {
       id: 7,
@@ -122,6 +128,7 @@ export const SolutionsPageData = {
         "Proactive Risk Management and Mitigation",
         "Effective Budget Management and Cost Control",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/pms`
     },
     {
       id: 8,
@@ -136,6 +143,7 @@ export const SolutionsPageData = {
         "Ongoing Support and System Evolution",
         "Advanced Campaign Management and Optimization",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/crm`
     },
     {
       id: 9,
@@ -150,6 +158,7 @@ export const SolutionsPageData = {
         "Detailed Business Intelligence Reporting and Analysis",
         "Reliable Support and Ongoing Maintenance",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/bi`
     },
     {
       id: 10,
@@ -163,6 +172,7 @@ export const SolutionsPageData = {
         "Social Media Automation and Scheduling",
         "Seamless CRM Integration and Data Synchronization",
       ],
+      link:`https://qurilo.netlify.app/business-solutions/ma`
     },
   ],
 };
