@@ -9,7 +9,7 @@ export default function Industry({ data }) {
             key={index}
             className={`max-w-screen-xl mx-auto px-5 bg-white`}
           >
-            <div className="flex flex-col items-left lg:ml-20 ">
+            <div className="flex flex-col items-left md:ml-12 lg:ml-20 ">
               <h2 className="font-semibold text-2xl text-left  font-sans md:text-3xl text-black mb-4 md:mt-0 mt-8">
                 {ele.heading}
               </h2>

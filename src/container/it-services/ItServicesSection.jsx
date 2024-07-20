@@ -7,7 +7,7 @@ export default function ItServicesSection() {
   const isTab = useMediaQuery({ maxWidth: 1024 });
 
   return (
-    <section className="mx-20">
+    <section className="lg:mx-20">
       {industryPageData.map((item, index) => (
         <div
           key={index}
