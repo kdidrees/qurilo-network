@@ -1,5 +1,5 @@
 import React from "react";
-import { ItServicesPageData } from "../../data/ItServices";
+import { SolutionsPageData } from "../../data/Solutions";
 import ItServices from "../../components/it-services/ItServices";
 import { useMediaQuery } from "react-responsive";
 import Heading  from "../../components/heading/Heading"
@@ -10,9 +10,9 @@ export default function ItServicesSection() {
   return (
     <section className="lg:mx-20">
      <div className="py-8">
-     <Heading title={ItServicesPageData.heading} desc={ItServicesPageData.desc} />
+     <Heading title={SolutionsPageData.heading} desc={SolutionsPageData.desc} />
      </div>
-      {ItServicesPageData.list.map((item, index) => (
+      {SolutionsPageData.list.map((item, index) => (
         <div
           key={index}
           className={`w-full bg-white lg:flex justify-between mb-10 lg:mt-8 ${
