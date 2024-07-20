@@ -1,14 +1,15 @@
 // import images here
-import cloudimg from "../assets/it-services/images/cloud_it_services.png";
-import networkimg from "../assets/it-services/images/network_management.png";
-import serverimg from "../assets/it-services/images/server_management.png";
-import cyberimg from "../assets/it-services/images/cyber_security.png";
-import voipimg from "../assets/it-services/images/voip_communication.png";
-import databackupimg from "../assets/it-services/images/data_backup_disaster_recovery.png";
-import helpdeskimg from "../assets/it-services/images/helpdesk_technical_support.png";
-import infrastructure_storageimg from "../assets/it-services/images/infrastructure_storage_services.png";
-import identityimg from "../assets/it-services/images/identity_access_management.png";
-import itconsultingimg from "../assets/it-services/images/it_consulting_strategy.png";
+import Enterpriseimg from "../assets/business-solutions/images/Enterprise_Resource_Planning.png";
+import transformImg from "../assets/business-solutions/images/Transform_Supply_Chain_SCM_Solutions.png";
+import financialImg from "../assets/business-solutions/images/Financial_Management_Systems.png";
+import learningImg from "../assets/business-solutions/images/Learning_Management_Systems.png";
+import humanresourceImg from "../assets/business-solutions/images/Human_Resource_Management_System.png";
+import customerserviceImg from "../assets/business-solutions/images/Customer_Service_Solutions.png";
+import projectMangementImg from "../assets/business-solutions/images/Project_Management_Solutions.png";
+import customerManagementImg from "../assets/business-solutions/images/Customer_Relationship_Management.png";
+import businessIntelligenceImg from "../assets/business-solutions/images/Business_Intelligence_Analytics_Solutions.png";
+import marketingAutomationImg from "../assets/business-solutions/images/Marketing_Automation.png";
+
 
 // import hero section images here
 import heroimg from "../assets/it-services/images/heroimg.png";
@@ -17,17 +18,17 @@ import heromobile from "../assets/it-services/images/heromobile.png";
 export const heroSectionData = {
   heroDesktop: heroimg,
   heroMobile: heromobile,
-  heading: "IT Services",
-  desc: `Providing comprehensive IT solutions to drive business success. Our expertise spans across cloud services, network management, cybersecurity, and more.`,
+  heading: "Business Solutions",
+  desc: `Discover our full spectrum of solutions designed to propel your business forward. Our expertise encompasses a variety of fields to ensure your operations are optimized and future-ready.`,
 };
 
 export const SolutionsPageData = {
-  heading: "",
-  desc: ``,
+  heading: "Our Solutions",
+  desc: `Explore our diverse range of solutions tailored to address your specific business needs. Each service is crafted to enhance efficiency, drive innovation, and achieve excellence in your domain.`,
   list: [
     {
       id: 1,
-      img: cloudimg,
+      img: Enterpriseimg,
       heading: "Enterprise Resource Planning",
       desc: "Optimize business processes with our ERP software development services. Ensure seamless management of resources, financials, and operations for cost savings and enhanced efficiency.",
       data: [
@@ -42,7 +43,7 @@ export const SolutionsPageData = {
 
     {
       id: 2,
-      img: networkimg,
+      img: transformImg,
       heading: "Transform Your Supply Chain with SCM Solutions",
       desc: "Enhance efficiency and optimize your supply chain with our tailored SCM solutions. Streamline logistics, improve inventory management, and boost performance across industries.",
       data: [
@@ -55,7 +56,7 @@ export const SolutionsPageData = {
     },
     {
       id: 3,
-      img: networkimg,
+      img: financialImg,
       heading: "Financial Management Systems",
       desc: "Optimize financial operations with our advanced Financial Management Systems. Efficiently manage facilities, improve asset performance, enhance occupant satisfaction, streamline workflows, reduce costs, and ensure compliance.",
       data: [
@@ -69,7 +70,7 @@ export const SolutionsPageData = {
     },
     {
       id: 4,
-      img: networkimg,
+      img: learningImg,
       heading: "Learning Management Systems",
       desc: "Transform learning with our LMS. Deliver engaging courses, track progress, and optimize training for efficient management and retention.",
       data: [
@@ -82,7 +83,7 @@ export const SolutionsPageData = {
     },
     {
       id: 5,
-      img: networkimg,
+      img: humanresourceImg,
       heading: "Human Resource Management System",
       desc: "Optimize HR operations with our comprehensive HRMS software solutions. Streamline employee management, payroll processing, and HR tasks to enhance efficiency and employee satisfaction.",
       data: [
@@ -96,7 +97,7 @@ export const SolutionsPageData = {
     },
     {
       id: 6,
-      img: networkimg,
+      img: customerserviceImg,
       heading: "Customer Service Solutions",
       desc: "Enhance customer satisfaction and loyalty with our advanced Customer Service Solutions. Streamline interactions, improve efficiency, and deliver personalized experiences to exceed expectations and achieve operational excellence.",
       data: [
@@ -110,7 +111,7 @@ export const SolutionsPageData = {
     },
     {
       id: 7,
-      img: networkimg,
+      img: projectMangementImg,
       heading: "Project Management Solutions",
       desc: "Streamline project workflows and enhance team collaboration with our Project Management Solutions. Optimize planning, execution, and monitoring to deliver projects on time, within budget, and with exceptional quality.",
       data: [
@@ -124,7 +125,7 @@ export const SolutionsPageData = {
     },
     {
       id: 8,
-      img: networkimg,
+      img: customerManagementImg,
       heading: "Customer Relationship Management",
       desc: "Automate marketing, sales, and customer service with our reliable CRM software development services, ensuring seamless customer tracking, purchase history, and contact management for cost savings and enhanced customer satisfaction.",
       data: [
@@ -138,7 +139,7 @@ export const SolutionsPageData = {
     },
     {
       id: 9,
-      img: networkimg,
+      img: businessIntelligenceImg,
       heading: "Business Intelligence and Analytics Solutions",
       desc: "Unlock insights and drive decisions with our custom Business Intelligence and Analytics (BIA) solutions. Integrate data, visualize trends, and monitor performance.",
       data: [
@@ -152,7 +153,7 @@ export const SolutionsPageData = {
     },
     {
       id: 10,
-      img: networkimg,
+      img: marketingAutomationImg,
       heading: "Marketing Automation",
       desc: "Streamline marketing with our advanced automation solutions. Automate tasks, optimize workflows, and deliver personalized experiences to enhance efficiency, drive engagement, and boost ROI.",
       data: [
