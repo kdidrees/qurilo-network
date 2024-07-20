@@ -1,5 +1,5 @@
 import React from "react";
-import { industryPageData } from "../../data/ItServices";
+import { ItServicesPageData } from "../../data/ItServices";
 import ItServices from "../../components/it-services/ItServices";
 import { useMediaQuery } from "react-responsive";
 
@@ -8,7 +8,7 @@ export default function ItServicesSection() {
 
   return (
     <section className="lg:mx-20">
-      {industryPageData.map((item, index) => (
+      {ItServicesPageData.map((item, index) => (
         <div
           key={index}
           className={`w-full bg-white lg:flex justify-between mb-10 lg:mt-4 ${

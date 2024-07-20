@@ -17,11 +17,11 @@ import industryheromobile from "../assets/industry-page/images/heromobile.png";
 export const heroSectionData = {
   heroDesktop: industryhero,
   heroMobile: industryheromobile,
-  heading: "Industries",
-  desc: `Each industry has its quirks. Understanding their unique challenges is key to business success`,
+  heading: "IT Services",
+  desc: `Providing comprehensive IT solutions to drive business success. Our expertise spans across cloud services, network management, cybersecurity, and more.`,
 };
 
-export const industryPageData = [
+export const ItServicesPageData = [
   {
     id: 1,
     img: cloudimg,
