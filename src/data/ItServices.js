@@ -11,12 +11,12 @@ import identityimg from "../assets/it-services/images/identity_access_management
 import itconsultingimg from "../assets/it-services/images/it_consulting_strategy.png";
 
 // import hero section images here
-import industryhero from "../assets/industry-page/images/industryhero.png";
-import industryheromobile from "../assets/industry-page/images/heromobile.png";
+import heroimg from "../assets/it-services/images/heroimg.png";
+import heromobile from "../assets/it-services/images/heromobile.png";
 
 export const heroSectionData = {
-  heroDesktop: industryhero,
-  heroMobile: industryheromobile,
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
   heading: "IT Services",
   desc: `Providing comprehensive IT solutions to drive business success. Our expertise spans across cloud services, network management, cybersecurity, and more.`,
 };
