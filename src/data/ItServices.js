@@ -39,6 +39,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "Cloud-native application development",
         "DevOps and continuous (CI/CD) services",
       ],
+      link:`https://qurilo.netlify.app/it-services/cloud-computing`
     },
     {
       id: 2,
@@ -53,6 +54,8 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "VPN and remote access solutions",
         "Network troubleshooting and support",
       ],
+      link:`https://qurilo.netlify.app/it-services/network-management`
+
     },
 
     {
@@ -68,6 +71,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "Virtualization and cloud server management",
         "24/7 server support and troubleshooting",
       ],
+      link:`https://qurilo.netlify.app/it-services/server-management`
     },
     {
       id: 4,
@@ -82,6 +86,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "Identity and access management",
         "Security operations center (SOC) services",
       ],
+      link:`https://qurilo.netlify.app/it-services/cyber-security`
     },
     {
       id: 5,
@@ -96,6 +101,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "VoIP security and encryption",
         "Network infrastructure for VoIP",
       ],
+      link:`https://qurilo.netlify.app/it-services/voip-communications`
     },
     {
       id: 6,
@@ -111,6 +117,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "Recovery testing and validation",
         "Business continuity management",
       ],
+      link:`https://qurilo.netlify.app/it-services/data-backup-and-disaster-recovery`
     },
     {
       id: 7,
@@ -126,6 +133,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "User training and support",
         "Service level agreement (SLA) management",
       ],
+      link:`https://qurilo.netlify.app/it-services/helpdesk-and-technical-support`
     },
     {
       id: 8,
@@ -140,6 +148,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "Virtualization and server consolidation",
         "Network infrastructure design and support",
       ],
+      link:`https://qurilo.netlify.app/it-services/infrastructure-and-storage-services`
     },
     {
       id: 9,
@@ -155,6 +164,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "Identity governance and administration",
         "Compliance and audit reporting",
       ],
+      link:`https://qurilo.netlify.app/it-services/identity-access-management`
     },
     {
       id: 7,
@@ -170,6 +180,7 @@ Explore our diverse IT solutions tailored to optimize operations, enhance effici
         "Cybersecurity assessments",
         "Cloud strategy and migration",
       ],
+      link:`https://qurilo.netlify.app/it-services/it-consulting-strategy`
     },
   ],
 };
