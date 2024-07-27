@@ -3,6 +3,7 @@ import React from "react";
 import TechnologyCard from "../components/cards/TechnologyCard";
 import { technologiesData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
+import TechnologyCardNew from "../components/cards/TechnologyCardNew";
 
 const TechnologiesSection = () => {
   return (
@@ -16,7 +17,7 @@ const TechnologiesSection = () => {
       />
    
 
-      <div className="flex flex-col items-center px-6 lg:px-20 py-16 gap-10 lg:gap-20">
+      <div className="flex flex-col justify-center px-20  py-8">
         {/* <Heading heading="CRM Technologies We Use" /> */}
 
         <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">

@@ -208,7 +208,7 @@ export const faqData = {
 export const technologiesData = [
   {
     heading: "Web & Full Stack",
-    tech: ["PHP", "ASP.Net", "Angular", "React", "Java", "Vue"],
+    tech: ["PHP", "ASP.Net", "Angular", ],
   },
   {
     heading: "Ecommerce & CMS",
@@ -216,14 +216,12 @@ export const technologiesData = [
       "Sharepoint",
       "Sitecore",
       "Drupal",
-      "Sitefinity",
-      "Umbraco",
-      "Kentico",
+   
     ],
   },
   {
     heading: "Blockchain",
-    tech: ["ChatBot", "Ethereum", "Solidity", "Smart Contract", "ML & AI"],
+    tech: ["ChatBot", "Ethereum", "Solidity",],
   },
 ];
 

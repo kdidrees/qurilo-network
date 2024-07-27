@@ -1,5 +1,6 @@
 import "./App.css";
 import NetworkHero from "./components/NetworkHero";
+import TechnologiesSection from "./container/TechnologiesSection"
 
 import ItServicesSection from "./container/it-services/ItServicesSection";
 function App() {
@@ -7,12 +8,12 @@ function App() {
     <>
       <NetworkHero />
       {/* <IndustriesSection/> */}
-      <ItServicesSection/>
-
-      {/* <DevelopmentServices />
+      {/* <ItServicesSection/> */}
+{/* 
+      <DevelopmentServices />
       <ContactSection />
-      <DevelomentProcess />
-      <TechnologiesSection /> */}
+      <DevelomentProcess /> */}
+      <TechnologiesSection />
       {/* <Industries />
       <Blogs />
       <Faq />
