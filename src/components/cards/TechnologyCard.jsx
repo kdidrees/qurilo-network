@@ -6,7 +6,7 @@ import { IoIosCheckmark } from "react-icons/io";
 
 const TechnologyCard = ({ tech }) => {
   return (
-    <div className=" h-full flex flex-col gap-5 py-6 border-b-[1px]  bg-[#f1f1f1] px-4">
+    <div className=" h-full flex flex-col gap-5 py-6 border-b-[1px]  bg-gray-50 px-4 rounded-xl ">
       <div className="flex items-center gap-5">
         <img
           src={tech.icon}
@@ -31,7 +31,7 @@ const TechnologyCard = ({ tech }) => {
               key={i}
               className="flex items-center gap-2  text-base text-desc text-body-color font-sans"
             >
-              <IoIosCheckmark className="h-4 w-4  text-gray-600 bg-gray-300 font-bold rounded-xl" />
+              <IoIosCheckmark className="h-4 w-4  text-gray-600 bg-gray-200 font-bold rounded-xl" />
               {techUsed}
             </li>
           </ul>

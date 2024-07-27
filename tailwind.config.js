@@ -19,6 +19,7 @@ module.exports = {
         creme: "#f9ebdd",
         carasoul: "#0D184B",
         desc: "#3e3e3e",
+        "#f1f1f1":"#f1f1f1"
       },
 
       keyframes: {
