@@ -31,7 +31,7 @@ const TechnologyCard = ({ tech }) => {
               key={i}
               className="flex items-center gap-2  text-base text-desc text-body-color font-sans"
             >
-              <IoIosCheckmark className="h-5 w-5  text-gray-600 bg-gray-300 font-bold rounded-xl" />
+              <IoIosCheckmark className="h-4 w-4  text-gray-600 bg-gray-300 font-bold rounded-xl" />
               {techUsed}
             </li>
           </ul>
