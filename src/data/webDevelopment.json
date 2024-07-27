@@ -114,35 +114,72 @@
     "desc": "Discover the full range of technologies we use for web projects.",
     "list": [
       {
-        "id": 1,
-        "heading": "Web & Full Stack",
-        "techstacks": ["PHP", ".NET", "Angular", "React", "Java", "Vue"]
-      },
-      {
-        "id": 2,
-        "heading": "Ecommerce & CMS",
-        "techstacks": [
-          "Sharepoint",
-          "Sitecore",
-          "Drupal",
-          "Sitefinity",
-          "Umbraco",
-          "Kentico"
-        ]
-      },
-      {
-        "id": 3,
+        "icon": "../assets/common-images/icons/backend.png",
         "heading": "Backend",
-        "techstacks": [
-          "ChatBot",
-          "Ethereum",
-          "Hyperledger",
-          "Smart Contract",
-          "ML & AI",
-          "Blockchain"
+        "tech": [".Net", "Java", "Node", "PHP", "Ruby on Rails"]
+      },
+      {
+        "icon": "../assets/common-images/icons/front-development.png",
+        "heading": "Frontend",
+        "tech": ["Angular", "React", "Vue"]
+      },
+      {
+        "icon": "../assets/common-images/icons/database.png",
+        "heading": "Database",
+        "tech": [
+          "SQL Server",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Azure SQL",
+          "Amazon RDS",
+          "Oracle",
+          "Cassandra",
+          "Elasticsearch",
+          "Dynamo"
         ]
+      },
+      {
+        "icon": "../assets/common-images/icons/mobility.png",
+        "heading": "Mobility",
+        "tech": ["IOS", "Android", "React Native", "Flutter", "Ionic"]
+      },
+      {
+        "icon": "../assets/common-images/icons/cloud_and_devops.png",
+        "heading": "Cloud & DevOps",
+        "tech": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "Terraform"
+        ]
+      },
+      {
+        "icon": "../assets/common-images/icons/testing.png",
+        "heading": "Testing",
+        "tech": [
+          "Selenium",
+          "Katalon Studio",
+          "Apache JMeter",
+          "TestRail",
+          "Postman",
+          "BrowserStack",
+          "OWASP ZAP",
+          "JUnit,NUnit",
+          "Jest",
+          "Jasmine,Mocha,Chai"
+        ]
+      },
+      {
+        "icon": "../assets/common-images/icons/other.png",
+        "heading": "Others",
+        "tech": ["SharePoint", "Power BI", "BizTalk", "Apache Kafka"]
       }
     ]
+    
   },
   "faqData": {
     "heading": "FAQs",

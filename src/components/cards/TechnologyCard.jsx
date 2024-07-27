@@ -18,7 +18,7 @@ const TechnologyCard = ({ tech }) => {
 
         <h3 className=" text-xl text-black font-medium font-sans">
           {tech.heading}
-        </h3>
+        </h3> 
       </div>
       <div className="relative w-full h-[2px] bg-blue rounded-md">
         <div className="absolute top-[-4px] left-10 w-3 h-3 bg-blue rounded-full"></div>
