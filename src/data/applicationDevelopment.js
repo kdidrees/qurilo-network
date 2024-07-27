@@ -20,6 +20,21 @@ import tenthicon from "../assets/application-development-main/icons/full_stack_d
 import eleventhicon from "../assets/application-development-main/icons/cloud_application_development.png";
 import twelthicon from "../assets/application-development-main/icons/ott_app_development.png";
 
+// new icons here
+import backendicon from "../assets/common-images/icons/backend.png";
+import cloudicon from "../assets/common-images/icons/cloud_and_devops.png";
+import communication_icon from "../assets/common-images/icons/communication_tools.png";
+import database_icon from "../assets/common-images/icons/database.png";
+import design_icon from "../assets/common-images/icons/design_assest.png";
+import frontend_icon from "../assets/common-images/icons/front-development.png";
+import language_icon from "../assets/common-images/icons/language_technologies.png";
+import mobility_icon from "../assets/common-images/icons/mobility.png";
+import other_icon from "../assets/common-images/icons/other.png";
+import project_icon from "../assets/common-images/icons/project-management.png";
+import security_icon from "../assets/common-images/icons/security.png";
+import testing_icon from "../assets/common-images/icons/testing.png";
+import web1_icon from "../assets/common-images/icons/web1.png";
+
 // grid images here
 import firstimg from "../assets/application-development-main/images/gridimages/App_Maintenance_Support.png";
 import secondimg from "../assets/application-development-main/images/gridimages/Cross-platform_Development.png";
@@ -176,6 +191,7 @@ export const faqData = {
       ansList: [
         {
           id: 1,
+
           heading: "Front-end technologies:",
           desc: `HTML5, CSS3, JavaScript, Angular, React, Vue.js`,
         },
@@ -207,21 +223,71 @@ export const faqData = {
 
 export const technologiesData = [
   {
-    heading: "Web & Full Stack",
-    tech: ["PHP", "ASP.Net", "Angular", ],
+    icon: backendicon,
+    heading: "Backend",
+    tech: [".Net", "Java", "Node", "PHP", "Ruby on Rails"],
   },
   {
-    heading: "Ecommerce & CMS",
+    icon: frontend_icon,
+    heading: "Frontend",
+    tech: ["Angular", "React", "Vue"],
+  },
+  {
+    icon: database_icon,
+    heading: "Database",
     tech: [
-      "Sharepoint",
-      "Sitecore",
-      "Drupal",
-   
+      "SQL Server",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Azure SQL",
+      "Amazon RDS",
+      "Oracle",
+      "Cassandra",
+      "Elasticsearch",
+      "Dynamo",
     ],
   },
   {
-    heading: "Blockchain",
-    tech: ["ChatBot", "Ethereum", "Solidity",],
+    icon: mobility_icon,
+    heading: "Mobility",
+    tech: ["IOS", "Android", "React Native", "Flutter", "Ionic"],
+  },
+  {
+    icon: cloudicon,
+
+    heading: "Cloud & DevOps",
+    tech: [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Terraform",
+    ],
+  },
+  {
+    icon: testing_icon,
+
+    heading: "Testing",
+    tech: [
+      "Selenium",
+      "Katalon Studio",
+      "Apache JMeter",
+      "TestRail",
+      "Postman",
+      "BrowserStack",
+      "OWASP ZAP",
+      "JUnit,NUnit",
+      "Jest",
+      "Jasmine,Mocha,Chai",
+    ],
+  },
+  {
+    icon: other_icon,
+    heading: "Others",
+    tech: ["SharePoint", "Power BI", "BizTalk", "Apache Kafka"],
   },
 ];
 
@@ -239,5 +305,5 @@ export const domainExpertiseData = {
     "Application Modernization",
     "API Development",
   ],
-  images: [firstimg, secondimg, thirdimg,fourthimg],
+  images: [firstimg, secondimg, thirdimg, fourthimg],
 };
