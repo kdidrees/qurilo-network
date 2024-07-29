@@ -18,6 +18,23 @@ import eighticon from "../assets/mobileappdevelopment/icons/MobileApp_Modernizat
 import eighticon from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png";
 import ningthicon from "../assets/mobileappdevelopment/icons/cross_platform.png";
 
+
+// new icons here
+import backendicon from "../assets/common-images/icons/backend.png";
+import cloudicon from "../assets/common-images/icons/cloud_and_devops.png";
+import communication_icon from "../assets/common-images/icons/communication_tools.png";
+import database_icon from "../assets/common-images/icons/database.png";
+import design_icon from "../assets/common-images/icons/design_assest.png";
+import frontend_icon from "../assets/common-images/icons/front-development.png";
+import language_icon from "../assets/common-images/icons/language_technologies.png";
+import mobility_icon from "../assets/common-images/icons/mobility.png";
+import other_icon from "../assets/common-images/icons/other.png";
+import project_icon from "../assets/common-images/icons/project-management.png";
+import security_icon from "../assets/common-images/icons/security.png";
+import testing_icon from "../assets/common-images/icons/testing.png";
+import web1_icon from "../assets/common-images/icons/web1.png";
+
+
 // import grid images here
 import firstimg from "../assets/mobileappdevelopment/images/gridimages/Create_apps_to_fit _n_diverse_screen_sizes.jpg";
 import secondimg from "../assets/mobileappdevelopment/images/gridimages/Get_creative_Android_iPhone_app_developers.png";
@@ -26,18 +43,18 @@ import fourthimg from "../assets/mobileappdevelopment/images/gridimages/Integrat
 
 export const heroSectionData = {
   id: 1,
-  heroimg: heroimg,
-  heromobile: heromobile,
+  heroDesktop: heroimg,
+  heroMobile: heromobile,
   heading: "Mobile App Development Services",
   desc: `Planning to upscale your business with mobile application development services? Qurilo excels in native, cross-platform, and progressive web apps, delivering 500+ robust solutions tailored to meet your long-term goals.`,
   btn: "Contact Us",
 };
 
-export const mobileServicesData = {
+export const servicesData = {
   heading: "Our Mobile App Development Services",
   desc: `We are a leading mobile application development company that offers secure and scalable solutions tailored to the specific business needs of clients from different industries.`,
   img: strategyimg,
-  cardData: [
+  list: [
     {
       id: 1,
       icon: firsticon,
@@ -95,142 +112,72 @@ export const mobileServicesData = {
   ],
 };
 
-export const mobileContactSectionData = {
+export const contactOneData = {
   heading: "Build an App that Drives User Engagement",
   desc: `Get an intuitive and user-friendly app designed to keep users coming back for more.`,
-  button: "Contact Us",
+  button: "Get Started",
   img: contactimg,
 };
 
-export const mobileDevelopmentProcessData = {
-  heading: "The Mobile App Development Process",
-  desc: `Let’s explore the essential steps involved in transforming your vision into a functional and user-friendly app.`,
-  cardData: [
-    {
-      id: 1,
-      heading: "Planning",
-      desc: `We define the mobile application’s purpose, target audience, and desired UX.`,
-    },
-    {
-      id: 2,
-      heading: "Design",
-      desc: `Our team creates a visual structure and interactive prototype for user feedback.`,
-    },
-    {
-      id: 3,
-      heading: "Development",
-      desc: `Our experts build UI and server-side functionality to bring your idea to life.`,
-    },
-    {
-      id: 4,
-      heading: "Testing",
-      desc: `Our testing team ensures the mobile application functions flawlessly across all devices.`,
-    },
-    {
-      id: 5,
-      heading: "Launch",
-      desc: `Our professionals ensure the mobile application is launched on time without any glitches.`,
-    },
-    {
-      id: 6,
-      heading: "Maintenance",
-      desc: `Lastly, our support team ensures continuous support & maintenance of app for future improvements.`,
-    },
-  ],
+export const contactTwoData = {
+  heading: "Build an App that Drives User Engagement",
+  desc: `Get an intuitive and user-friendly app designed to keep users coming back for more.`,
+  button: "Contact Us",
+ 
 };
 
-export const mobiletechnologiesData = {
+
+
+
+
+export const technologiesData = {
   heading: "Our Comprehensive Mobile Technology Stack",
   desc: `Discover the full range of technologies we use for mobile projects.`,
-  cardData: [
+  list: [
     {
       id: 1,
-      heading: "Back-end and Programming Languages",
-      techstacks: [
-        "Java",
-        "Swift",
-        "Objective-C",
-        "Kotlin",
-        "Javascript",
-        "CSS3",
-        "iOSCoCoa Touch",
-        ".NET",
-        "Java",
-        "Python",
-        "Node.js",
-        "PHP",
-      ],
+      heading: "Backend",
+      techstacks: [".Net", "Java", "PHP", "Node", "Ruby on Rails"],
     },
     {
       id: 2,
-      heading: "Databases And Data Storages",
+      heading: "Frontend",
       techstacks: [
-        "SQLite",
-        "Realm",
-        "Firebase",
-        "Amazon RDS",
-        "Amazon Simple Storage Services",
-        "Amazon Redshift",
-        "Amazon Document DB",
+        "ObjectiveC",
+        "RxKotlin",
+        "Swift",
+        "React Native",
+        "Java",
+        "Dart",
+        "Kotlin",
+        "Xaml",
+        "Coroutines Kotlin",
       ],
     },
     {
       id: 3,
-      heading: "DevOps",
-      techstacks: [
-        "Docker",
-        "Kubernetes",
-        "Ansible",
-        "Puppet",
-        "AWS Developer Tools",
-        "Azure DevOps",
-      ],
+      heading: "Database",
+      techstacks: ["SQLite", "Realm", "CoreData", "Firebase"],
     },
     {
       id: 4,
-      heading: "QA Tools",
-      techstacks: [
-        "Test Flight",
-        "XCTest",
-        "Detox",
-        "Earl Gray",
-        "Appium",
-        "Mockito",
-        ".NET Foundation",
-      ],
+      heading: "Project Management Tools",
+      techstacks: ["Jira", "Microsoft Teams", "Slack", "Trell0"],
     },
     {
       id: 5,
-      heading: "Monitoring Tools",
-      techstacks: [
-        "Zabbix",
-        "Nagios",
-        "Prometheus",
-        "Elastic Stack",
-        "Grafana",
-        "Datadog",
-      ],
+      heading: "DevOps",
+      techstacks: ["CI/CD", "GitHub Actions"],
     },
     {
       id: 6,
-      heading: "APIs",
-      techstacks: [
-        "REST API",
-        "Keychain API",
-        "GraphQL",
-        "Apiary",
-        "Bluetooth Low Energy API",
-        "Apple Pay",
-        " GPay",
-        "Google Maps",
-        "Fingerprint API",
-        "Keychain API",
-      ],
+      heading: "Testing",
+      techstacks: ["Appium", "Katalon Test Studio", "BrowserStack"],
     },
   ],
 };
 
-export const mobilefaqData = {
+export const faqData = {
   heading: "FAQs",
   desc: `Learn more about our processes as a top mobile app development consulting in India and how we work with the help of the following FAQs:`,
   faqdata: [
@@ -292,7 +239,7 @@ export const mobilefaqData = {
   ],
 };
 
-export const mobileDomainExpertiseData = {
+export const domainExpertiseData = {
   heading:
     "Codeflies offers custom mobile app and game development services for ios/android, with proficiency in native app development.",
   desc: `Our team of innovative app developers, analysts and UI/UX designers works together to deliver innovative and user-friendly mobile apps and games for Start-ups, SMEs and Enterprises. We specialize in custom business app, payment/money transfer app, iBeacon app, health/fitness app, news/publishing app, social networking, food ordering app, hotel booking app, flight reservation app, e-commerce, e-learning, travel app, sports app, Wearable app, geo-location, streaming and Utility apps development services.`,
