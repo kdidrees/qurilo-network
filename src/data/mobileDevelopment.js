@@ -18,7 +18,6 @@ import eighticon from "../assets/mobileappdevelopment/icons/MobileApp_Modernizat
 import eighticon from "../assets/mobileappdevelopment/icons/MobileApp_Modernization.png";
 import ningthicon from "../assets/mobileappdevelopment/icons/cross_platform.png";
 
-
 // new icons here
 import backendicon from "../assets/common-images/icons/backend.png";
 import cloudicon from "../assets/common-images/icons/cloud_and_devops.png";
@@ -33,7 +32,6 @@ import project_icon from "../assets/common-images/icons/project-management.png";
 import security_icon from "../assets/common-images/icons/security.png";
 import testing_icon from "../assets/common-images/icons/testing.png";
 import web1_icon from "../assets/common-images/icons/web1.png";
-
 
 // import grid images here
 import firstimg from "../assets/mobileappdevelopment/images/gridimages/Create_apps_to_fit _n_diverse_screen_sizes.jpg";
@@ -123,12 +121,7 @@ export const contactTwoData = {
   heading: "Build an App that Drives User Engagement",
   desc: `Get an intuitive and user-friendly app designed to keep users coming back for more.`,
   button: "Contact Us",
- 
 };
-
-
-
-
 
 export const technologiesData = {
   heading: "Our Comprehensive Mobile Technology Stack",
@@ -136,11 +129,14 @@ export const technologiesData = {
   list: [
     {
       id: 1,
+      icon: backendicon,
       heading: "Backend",
       techstacks: [".Net", "Java", "PHP", "Node", "Ruby on Rails"],
     },
     {
       id: 2,
+      icon: frontend_icon,
+
       heading: "Frontend",
       techstacks: [
         "ObjectiveC",
@@ -156,21 +152,26 @@ export const technologiesData = {
     },
     {
       id: 3,
+      icon: database_icon,
+
       heading: "Database",
       techstacks: ["SQLite", "Realm", "CoreData", "Firebase"],
     },
     {
       id: 4,
+      icon: project_icon,
       heading: "Project Management Tools",
       techstacks: ["Jira", "Microsoft Teams", "Slack", "Trell0"],
     },
     {
       id: 5,
+      icon: other_icon,
       heading: "DevOps",
       techstacks: ["CI/CD", "GitHub Actions"],
     },
     {
       id: 6,
+      icon: testing_icon,
       heading: "Testing",
       techstacks: ["Appium", "Katalon Test Studio", "BrowserStack"],
     },
