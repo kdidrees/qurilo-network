@@ -254,3 +254,4 @@ export const domainExpertiseData = {
   ],
   images: [firstimg, secondimg, thirdimg, fourthimg],
 };
+ 

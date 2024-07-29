@@ -11,7 +11,7 @@
     "heading": "Expertise of Our Full-Stack Developers",
     "desc": "Our full-stack software engineers are experts in all stages of software development. Here are some of their core proficiencies:",
     "img": "../assets/common-images/strategy.png",
-    "cardData": [
+    "list": [
       {
         "id": 1,
         "icon": "../assets/fullstack-development/icons/Full_Stack_Web_Development.png",
@@ -58,131 +58,78 @@
   "technologiesData": {
     "heading": "Our Comprehensive fullStack Technology Stack",
     "desc": "Discover the full range of technologies we use for fullStack projects.",
-    "cardData": [
+    "list": [
       {
         "id": 1,
-        "heading": "Database & Programming Languages",
-        "techstacks": [
-          "Oracle",
-          "SQL",
-          "Redis",
-          "MongoDB",
-          "PostgreSQL",
-          "MySQL",
-          "Java",
-          "C#",
-          "Ruby",
-          "PHP"
-        ]
+        "icon": "../assets/common-images/icons/backend.png",
+        "heading": "Backend",
+        "tech": [".Net", "Java", "Node", "PHP", "Ruby on Rails"]
       },
       {
         "id": 2,
-        "heading": "Front-end & Back-end",
-        "techstacks": [
-          "HTML5",
-          "CSS3",
-          "JavaScript",
-          "AngularJS",
-          "ReactJS",
-          "Vue.js",
-          "React Native",
-          "Bootstrap",
-          "Node.js",
-          "Express.js"
-        ]
+        "icon": "../assets/common-images/icons/front-development.png",
+        "heading": "Frontend",
+        "tech": ["Angular", "React", "Vue"]
       },
       {
         "id": 3,
-        "heading": "More Back-end & Frameworks",
-        "techstacks": [
-          "Laravel",
-          "Golang",
-          "Python",
-          "MeteorJS",
-          "Spring Boot",
-          "Java",
-          "Hibernate",
-          "Ruby on Rails"
+        "icon": "../assets/common-images/icons/database.png",
+        "heading": "Database",
+        "tech": [
+          "SQL Server",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Azure SQL",
+          "Amazon RDS",
+          "Oracle",
+          "Cassandra",
+          "Elasticsearch",
+          "Dynamo"
         ]
       },
       {
         "id": 4,
-        "heading": "Mobile App Technology",
-        "techstacks": [
-          "Android",
-          "iOS",
-          "Kotlin",
-          "Ionic",
-          "Flutter",
-          "React Native"
-        ]
+        "icon": "../assets/common-images/icons/mobility.png",
+        "heading": "Mobility",
+        "tech": ["IOS", "Android", "React Native", "Flutter", "Ionic"]
       },
       {
         "id": 5,
-        "heading": "UI Toolkits",
-        "techstacks": [
-          "UIKit",
-          "Foundation",
-          "Milligram",
-          "One-Nexus",
-          "Semantic UI",
-          "Pure CSS",
-          "Ink Interface Kit",
-          "GroundworkCSS"
+        "icon": "../assets/common-images/icons/cloud_and_devops.png",
+        "heading": "Cloud & DevOps",
+        "tech": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "Terraform"
         ]
       },
       {
         "id": 6,
-        "heading": "More UI Toolkits",
-        "techstacks": [
-          "Materialize.css",
-          "Topcoat",
-          "Petal",
-          "React Ant Design",
-          "Blueprint",
-          "Rebass",
-          "Grommet"
+        "icon": "../assets/common-images/icons/testing.png",
+        "heading": "Testing",
+        "tech": [
+          "Selenium",
+          "Katalon Studio",
+          "Apache JMeter",
+          "TestRail",
+          "Postman",
+          "BrowserStack",
+          "OWASP ZAP",
+          "JUnit,NUnit",
+          "Jest",
+          "Jasmine,Mocha,Chai"
         ]
       },
       {
         "id": 7,
-        "heading": "Hosting Platforms",
-        "techstacks": [
-          "AWS EC2",
-          "Amazon Web Services (AWS)",
-          "Docker",
-          "Heroku",
-          "Firebase",
-          "RackSpace",
-          "Kubernetes",
-          "Dapr"
-        ]
-      },
-      {
-        "id": 8,
-        "heading": "Tools & Utilities",
-        "techstacks": [
-          "NPM",
-          "ELK stack",
-          "Mocha",
-          "Chai",
-          "REST",
-          "JSON",
-          "Gulp",
-          "Swagger"
-        ]
-      },
-      {
-        "id": 9,
-        "heading": "Object-Relational Mapping & Version Control",
-        "techstacks": [
-          "Typeform",
-          "Mongoose",
-          "Sequelize",
-          "Git",
-          "Xdebug",
-          "Subversion"
-        ]
+        "icon": "../assets/common-images/icons/other.png",
+        "heading": "Others",
+        "tech": ["SharePoint", "Power BI", "BizTalk", "Apache Kafka"]
       }
     ]
   },
@@ -251,7 +198,7 @@
   "domainExpertiseData": {
     "heading": "Our Backend Development Expertise",
     "desc": "We specialize in building robust, scalable, and secure backend systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.",
-    "data": [
+    "points": [
       "API Development",
       "Database Design and Management",
       "Authentication and Authorization",

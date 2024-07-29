@@ -114,16 +114,19 @@
     "desc": "Discover the full range of technologies we use for web projects.",
     "list": [
       {
+        "id": 1,
         "icon": "../assets/common-images/icons/backend.png",
         "heading": "Backend",
         "tech": [".Net", "Java", "Node", "PHP", "Ruby on Rails"]
       },
       {
+        "id": 2,
         "icon": "../assets/common-images/icons/front-development.png",
         "heading": "Frontend",
         "tech": ["Angular", "React", "Vue"]
       },
       {
+        "id": 3,
         "icon": "../assets/common-images/icons/database.png",
         "heading": "Database",
         "tech": [
@@ -140,11 +143,13 @@
         ]
       },
       {
+        "id": 4,
         "icon": "../assets/common-images/icons/mobility.png",
         "heading": "Mobility",
         "tech": ["IOS", "Android", "React Native", "Flutter", "Ionic"]
       },
       {
+        "id": 5,
         "icon": "../assets/common-images/icons/cloud_and_devops.png",
         "heading": "Cloud & DevOps",
         "tech": [
@@ -158,6 +163,7 @@
         ]
       },
       {
+        "id": 6,
         "icon": "../assets/common-images/icons/testing.png",
         "heading": "Testing",
         "tech": [
@@ -174,12 +180,12 @@
         ]
       },
       {
+        "id": 7,
         "icon": "../assets/common-images/icons/other.png",
         "heading": "Others",
         "tech": ["SharePoint", "Power BI", "BizTalk", "Apache Kafka"]
       }
     ]
-    
   },
   "faqData": {
     "heading": "FAQs",

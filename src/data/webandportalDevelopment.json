@@ -64,45 +64,78 @@
     "technologiesData": {
       "heading": "Our Comprehensive Website Technology Stack",
       "desc": "Discover the full range of technologies we use for Website projects.",
-      "cardData": [
+      "list": [
         {
           "id": 1,
-          "heading": "Web & Full Stack",
-          "techstacks": [
-            "PHP",
-            "ASP.Net",
-            "Angular",
-            "React",
-            "Java",
-            "Vue",
-            "Python",
-            "ROR"
-          ]
+          "icon": "../assets/common-images/icons/backend.png",
+          "heading": "Backend",
+          "tech": [".Net", "Java", "Node", "PHP", "Ruby on Rails"]
         },
         {
           "id": 2,
-          "heading": "Ecommerce & CMS",
-          "techstacks": [
-            "Sharepoint",
-            "Sitecore",
-            "Drupal",
-            "Sitefinity",
-            "Umbraco",
-            "Kentico",
-            "AWS"
-          ]
+          "icon": "../assets/common-images/icons/front-development.png",
+          "heading": "Frontend",
+          "tech": ["Angular", "React", "Vue"]
         },
         {
           "id": 3,
-          "heading": "Blockchain & Others",
-          "techstacks": [
-            "ChatBot",
-            "Ethereum",
-            "Solidity",
-            "Smart Contract",
-            "ML & AI",
-            "Blockchain"
+          "icon": "../assets/common-images/icons/database.png",
+          "heading": "Database",
+          "tech": [
+            "SQL Server",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Azure SQL",
+            "Amazon RDS",
+            "Oracle",
+            "Cassandra",
+            "Elasticsearch",
+            "Dynamo"
           ]
+        },
+        {
+          "id": 4,
+          "icon": "../assets/common-images/icons/mobility.png",
+          "heading": "Mobility",
+          "tech": ["IOS", "Android", "React Native", "Flutter", "Ionic"]
+        },
+        {
+          "id": 5,
+          "icon": "../assets/common-images/icons/cloud_and_devops.png",
+          "heading": "Cloud & DevOps",
+          "tech": [
+            "AWS",
+            "Azure",
+            "Google Cloud",
+            "Docker",
+            "Kubernetes",
+            "Jenkins",
+            "Terraform"
+          ]
+        },
+        {
+          "id": 6,
+          "icon": "../assets/common-images/icons/testing.png",
+          "heading": "Testing",
+          "tech": [
+            "Selenium",
+            "Katalon Studio",
+            "Apache JMeter",
+            "TestRail",
+            "Postman",
+            "BrowserStack",
+            "OWASP ZAP",
+            "JUnit,NUnit",
+            "Jest",
+            "Jasmine,Mocha,Chai"
+          ]
+        },
+        {
+          "id": 7,
+          "icon": "../assets/common-images/icons/other.png",
+          "heading": "Others",
+          "tech": ["SharePoint", "Power BI", "BizTalk", "Apache Kafka"]
         }
       ]
     },
@@ -140,7 +173,7 @@
     "domainExpertiseData": {
       "heading": "Our Website Development Expertise",
       "desc": "Explore our specialized capabilities in creating robust, scalable, and secure Website solutions tailored for diverse industries.",
-      "data": [
+      "points": [
         "Website Application Architecture",
         "API Integration Strategies",
         "Real-time Data Syncing",

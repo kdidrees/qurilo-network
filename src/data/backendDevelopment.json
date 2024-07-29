@@ -11,7 +11,7 @@
       "heading": "Our Backend Development Services",
       "desc": "As a leading backend web development company in India, we specialize in building best-in-class backend solutions that bring value to your business. Our innovative and creative teams deliver projects with excellence.",
       "img": "../assets/common-images/strategy.png",
-      "cardData": [
+      "list": [
         {
           "id": 1,
           "icon": "../assets/backend-development/icons/web_application_backend_development.png",
@@ -64,90 +64,73 @@
     "technologiesData": {
       "heading": "Our Comprehensive backend Technology Stack",
       "desc": "Discover the full range of technologies we use for backend projects.",
-      "cardData": [
+      "list": [
         {
           "id": 1,
-          "heading": "Artificial Intelligence (AI)",
-          "techstacks": [
-            "Python",
-            "R",
-            "Java",
-            "C++",
-            "TensorFlow",
-            "PyTorch",
-            "Keras",
-            "Scikit-learn"
-          ]
+          "icon": "../assets/common-images/icons/backend.png",
+          "heading": "Backend",
+          "tech": [".Net", "Java", "Node", "PHP", "Ruby on Rails"]
         },
+        
         {
           "id": 2,
-          "heading": "Robotic Process Automation (RPA)",
-          "techstacks": [
-            "UiPath",
-            "Blue Prism",
-            "Automation Anywhere",
-            "WorkFusion",
-            "Python",
-            "JavaScript",
-            ".NET",
-            "VBScript"
+          "icon": "../assets/common-images/icons/database.png",
+          "heading": "Database",
+          "tech": [
+            "SQL Server",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Azure SQL",
+            "Amazon RDS",
+            "Oracle",
+            "Cassandra",
+            "Elasticsearch",
+            "Dynamo"
           ]
         },
         {
           "id": 3,
-          "heading": "Internet of Things (IoT)",
-          "techstacks": [
-            "Raspberry Pi",
-            "Arduino",
-            "ESP8266/ESP32",
-            "C",
-            "C++",
-            "Python",
-            "JavaScript (Node.js)",
-            "MQTT"
-          ]
+          "icon": "../assets/common-images/icons/mobility.png",
+          "heading": "Mobility",
+          "tech": ["IOS", "Android", "React Native", "Flutter", "Ionic"]
         },
         {
           "id": 4,
-          "heading": "Augmented Reality & Virtual Reality (AR/VR)",
-          "techstacks": [
-            "C#",
-            "C++",
-            "JavaScript",
-            "Unity3D",
-            "Unreal Engine",
-            "ARKit (iOS)",
-            "ARCore (Android)",
-            "Vuforia"
+          "icon": "../assets/common-images/icons/cloud_and_devops.png",
+          "heading": "Cloud & DevOps",
+          "tech": [
+            "AWS",
+            "Azure",
+            "Google Cloud",
+            "Docker",
+            "Kubernetes",
+            "Jenkins",
+            "Terraform"
           ]
         },
         {
           "id": 5,
-          "heading": "Blockchain Development",
-          "techstacks": [
-            "Solidity (Ethereum)",
-            "Go (Hyperledger Fabric)",
-            "Rust (Solana)",
-            "JavaScript",
-            "Python",
-            "Ethereum",
-            "Hyperledger Fabric",
-            "Corda"
+          "icon": "../assets/common-images/icons/testing.png",
+          "heading": "Testing",
+          "tech": [
+            "Selenium",
+            "Katalon Studio",
+            "Apache JMeter",
+            "TestRail",
+            "Postman",
+            "BrowserStack",
+            "OWASP ZAP",
+            "JUnit,NUnit",
+            "Jest",
+            "Jasmine,Mocha,Chai"
           ]
         },
         {
           "id": 6,
-          "heading": "OTT Development",
-          "techstacks": [
-            "JavaScript",
-            "TypeScript",
-            "Swift",
-            "Kotlin",
-            "Java",
-            "Python",
-            "React",
-            "Angular"
-          ]
+          "icon": "../assets/common-images/icons/other.png",
+          "heading": "Others",
+          "tech": ["SharePoint", "Power BI", "BizTalk", "Apache Kafka"]
         }
       ]
     },
@@ -227,7 +210,7 @@
     "domainExpertiseData": {
       "heading": "Our Backend Development Expertise",
       "desc": "We specialize in building robust, scalable, and secure backend systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.",
-      "data": [
+      "points": [
         "API Development",
         "Database Design and Management",
         "Authentication and Authorization",

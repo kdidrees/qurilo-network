@@ -11,7 +11,7 @@
     "heading": "Front-end Development Services",
     "desc": "Recognized as one of the best front-end development companies in India, we specialize in providing the best front-end web development services that bring value to your business. Our team strives to provide innovative solutions to suit even the most unique business needs.",
     "img": "../assets/common-images/strategy.png",
-    "cardData": [
+    "list": [
       {
         "id": 1,
         "icon": "../assets/frontend-development/icons/Custom_Front-end_Development.png",
@@ -64,90 +64,56 @@
   "technologiesData": {
     "heading": "Our Comprehensive Frontend Technology Stack",
     "desc": "Discover the full range of technologies we use for frontend projects.",
-    "cardData": [
+    "list": [
       {
-        "id": 1,
-        "heading": "Web Development",
-        "techstacks": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "TypeScript",
-          "React",
-          "Angular",
-          "Vue.js",
-          "Next.js"
+        "id":1,
+        "icon": "../assets/common-images/icons/front-development.png",
+        "heading": "Frontend",
+        "tech": ["Angular", "React", "Vue"]
+      },
+
+      {
+        "id":2,
+        "icon": "../assets/common-images/icons/mobility.png",
+        "heading": "Mobility",
+        "tech": ["IOS", "Android", "React Native", "Flutter", "Ionic"]
+      },
+      {
+        "id":3,
+        "icon": "../assets/common-images/icons/cloud_and_devops.png",
+        "heading": "Cloud & DevOps",
+        "tech": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "Terraform"
         ]
       },
       {
-        "id": 2,
-        "heading": "Styling & UI Frameworks",
-        "techstacks": [
-          "CSS",
-          "Sass",
-          "LESS",
-          "Bootstrap",
-          "Tailwind CSS",
-          "Material-UI",
-          "Chakra UI",
-          "Ant Design"
-        ]
-      },
-      {
-        "id": 3,
-        "heading": "State Management",
-        "techstacks": [
-          "Redux",
-          "Context API",
-          "MobX",
-          "Recoil",
-          "Zustand",
-          "XState",
-          "Vuex",
-          "NgRx"
-        ]
-      },
-      {
-        "id": 4,
-        "heading": "Build Tools & Bundlers",
-        "techstacks": [
-          "Webpack",
-          "Parcel",
-          "Rollup",
-          "Vite",
-          "Gulp",
-          "Grunt",
-          "Babel",
-          "ESBuild"
-        ]
-      },
-      {
-        "id": 5,
+        "id":4,
+        "icon": "../assets/common-images/icons/testing.png",
         "heading": "Testing",
-        "techstacks": [
+        "tech": [
+          "Selenium",
+          "Katalon Studio",
+          "Apache JMeter",
+          "TestRail",
+          "Postman",
+          "BrowserStack",
+          "OWASP ZAP",
+          "JUnit,NUnit",
           "Jest",
-          "Mocha",
-          "Chai",
-          "Enzyme",
-          "React Testing Library",
-          "Cypress",
-          "Storybook",
-          "Puppeteer"
+          "Jasmine,Mocha,Chai"
         ]
       },
       {
-        "id": 6,
-        "heading": "Version Control",
-        "techstacks": [
-          "Git",
-          "GitHub",
-          "GitLab",
-          "Bitbucket",
-          "SVN",
-          "Mercurial",
-          "Perforce",
-          "Azure Repos"
-        ]
+        "id":5,
+        "icon": "../assets/common-images/icons/other.png",
+        "heading": "Others",
+        "tech": ["SharePoint", "Power BI", "BizTalk", "Apache Kafka"]
       }
     ]
   },
@@ -185,7 +151,7 @@
   "domainExpertiseData": {
     "heading": "Our Frontend Development Expertise",
     "desc": "We specialize in building robust, scalable, and secure frontend systems tailored to meet the needs of diverse industries. Our expertise ensures seamless user experiences, efficient state management, and reliable performance for your applications.",
-    "data": [
+    "points": [
       "Responsive Web Design",
       "Single Page Applications (SPAs)",
       "Progressive Web Apps (PWAs)",
