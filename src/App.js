@@ -11,7 +11,7 @@ function App() {
       {/* <ItServicesSection/> */}
 {/* 
       <DevelopmentServices />
-      <ContactSection />
+      <ContactSection />  
       <DevelomentProcess /> */}
       <TechnologiesSection />
       {/* <Industries />

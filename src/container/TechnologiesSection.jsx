@@ -5,7 +5,7 @@ import { technologiesData } from "../data/applicationDevelopment";
 import Heading from "../components/heading/Heading";
 import TechnologyCardNew from "../components/cards/TechnologyCardNew";
 
-const TechnologiesSection = () => {
+const TechnologiesSection = () => { 
   return (
     <section className="bg-white">
       <Heading
