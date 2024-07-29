@@ -11,7 +11,7 @@
       "heading": "Our Website Development Services",
       "desc": "Our website development services are the perfect solution for businesses seeking growth-centric digital transformation. Whether you need eCommerce portals, CMS, ERP solutions, chatbots, custom apps, or more, our team of experts can deliver robust web solutions.",
       "img": "../assets/common-images/strategy.png",
-      "cardData": [
+      "list": [
         {
           "id": 1,
           "icon": "../assets/website-portal-development/icons/custom_website_development.png",

@@ -10,7 +10,7 @@
       "heading": "API Development Services",
       "desc": "We provide customizable API development services. Whether you require a straightforward application integration with data or a more intricate solution, our services meet your needs.",
       "img": "../assets/common-images/strategy.png",
-      "cardData": [
+      "list": [
         {
           "id": 1,
           "icon": "../assets/api-development/icons/consulting.png",
@@ -57,11 +57,12 @@
     "technologiesData": {
       "heading": "Our Comprehensive API Technology Stack",
       "desc": "Discover the full range of technologies we use for API projects.",
-      "cardData": [
+      "list": [
         {
           "id": 1,
+          "icon": "../assets/common-images/icons/backend.png",
           "heading": "Programming Languages",
-          "techstacks": [
+          "tech": [
             "JavaScript",
             "TypeScript",
             "Python",
@@ -74,8 +75,9 @@
         },
         {
           "id": 2,
+          "icon": "../assets/common-images/icons/front-development.png",
           "heading": "Frameworks & Libraries",
-          "techstacks": [
+          "tech": [
             "Express.js",
             "Django",
             "Flask",
@@ -88,8 +90,9 @@
         },
         {
           "id": 3,
+          "icon":"../assets/common-images/icons/cloud_and_devops.png",
           "heading": "API Design & Documentation",
-          "techstacks": [
+          "tech": [
             "Swagger",
             "Postman",
             "OpenAPI",
@@ -102,8 +105,9 @@
         },
         {
           "id": 4,
+          "icon":"../assets/common-images/icons/database.png",
           "heading": "Databases",
-          "techstacks": [
+          "tech": [
             "MySQL",
             "PostgreSQL",
             "MongoDB",
@@ -116,8 +120,9 @@
         },
         {
           "id": 5,
+          "icon":"../assets/common-images/icons/security.png",
           "heading": "Security & Authentication",
-          "techstacks": [
+          "tech": [
             "OAuth",
             "JWT",
             "API Key",
@@ -130,8 +135,9 @@
         },
         {
           "id": 6,
+          "icon":"../assets/common-images/icons/testing.png",
           "heading": "API Management",
-          "techstacks": [
+          "tech": [
             "Kong",
             "Apigee",
             "AWS API Gateway",
@@ -182,7 +188,7 @@
     "domainExpertiseData": {
       "heading": "Our API Development Expertise",
       "desc": "We specialize in building robust, scalable, and secure API systems tailored to meet the needs of diverse industries. Our expertise ensures seamless integration, efficient data handling, and reliable performance for your applications.",
-      "data": [
+      "points": [
         "RESTful API Design",
         "GraphQL API Development",
         "Microservices Architecture",
